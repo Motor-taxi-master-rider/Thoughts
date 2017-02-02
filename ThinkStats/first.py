@@ -21,6 +21,17 @@ def Mean(t):
     """
     return float(sum(t)) / len(t)
 
+def Deviation(t):
+    """Computes the Deviation of a sequence of numbers.
+
+    Args:
+        t: sequence of numbers
+
+    Returns:
+        float
+    """
+    mean = Mean(t)
+    return sum([(item - mean) ** 2 for item in t]) / (len(t) - 1)
 
 def PartitionRecords(table):
     """Divides records into two lists: first babies and others.
@@ -48,13 +59,14 @@ def PartitionRecords(table):
 
 def Process(table):
     """Runs analysis on the given table.
-    
+
     Args:
         table: table object
     """
     table.lengths = [p.prglength for p in table.records]
     table.n = len(table.lengths)
     table.mu = Mean(table.lengths)
+    table.dev = Deviation(table.lengths)
 
 
 def MakeTables(data_dir='.'):
@@ -63,44 +75,56 @@ def MakeTables(data_dir='.'):
     table.ReadRecords(data_dir)
 
     firsts, others = PartitionRecords(table)
-    
+
     return table, firsts, others
 
 
 def ProcessTables(*tables):
     """Processes a list of tables
-    
+
     Args:
         tables: gathered argument tuple of Tuples
     """
     for table in tables:
         Process(table)
-        
-        
+
+
 def Summarize(data_dir):
     """Prints summary statistics for first babies and others.
-    
+
     Returns:
         tuple of Tables
     """
     table, firsts, others = MakeTables(data_dir)
     ProcessTables(firsts, others)
-        
-    print 'Number of first babies', firsts.n
-    print 'Number of others', others.n
+
+    print ('Number of pregnancies', len(table.records))
+    print('Number of first babies', firsts.n)
+    print('Number of others', others.n)
+
+    print ()
 
     mu1, mu2 = firsts.mu, others.mu
+    dev1, dev2 = firsts.dev, others.dev
 
-    print 'Mean gestation in weeks:' 
-    print 'First babies', mu1 
-    print 'Others', mu2
-    
-    print 'Difference in days', (mu1 - mu2) * 7.0
+    print('Mean gestation in weeks:')
+    print ('First babies', mu1)
+    print ('Others', mu2)
+
+    print ('Difference in days', (mu1 - mu2) * 7.0)
+
+    print ()
+
+    print('Deviation gestation in weeks:')
+    print ('First babies', dev1)
+    print ('Others', dev2)
+
+    print ('Difference in days', (dev1 - dev2) * 7.0)
 
 
 def main(name, data_dir='.'):
     Summarize(data_dir)
-    
+
 
 if __name__ == '__main__':
     import sys

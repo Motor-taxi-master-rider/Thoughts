@@ -12,7 +12,7 @@ import os
 class Record(object):
     """Represents a record."""
 
-class Respondent(Record): 
+class Respondent(Record):
     """Represents a respondent."""
 
 class Pregnancy(Record):
@@ -23,7 +23,7 @@ class Table(object):
 
     def __init__(self):
         self.records = []
-        
+
     def __len__(self):
         return len(self.records)
 
@@ -34,7 +34,7 @@ class Table(object):
             data_dir: string directory name
             filename: string name of the file to read
 
-            fields: sequence of (name, start, end, case) tuples specifying 
+            fields: sequence of (name, start, end, case) tuples specifying
             the fields to extract
 
             constructor: what kind of object to create
@@ -59,7 +59,7 @@ class Table(object):
         Args:
             line: string line from a data file
 
-            fields: sequence of (name, start, end, cast) tuples specifying 
+            fields: sequence of (name, start, end, cast) tuples specifying
             the fields to extract
 
             constructor: callable that makes an object for the record.
@@ -187,12 +187,12 @@ class Pregnancies(Table):
 def main(name, data_dir='.'):
     resp = Respondents()
     resp.ReadRecords(data_dir)
-    print 'Number of respondents', len(resp.records)
+    print ('Number of respondents', len(resp.records))
 
     preg = Pregnancies()
     preg.ReadRecords(data_dir)
-    print 'Number of pregnancies', len(preg.records)
+    print ('Number of pregnancies', len(preg.records))
 
-    
+
 if __name__ == '__main__':
     main(*sys.argv)
