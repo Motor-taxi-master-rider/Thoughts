@@ -29,7 +29,7 @@ class Brewer(object):
 
     Shades of blue that look good in color and can be distinguished
     in grayscale (up to a point).
-    
+
     Borrowed from http://colorbrewer2.org/
     """
     color_iter = None
@@ -104,7 +104,7 @@ def PrePlot(num=None, rows=1, cols=1):
         global SUBPLOT_ROWS, SUBPLOT_COLS
         SUBPLOT_ROWS = rows
         SUBPLOT_COLS = cols
-    
+
 
 def SubPlot(plot_number):
     pyplot.subplot(SUBPLOT_ROWS, SUBPLOT_COLS, plot_number)
@@ -151,13 +151,13 @@ def Clf():
     """Clears the figure and any hints that have been set."""
     Brewer.ClearIter()
     pyplot.clf()
-    
+
 
 def Figure(**options):
     """Sets options for the current figure."""
     Underride(options, figsize=(6, 8))
     pyplot.figure(**options)
-    
+
 
 def Plot(xs, ys, style='', **options):
     """Plots a line.
@@ -174,9 +174,9 @@ def Plot(xs, ys, style='', **options):
         try:
             options = Underride(options, color=color_iter.next())
         except StopIteration:
-            print 'Warning: Brewer ran out of colors.'
+            print ('Warning: Brewer ran out of colors.')
             Brewer.ClearIter()
-        
+
     options = Underride(options, linewidth=3, alpha=0.8)
     pyplot.plot(xs, ys, style, **options)
 
@@ -188,7 +188,7 @@ def Scatter(xs, ys, **options):
     ys: y values
     options: options passed to pyplot.scatter
     """
-    options = Underride(options, color='blue', alpha=0.2, 
+    options = Underride(options, color='blue', alpha=0.2,
                         s=30, edgecolors='none')
     pyplot.scatter(xs, ys, **options)
 
@@ -211,7 +211,7 @@ def Pmfs(pmfs, **options):
 
     Options are passed along for all PMFs.  If you want different
     options for each pmf, make multiple calls to Pmf.
-    
+
     Args:
       pmfs: sequence of PMF objects
       options: keyword args passed to pyplot.plot
@@ -234,7 +234,7 @@ def Hist(hist, **options):
     if hist.name:
         options = Underride(options, label=hist.name)
 
-    options = Underride(options, 
+    options = Underride(options,
                         align='center',
                         linewidth=0,
                         width=width)
@@ -285,7 +285,7 @@ def Cdf(cdf, complement=False, transform=None, **options):
     xs, ps = cdf.Render()
     scale = dict(xscale='linear', yscale='linear')
 
-    for s in ['xscale', 'yscale']: 
+    for s in ['xscale', 'yscale']:
         if s in options:
             scale[s] = options.pop(s)
 
@@ -323,7 +323,7 @@ def Cdf(cdf, complement=False, transform=None, **options):
 
 def Cdfs(cdfs, complement=False, transform=None, **options):
     """Plots a sequence of CDFs.
-    
+
     cdfs: sequence of CDF objects
     complement: boolean, whether to plot the complementary CDF
     transform: string, one of 'exponential', 'pareto', 'weibull', 'gumbel'
@@ -335,7 +335,7 @@ def Cdfs(cdfs, complement=False, transform=None, **options):
 
 def Contour(obj, pcolor=False, contour=True, imshow=False, **options):
     """Makes a contour plot.
-    
+
     d: map from (x, y) to z, or object that provides GetDict
     pcolor: boolean, whether to make a pseudocolor plot
     contour: boolean, whether to make a contour plot
@@ -370,11 +370,11 @@ def Contour(obj, pcolor=False, contour=True, imshow=False, **options):
     if imshow:
         extent = xs[0], xs[-1], ys[0], ys[-1]
         pyplot.imshow(Z, extent=extent, **options)
-        
+
 
 def Pcolor(xs, ys, zs, pcolor=True, contour=False, **options):
     """Makes a pseudocolor plot.
-    
+
     xs:
     ys:
     zs:
@@ -397,7 +397,7 @@ def Pcolor(xs, ys, zs, pcolor=True, contour=False, **options):
     if contour:
         cs = pyplot.contour(X, Y, Z, **options)
         pyplot.clabel(cs, inline=1, fontsize=10)
-        
+
 
 def Config(**options):
     """Configures the plot.
@@ -477,7 +477,7 @@ def SaveFormat(root, fmt='eps'):
       fmt: string format
     """
     filename = '%s.%s' % (root, fmt)
-    print 'Writing', filename
+    print ('Writing', filename)
     pyplot.savefig(filename, format=fmt, dpi=300)
 
 
@@ -505,7 +505,7 @@ save = Save
 def main():
     color_iter = Brewer.ColorGenerator(7)
     for color in color_iter:
-        print color
+        print( color)
 
 if __name__ == '__main__':
     main()

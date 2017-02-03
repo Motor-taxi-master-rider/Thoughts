@@ -56,7 +56,7 @@ class _DictWrapper(object):
 
     def Print(self):
         """Prints the values and freqs/probs in ascending order."""
-        for val, prob in sorted(self.d.iteritems()):
+        for val, prob in sorted(self.d.items()):
             print (val, prob)
 
     def Set(self, x, y=0):
@@ -215,7 +215,7 @@ class Pmf(_DictWrapper):
 
         target = random.random()
         total = 0.0
-        for x, p in self.d.iteritems():
+        for x, p in self.d.items():
             total += p
             if total >= target:
                 return x
@@ -230,7 +230,7 @@ class Pmf(_DictWrapper):
             float mean
         """
         mu = 0.0
-        for x, p in self.d.iteritems():
+        for x, p in self.d.items():
             mu += p * x
         return mu
 
@@ -248,20 +248,20 @@ class Pmf(_DictWrapper):
             mu = self.Mean()
 
         var = 0.0
-        for x, p in self.d.iteritems():
+        for x, p in self.d.items():
             var += p * (x - mu)**2
         return var
 
     def Log(self):
         """Log transforms the probabilities."""
         m = self.MaxLike()
-        for x, p in self.d.iteritems():
+        for x, p in self.d.items():
             self.Set(x, math.log(p/m))
 
     def Exp(self):
         """Exponentiates the probabilities."""
         m = self.MaxLike()
-        for x, p in self.d.iteritems():
+        for x, p in self.d.items():
             self.Set(x, math.exp(p-m))
 
 
@@ -379,3 +379,24 @@ def MakeMixture(pmfs, name='mix'):
         for x, p in pmf.Items():
             mix.Incr(x, p * prob)
     return mix
+
+def PmfMean(pmf):
+    if isinstance(pmf,Pmf):
+        e = 0.0
+        for v,p in pmf.d.items():
+            e = e + v * p
+        return e
+    else:
+        print('Error')
+        return false
+
+def PmfVar(pmf):
+    if isinstance(pmf,Pmf):
+        s = 0.0
+        e = pmf.Mean()
+        for v,p in pmf.d.items():
+            s = s + p * (v - e) ** 2
+        return s
+    else:
+        print('Error')
+        return false

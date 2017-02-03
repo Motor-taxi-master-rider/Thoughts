@@ -25,14 +25,14 @@ def Process(table, name):
 
     table.hist = Pmf.MakeHistFromList(table.lengths, name=name)
     table.pmf = Pmf.MakePmfFromHist(table.hist)
-        
-        
+
+
 def PoolRecords(*tables):
     """Construct a table with records from all tables.
-    
+
     Args:
         constructor: init method used to make the new table
-    
+
         tables: any number of tables
 
     Returns:
@@ -52,41 +52,41 @@ def MakeTables(data_dir='.'):
     Process(pool, 'live births')
     Process(firsts, 'first babies')
     Process(others, 'others')
-        
+
     return pool, firsts, others
 
 
 def Summarize(pool, firsts, others):
     """Print various summary statistics."""
-    
-    print
-    print 'Variance'
-    print 'First babies', firsts.var 
-    print 'Others', others.var
+
+    print()
+    print( 'Variance')
+    print ('First babies', firsts.var )
+    print ('Others', others.var)
 
     diff_mu = firsts.mu - others.mu
 
-    print 'Difference in mean', diff_mu
+    print( 'Difference in mean', diff_mu)
 
     sigma = math.sqrt(pool.var)
 
-    print 'Pooled mean', pool.mu
-    print 'Pooled variance', pool.var
-    print 'Pooled sigma', sigma
+    print( 'Pooled mean', pool.mu)
+    print ('Pooled variance', pool.var)
+    print( 'Pooled sigma', sigma)
 
-    print firsts.mu, others.mu
-    print firsts.trim, others.trim
-    
+    print( firsts.mu, others.mu)
+    print( firsts.trim, others.trim)
+
     live_lengths = pool.hist.GetDict().items()
-    live_lengths.sort()
-    print 'Shortest lengths:'
+    live_lengths = sorted(live_lengths)
+    print( 'Shortest lengths:')
     for weeks, count in live_lengths[:10]:
-        print weeks, count
-    
-    print 'Longest lengths:'
+        print( weeks, count)
+
+    print( 'Longest lengths:')
     for weeks, count in live_lengths[-10:]:
-        print weeks, count
-    
+        print( weeks, count)
+
 
 def MakeFigures(firsts, others):
     """Plot Hists and Pmfs for the pregnancy length."""
@@ -100,7 +100,7 @@ def MakeFigures(firsts, others):
     # make the histogram
     axis = [23, 46, 0, 2700]
     Hists([firsts.hist, others.hist])
-    myplot.Save(root='nsfg_hist', 
+    myplot.Save(root='nsfg_hist',
                 title='Histogram',
                 xlabel='weeks',
                 ylabel='frequency',
@@ -180,5 +180,3 @@ def main(name, data_dir=''):
 if __name__ == '__main__':
     import sys
     main(*sys.argv)
-
-

@@ -11,12 +11,12 @@ import Pmf
 
 def ProbRange(pmf, low, high):
     """Computes the total probability between low and high, inclusive.
-    
+
     Args:
         pmf: Pmf object
         low: low value
         high: high ValueError
-        
+
     Returns:
         float probability
     """
@@ -28,10 +28,10 @@ def ProbRange(pmf, low, high):
 
 def ProbEarly(pmf):
     """Computes the probability of a birth in Week 37 or earlier.
-    
+
     Args:
         pmf: Pmf object
-        
+
     Returns:
         float probability
     """
@@ -40,10 +40,10 @@ def ProbEarly(pmf):
 
 def ProbOnTime(pmf):
     """Computes the probability of a birth in Weeks 38, 39 and 40.
-    
+
     Args:
         pmf: Pmf object
-        
+
     Returns:
         float probability
     """
@@ -52,10 +52,10 @@ def ProbOnTime(pmf):
 
 def ProbLate(pmf):
     """Computes the probability of a birth in Week 41 or later.
-    
+
     Args:
         pmf: Pmf object
-        
+
     Returns:
         float probability
     """
@@ -82,7 +82,7 @@ def ComputeRelativeRisk(first_pmf, other_pmf):
     print 'Risk ratios (first babies / others):'
     for func in funcs:
         try:
-            ratio = (risks[func.__name__, 'first babies'] / 
+            ratio = (risks[func.__name__, 'first babies'] /
                      risks[func.__name__, 'others'])
             print func.__name__, ratio
         except ZeroDivisionError:
@@ -94,6 +94,6 @@ def main():
 
     ComputeRelativeRisk(firsts.pmf, others.pmf)
 
-    
+
 if __name__ == "__main__":
     main()
