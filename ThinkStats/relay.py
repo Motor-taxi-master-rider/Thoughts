@@ -15,16 +15,16 @@ results = 'http://www.coolrunning.com/results/10/ma/Apr25_27thAn_set1.shtml'
 """
 Sample line.
 
-Place Div/Tot  Div   Guntime Nettime  Pace  Name                   Ag S Race# City/state              
-===== ======== ===== ======= =======  ===== ====================== == = ===== ======================= 
-    1   1/362  M2039   30:43   30:42   4:57 Brian Harvey           22 M  1422 Allston MA              
+Place Div/Tot  Div   Guntime Nettime  Pace  Name                   Ag S Race# City/state
+===== ======== ===== ======= =======  ===== ====================== == = ===== =======================
+    1   1/362  M2039   30:43   30:42   4:57 Brian Harvey           22 M  1422 Allston MA
 """
 
 def ConvertPaceToSpeed(pace):
     """Converts pace in MM:SS per mile to MPH."""
     m, s = [int(x) for x in pace.split(':')]
     secs = m*60 + s
-    mph  = 1.0 / secs * 60 * 60 
+    mph  = 1.0 / secs * 60 * 60
     return mph
 
 
@@ -33,23 +33,23 @@ def CleanLine(line):
     t = line.split()
     if len(t) < 6:
         return None
-    
+
     place, divtot, div, gun, net, pace = t[0:6]
 
-    if not '/' in divtot:
+    if not '/'.encode() in divtot:
         return None
 
     for time in [gun, net, pace]:
-        if ':' not in time:
+        if ':'.encode() not in time:
             return None
 
-    return place, divtot, div, gun, net, pace
+    return place.decode(), divtot.decode(), div.decode(), gun.decode(), net.decode(), pace.decode()
 
 
 def ReadResults(url=results):
     """Read results from coolrunning and return a list of tuples."""
     results = []
-    conn = urllib.urlopen(url)
+    conn = urllib.request.urlopen(url)
     for line in conn.fp:
         t = CleanLine(line)
         if t:

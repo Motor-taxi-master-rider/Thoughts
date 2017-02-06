@@ -141,7 +141,7 @@ def Underride(d, **options):
     if d is None:
         d = {}
 
-    for key, val in options.iteritems():
+    for key, val in options.items():
         d.setdefault(key, val)
 
     return d

@@ -96,10 +96,10 @@ class Cdf(object):
     def Random(self):
         """Chooses a random value from this distribution."""
         return self.Value(random.random())
-    
+
     def Sample(self, n):
         """Generates a random sample from this distribution.
-        
+
         Args:
             n: int length of the sample
         """
@@ -231,5 +231,3 @@ def MakeCdfFromList(seq, name=''):
     """
     hist = Pmf.MakeHistFromList(seq)
     return MakeCdfFromHist(hist, name)
-
-
