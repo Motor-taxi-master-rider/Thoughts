@@ -1,7 +1,9 @@
 import sys
-sys.path.append('\Python\ThinkStats')
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import urllib.request
 import Pmf
+
 
 results = 'http://coolrunning.com/results/10/ma/Apr25_27thAn_set1.shtml'
 
