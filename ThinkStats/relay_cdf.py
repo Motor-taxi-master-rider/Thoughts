@@ -13,7 +13,7 @@ import myplot
 def main():
     results = relay.ReadResults()
     speeds = relay.GetSpeeds(results)
-
+    
     # plot the distribution of actual speeds
     cdf = Cdf.MakeCdfFromList(speeds, 'speeds')
 
