@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69090b06-0563-4810-9e26-45b63a9b518c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Document/统计思维：程序员数学之概率统计.pdf" afterPath="$PROJECT_DIR$/Document/统计思维：程序员数学之概率统计.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkStats/rankit.py" afterPath="$PROJECT_DIR$/ThinkStats/rankit.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -334,6 +336,14 @@
       <updated>1486605850597</updated>
       <workItem from="1486605851936" duration="756000" />
     </task>
+    <task id="LOCAL-00001" summary="20170213">
+      <created>1486990556148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1486990556148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -403,6 +413,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20170213" />
+    <option name="LAST_COMMIT_MESSAGE" value="20170213" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
