@@ -445,6 +445,7 @@ def Show(**options):
     """
     # TODO: figure out how to show more than one plot
     Config(**options)
+    print(123)
     pyplot.show()
 
 
