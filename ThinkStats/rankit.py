@@ -74,7 +74,7 @@ def MakeNormalPlot(ys, root=None, line_options={}, **options):
 
 
 def main():
-    means = EstimateRankits(84)
+    means = EstimateRankits(n=6,m=1000)
     print(means)
     MakeNormalPlot(means)
 
