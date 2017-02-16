@@ -3,24 +3,12 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import numpy as np
 
-def Sample(u = 0, v = 1, n):
-    return np.random.normal(u, v, n)
+def Sample(n, u = 0, v = 1):
+    return sorted(np.random.normal(0, 1, 6))
 
-def Samples(n = 6, ):
-    list = []
-    for _i in range(1000):
-        list.append(Sample())
-    return list
+def Samples(n = 6, m = 1000):
+    return [Sample(n) for i in range(m)]
 
-zipped = []
-for sample in Samples():
-    if(not zipped):
-        zipped = sample
-    else:
-        zipped = zip(zipped, sample)
-print(zipped)
+t = zip(*Samples())
 
-for sample in zipped:
-    list = []
-    list.append(np.mean(sample))
-#print(list)
+print(sorted([np.mean(sample) for sample in t]))

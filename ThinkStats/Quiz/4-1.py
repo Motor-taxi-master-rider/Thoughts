@@ -1,15 +1,13 @@
 import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append('\Python\ThinkStats')
 import random
-import numpy as np
 import Cdf
 import myplot
+import numpy as np
 
 list = []
-for _i in range(44):
-    list.append(random.paretovariate(1 / 32.6))
-cdf = Cdf.MakeCdfFromList(list)
-myplot.Cdf(cdf,complement=True)
-
-myplot.Show(xscale='linear',yscale='log')
+for i in range(44000):
+    list.append(random.expovariate(1 / 32.6))
+cdf = Cdf.MakeCdfFromList(list, 'expovariate')
+myplot.Cdf(cdf, complement = True,xscale = 'linear',yscale = 'log10')
+myplot.show()

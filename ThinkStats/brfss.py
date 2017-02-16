@@ -18,7 +18,7 @@ class Respondents(survey.Table):
         filename = self.GetFilename()
         self.ReadFile(data_dir,
                       filename,
-                      self.GetFields(), 
+                      self.GetFields(),
                       survey.Respondent,
                       n)
         self.Recode()
@@ -35,8 +35,8 @@ class Respondents(survey.Table):
 
     def GetFields(self):
         """Returns a tuple specifying the fields to extract.
-        
-        BRFSS codebook 
+
+        BRFSS codebook
         http://www.cdc.gov/brfss/technical_infodata/surveydata/2008.htm
 
         The elements of the tuple are field, start, end, case.
@@ -58,14 +58,15 @@ class Respondents(survey.Table):
         """Recode variables that need cleaning."""
 
         def CleanWeight(weight):
-            if weight in [7777, 9999]:
-                return 'NA'
-            elif weight < 1000:
-                return weight / 2.2
-            elif 9000 < weight < 9999:
-                return weight - 9000
-            else:
-                return weight
+            if  isinstance(weight,int):
+                if weight in [7777, 9999]:
+                    return 'NA'
+                elif weight < 1000:
+                    return weight / 2.2
+                elif 9000 < weight < 9999:
+                    return weight - 9000
+                else:
+                    return weight
 
         for rec in self.records:
             # recode wtkg2
@@ -94,14 +95,14 @@ class Respondents(survey.Table):
         d = {1:[], 2:[], 'all':[]}
         [d[r.sex].append(r.htm3) for r in self.records if r.htm3 != 'NA']
         [d['all'].append(r.htm3) for r in self.records if r.htm3 != 'NA']
-        
-        print 'Height (cm):'
-        print 'key n     mean     var    sigma     cv'
-        for key, t in d.iteritems():
+
+        print( 'Height (cm):')
+        print( 'key n     mean     var    sigma     cv')
+        for key, t in d.items():
             mu, var = thinkstats.TrimmedMeanVar(t)
             sigma = math.sqrt(var)
             cv = sigma / mu
-            print key, len(t), mu, var, sigma, cv
+            print( key, len(t), mu, var, sigma, cv)
 
         return d
 
@@ -113,32 +114,32 @@ class Respondents(survey.Table):
         [d[r.sex].append(r.weight2) for r in self.records if r.weight2 != 'NA']
         [d['all'].append(r.weight2) for r in self.records if r.weight2 != 'NA']
 
-        print 'Weight (kg):'
-        print 'key n     mean     var    sigma     cv'
-        for key, t in d.iteritems():
+        print( 'Weight (kg):')
+        print( 'key n     mean     var    sigma     cv')
+        for key, t in d.items():
             mu, var = thinkstats.TrimmedMeanVar(t)
             sigma = math.sqrt(var)
             cv = sigma / mu
-            print key, len(t), mu, var, sigma, cv
+            print( key, len(t), mu, var, sigma, cv)
 
 
     def SummarizeWeightChange(self):
         """Print the mean reported change in weight in kg."""
-        
+
         data = [(r.weight2, r.wtyrago) for r in self.records
                 if r.weight2 != 'NA' and r.wtyrago != 'NA']
-        
+
         changes = [(curr - prev) for curr, prev in data]
-            
-        print 'Mean change', thinkstats.Mean(changes)
-        
-    
+
+        print( 'Mean change', thinkstats.Mean(changes))
+
+
 def main(name, data_dir='.'):
     resp = Respondents()
     resp.ReadRecords(data_dir)
     resp.SummarizeHeight()
     resp.SummarizeWeight()
     resp.SummarizeWeightChange()
-    
+
 if __name__ == '__main__':
     main(*sys.argv)
