@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69090b06-0563-4810-9e26-45b63a9b518c" name="Default" comment="20170214">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python.iml" afterPath="$PROJECT_DIR$/.idea/Python.iml" />
+    <list default="true" id="69090b06-0563-4810-9e26-45b63a9b518c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkStats/Quiz/4-1.py" afterPath="$PROJECT_DIR$/ThinkStats/Quiz/4-1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkStats/Quiz/4-9.py" afterPath="$PROJECT_DIR$/ThinkStats/Quiz/4-9.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkStats/brfss.py" afterPath="$PROJECT_DIR$/ThinkStats/brfss.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkStats/rankit.py" afterPath="$PROJECT_DIR$/ThinkStats/rankit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkStats/thinkstats.py" afterPath="$PROJECT_DIR$/ThinkStats/thinkstats.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,6 +34,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ThinkStats/brfss.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -181,12 +182,20 @@
       <updated>1486605850597</updated>
       <workItem from="1486605851936" duration="756000" />
       <workItem from="1487063937231" duration="68000" />
-      <workItem from="1487236790408" duration="65000" />
+      <workItem from="1487236790408" duration="125000" />
     </task>
+    <task id="LOCAL-00001" summary="20170216">
+      <created>1487236865928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487236865928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1002000" />
+    <option name="totallyTimeSpent" value="1062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,6 +212,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -245,7 +255,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20170214" />
-    <option name="LAST_COMMIT_MESSAGE" value="20170214" />
+    <MESSAGE value="20170216" />
+    <option name="LAST_COMMIT_MESSAGE" value="20170216" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
