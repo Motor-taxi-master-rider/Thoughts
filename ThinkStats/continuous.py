@@ -34,12 +34,12 @@ def MakeExpoCdf():
     n = 40
     max = 2.5
     xs = [max*i/n for i in range(n)]
-    
+
     lam = 2.0
     ps = [ExpoCdf(x, lam) for x in xs]
-    
+
     percentile = -math.log(0.05) / lam
-    print 'Fraction <= ', percentile, ExpoCdf(lam, percentile)
+    print( 'Fraction <= ', percentile, ExpoCdf(lam, percentile))
 
     pyplot.clf()
     pyplot.plot(xs, ps, linewidth=2)
@@ -48,18 +48,18 @@ def MakeExpoCdf():
                 xlabel='x',
                 ylabel='CDF',
                 legend=False)
-    
+
 def MakeParetoCdf():
     """Generates a plot of the Pareto CDF."""
     n = 50
     max = 10.0
     xs = [max*i/n for i in range(n)]
-    
+
     xmin = 0.5
     alpha = 1.0
     ps = [ParetoCdf(x, alpha, xmin) for x in xs]
-    print 'Fraction <= 10', ParetoCdf(xmin, alpha, 10)
-    
+    print( 'Fraction <= 10', ParetoCdf(xmin, alpha, 10))
+
     pyplot.clf()
     pyplot.plot(xs, ps, linewidth=2)
     myplot.Save('pareto_cdf',
@@ -67,19 +67,19 @@ def MakeParetoCdf():
                 xlabel = 'x',
                 ylabel = 'CDF',
                 legend=False)
-    
+
 
 def MakeParetoCdf2():
     """Generates a plot of the CDF of height in Pareto World."""
     n = 50
     max = 1000.0
     xs = [max*i/n for i in range(n)]
-    
+
     xmin = 100
     alpha = 1.7
     ps = [ParetoCdf(x, alpha, xmin) for x in xs]
-    print 'Median', ParetoMedian(xmin, alpha)
-    
+    print( 'Median', ParetoMedian(xmin, alpha))
+
     pyplot.clf()
     pyplot.plot(xs, ps, linewidth=2)
     myplot.Save('pareto_height',
@@ -87,12 +87,12 @@ def MakeParetoCdf2():
                 xlabel='height (cm)',
                 ylabel='CDF',
                 legend=False)
-    
+
 
 
 def RenderNormalCdf(mu, sigma, max, n=50):
     """Generates sequences of xs and ps for a normal CDF."""
-    xs = [max * i / n for i in range(n)]    
+    xs = [max * i / n for i in range(n)]
     ps = [erf.NormalCdf(x, mu, sigma) for x in xs]
     return xs, ps
 
@@ -100,7 +100,7 @@ def RenderNormalCdf(mu, sigma, max, n=50):
 def MakeNormalCdf():
     """Generates a plot of the normal CDF."""
     xs, ps = RenderNormalCdf(2.0, 0.5, 4.0)
-    
+
     pyplot.clf()
     pyplot.plot(xs, ps, linewidth=2)
     myplot.Save('normal_cdf',
@@ -108,18 +108,18 @@ def MakeNormalCdf():
               xlabel='x',
               ylabel='CDF',
               legend=False)
-    
-    
+
+
 def MakeNormalModel(weights):
     """Plot the CDF of birthweights with a normal model."""
-    
+
     # estimate parameters: trimming outliers yields a better fit
     mu, var = thinkstats.TrimmedMeanVar(weights, p=0.01)
-    print 'Mean, Var', mu, var
-    
+    print( 'Mean, Var', mu, var)
+
     # plot the model
     sigma = math.sqrt(var)
-    print 'Sigma', sigma
+    print( 'Sigma', sigma)
     xs, ps = RenderNormalCdf(mu, sigma, 200)
 
     pyplot.clf()
@@ -129,7 +129,7 @@ def MakeNormalModel(weights):
     cdf = Cdf.MakeCdfFromList(weights)
     xs, ps = cdf.Render()
     pyplot.plot(xs, ps, label='data', linewidth=2, color='blue')
- 
+
     myplot.Save('nsfg_birthwgt_model',
                 title='Birth weights',
                 xlabel='birth weight (oz)',
@@ -138,7 +138,7 @@ def MakeNormalModel(weights):
 
 def MakeNormalPlot(weights):
     """Generates a normal probability plot of birth weights."""
-    rankit.MakeNormalPlot(weights, 
+    rankit.MakeNormalPlot(weights,
                           root='nsfg_birthwgt_normal',
                           ylabel='Birth weights (oz)',)
 
@@ -153,11 +153,11 @@ def main():
 
     # test the distribution of birth weights for normality
     pool, _, _ = cumulative.MakeTables()
-    
+
     t = pool.weights
     MakeNormalModel(t)
     MakeNormalPlot(t)
 
-    
+
 if __name__ == "__main__":
     main()

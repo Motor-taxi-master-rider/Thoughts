@@ -116,14 +116,14 @@ class Respondents(survey.Table):
 
         print( 'Weight (kg):')
         print( 'key n     mean     var    sigma     cv')
-        for value in d.values():
-            for key,t in enumerate(value):
+        for key,value in d.items():
+
+            for k,t in enumerate(value):
                 if(t):
                     pass
                 else:
-                    value[key] = 0
+                    value[k] = 0
         for key, t in d.items():
-            print(key)
             mu, var = thinkstats.TrimmedMeanVar(t)
             sigma = math.sqrt(var)
             cv = sigma / mu
