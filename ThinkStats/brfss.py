@@ -116,7 +116,14 @@ class Respondents(survey.Table):
 
         print( 'Weight (kg):')
         print( 'key n     mean     var    sigma     cv')
+        for value in d.values():
+            for key,t in enumerate(value):
+                if(t):
+                    pass
+                else:
+                    value[key] = 0
         for key, t in d.items():
+            print(key)
             mu, var = thinkstats.TrimmedMeanVar(t)
             sigma = math.sqrt(var)
             cv = sigma / mu
@@ -129,7 +136,7 @@ class Respondents(survey.Table):
         data = [(r.weight2, r.wtyrago) for r in self.records
                 if r.weight2 != 'NA' and r.wtyrago != 'NA']
 
-        changes = [(curr - prev) for curr, prev in data]
+        changes = [(curr - prev) for curr, prev in data if curr and prev]
 
         print( 'Mean change', thinkstats.Mean(changes))
 
