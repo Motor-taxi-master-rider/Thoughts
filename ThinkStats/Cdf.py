@@ -188,7 +188,7 @@ def MakeCdfFromDict(d, name=''):
     Returns:
         Cdf object
     """
-    return MakeCdfFromItems(d.iteritems(), name)
+    return MakeCdfFromItems(d.items(), name)
 
 
 def MakeCdfFromHist(hist, name=''):
