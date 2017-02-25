@@ -33,8 +33,8 @@ import thinkstats
 
 def MakeFigures():
     pops = populations.ReadData()
-    print len(pops)
-    
+    print (len(pops))
+
     cdf = Cdf.MakeCdfFromList(pops, 'populations')
 
     myplot.Clf()
@@ -46,7 +46,7 @@ def MakeFigures():
                legend=False)
 
     myplot.Clf()
-    myplot.Cdf(cdf) 
+    myplot.Cdf(cdf)
     myplot.Save(root='populations_logx',
                 title='City/Town Populations',
                 xlabel='population',
@@ -55,7 +55,7 @@ def MakeFigures():
                 legend=False)
 
     myplot.Clf()
-    myplot.Cdf(cdf, complement=True) 
+    myplot.Cdf(cdf, complement=True)
     myplot.Save(root='populations_loglog',
                 title='City/Town Populations',
                 xlabel='population',
@@ -63,7 +63,7 @@ def MakeFigures():
                 yscale='log',
                 xscale='log',
                 legend=False)
-    
+
     t = [math.log(x) for x in pops]
     t.sort()
     rankit.MakeNormalPlot(t, 'populations_rankit')

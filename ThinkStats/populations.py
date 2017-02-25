@@ -8,12 +8,15 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 import csv
 import sys
 import urllib
+import Cdf
+import Pmf
+import matplotlib.pyplot as pyplot
 
 
 def ReadData(filename='populations.csv'):
     """Reads the previously-downloaded contents of (filename), parses
     it as CSV and extracts all lines that seem to contain population
-    information for a city or town.  
+    information for a city or town.
 
     Args:
         filename: string name of file to read
@@ -24,8 +27,8 @@ def ReadData(filename='populations.csv'):
     try:
         fp = open(filename)
     except IOError:
-        print 'Did not find populations.csv.  You can download'
-        print 'it from http://thinkstats.com/populations.csv'
+        print ('Did not find populations.csv.  You can download')
+        print ('it from http://thinkstats.com/populations.csv')
         return []
 
     reader = csv.reader(fp)
@@ -47,15 +50,21 @@ def ReadData(filename='populations.csv'):
         except:
             # if anything goes wrong, skip to the next one
             pass
-            
+
     return pops
 
 
 def main(script, *args):
     pops = ReadData()
+    cdf = Cdf.MakeCdfFromList(pops)
+    xs, ps = cdf.Render()
+    pyplot.plot(xs, ps, label='model', linewidth=4, color='0.7')
+
+
+    pyplot.show()
 
     for pop in pops:
-        print pop
+        print (pop)
 
 
 if __name__ == '__main__':
