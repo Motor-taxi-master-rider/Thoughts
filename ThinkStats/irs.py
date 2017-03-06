@@ -103,20 +103,20 @@ def main(script, *args):
     # plot the CDF on a log-x scale
     myplot.Clf()
     myplot.Cdf(cdf)
-    myplot.Save(root='income_logx',
-                xscale='log',
-                xlabel='income',
-                ylabel='CDF')
+    # myplot.Save(root='income_logx',
+    #             xscale='log',
+    #             xlabel='income',
+    #             ylabel='CDF')
 
     # plot the complementary CDF on a log-log scale
     myplot.Clf()
     myplot.Cdf(cdf, complement=True)
-    myplot.Save(root='income_loglog',
-                complement=True,
-                xscale='log',
-                yscale='log',
-                xlabel='income',
-                ylabel='complementary CDF')
+    # myplot.Save(root='income_loglog',
+    #             complement=True,
+    #             xscale='log',
+    #             yscale='log',
+    #             xlabel='income',
+    #             ylabel='complementary CDF')
 
 
 if __name__ == "__main__":
