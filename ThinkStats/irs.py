@@ -111,6 +111,7 @@ def main(script, *args):
     # plot the complementary CDF on a log-log scale
     myplot.Clf()
     myplot.Cdf(cdf, complement=True)
+    print(data)
     # myplot.Save(root='income_loglog',
     #             complement=True,
     #             xscale='log',
