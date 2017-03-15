@@ -58,7 +58,7 @@ def RunTest(root,
     # P(E|Ha)
     peha = Test(root + '_deltas_ha_cdf',
                actual1, actual2, model1, model2,
-               iters, plot=True)
+               iters)
 
     prior = 0.5
     pe = prior*peha + (1-prior)*peh0
