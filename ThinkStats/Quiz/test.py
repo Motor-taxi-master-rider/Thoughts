@@ -1,10 +1,23 @@
-def get_important_object():
-    try:
-        data = talk_to_database(...)
-        return ImportantObject(data)
-    except:
-        pass
-foo = get_important_object()
-foo.do_something_important()
+import matplotlib.pyplot as plt
+import numpy as np
 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdE5hbWUiOiIzMjgyMDFiZDBhNTNmMDI2MmM0MzRlZmZiYmVjMzEwMiIsImxhc3ROYW1lIjoiMmIzMjE5NTlkMmM2ODg1YjQxNmQxYTJhOTcxNjA4MmMiLCJlbWFpbCI6ImVlNTA2NjQ4MjA0OTFiYTczNDZhYTYxYzUzZDdkNDc0IiwidUd1aWQiOiIxZDhiYzVlNTkzMWFlZThmMmMwNTZlMjc4NDdiNGE4MzdkOTljN2FjYThmODdmNzMxNGI5ZDE4ODVlYWRjZjliMWQxNWJiZjc2YTgwNGNkOGM0MjIyMWYxMmIxOGUxNDMiLCJwR3VpZCI6ImE4Zjk4YWM5NDEwNzdiODM5NmMxMzQxZTkzOWI0NjBmYzcxMmVjMjY2YTU0YzRiN2Y4NzJmMTMzZTdlZWY2NzI3Yzc1N2RjYzJkZjJhYzJmZTllOGIyMzlmNDljY2RhZSIsInBOYW1lIjoiMjNiMjBlMTVhMjBhMzMyZDdkNjg5NWRmMTY2MTg5NTAiLCJkYlVybCI6IjM2YWVmY2Q2YmQzMzcyNzNhZDFkOGI5NDIzYWY5Zjg1N2E4Y2NlZTVjZDg4MzgyMzEyMTY3NjI4NjliYjMwYjA1ZGMyMjMxYWMyMmEwNmM0MmRmMDYxMWM0ZWRkZDI0OWRkMzMzYzM0NDhmNGNiZjI5NGI5NmY2ZDMzYzZhNDgyIiwiY2xpZW50IjoiZTJhOTY0Yzk0MGEwY2I1NzYzZWZkZmRjYjU1MmJmM2YiLCJpYXQiOjE0ODk1NDY3MzgsImV4cCI6MTQ4OTU2MTEzOH0.0Xs7KorSX2gZzwngmzEO_6bmqi3jVSUymm_GFqhOLiY
+plt.figure()
+
+languages = ['Python', 'SQL', 'Java', 'C++', 'JavaScript']
+pos = np.arange(len(languages))
+popularity = [56, 39, 34, 34, 29]
+
+plt.bar(pos, popularity, align='center')
+plt.xticks(pos, languages)
+plt.ylabel('% Popularity')
+plt.title(
+    'Top 5 Languages for Math & Data \nby % popularity on Stack Overflow', alpha=0.8)
+ax = plt.axes()
+# ax.set_xticks([])
+# ax.set_yticks([])
+# ax.set_ylabel('')
+plt.tick_params(top='off', bottom='off',
+                left='off', right='off', labelleft='off', labelbottom='on')
+# TODO: remove all the ticks (both axes), and tick labels on the Y axis
+
+plt.show()
