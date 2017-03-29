@@ -1,23 +1,30 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import matplotlib.animation as animation
+
+from random import shuffle
+origins = ['China', 'Brazil', 'India', 'USA', 'Canada', 'UK', 'Germany', 'Iraq', 'Chile', 'Mexico']
+
+shuffle(origins)
+
+df = pd.DataFrame({'height': np.random.rand(10),
+                   'weight': np.random.rand(10),
+                   'origin': origins})
+
+print(df)
 
 plt.figure()
+# picker=5 means the mouse doesn't have to click directly on an event, but can be up to 5 pixels away
+plt.scatter(df['height'], df['weight'], picker=5)
+plt.gca().set_ylabel('Weight')
+plt.gca().set_xlabel('Height')
 
-languages = ['Python', 'SQL', 'Java', 'C++', 'JavaScript']
-pos = np.arange(len(languages))
-popularity = [56, 39, 34, 34, 29]
+def onpick(event):
+    origin = df.iloc[event.ind[0]]['origin']
+    plt.gca().set_title('Selected item came from {}'.format(origin))
 
-plt.bar(pos, popularity, align='center')
-plt.xticks(pos, languages)
-plt.ylabel('% Popularity')
-plt.title(
-    'Top 5 Languages for Math & Data \nby % popularity on Stack Overflow', alpha=0.8)
-ax = plt.axes()
-# ax.set_xticks([])
-# ax.set_yticks([])
-# ax.set_ylabel('')
-plt.tick_params(top='off', bottom='off',
-                left='off', right='off', labelleft='off', labelbottom='on')
-# TODO: remove all the ticks (both axes), and tick labels on the Y axis
+# tell mpl_connect we want to pass a 'pick_event' into onpick when the event is detected
+plt.gcf().canvas.mpl_connect('pick_event', onpick)
 
 plt.show()
