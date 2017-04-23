@@ -149,4 +149,4 @@ def main(name, data_dir='.'):
     resp.SummarizeWeightChange()
 
 if __name__ == '__main__':
-    main(*sys.argv)
+    main(50)
