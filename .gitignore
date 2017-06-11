@@ -1,6 +1,6 @@
 #custom
-*/.idea/
-Test.py
+.idea/
+test.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
