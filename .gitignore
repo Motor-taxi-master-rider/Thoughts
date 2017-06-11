@@ -1,5 +1,5 @@
 #custom
-.idea/
+*/.idea/
 Test.py
 
 # Byte-compiled / optimized / DLL files
