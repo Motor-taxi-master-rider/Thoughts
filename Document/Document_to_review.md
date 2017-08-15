@@ -119,8 +119,9 @@ https://pymotw.com/3/
 *The definitive guide on how to use static, class or abstract methods in Python*
 https://julien.danjou.info/blog/2013/guide-python-static-class-abstract-methods
 
-蓄水池抽样
+**蓄水池抽样**
 http://blog.jobbole.com/42550/
+http://www.cnblogs.com/hrlnw/archive/2012/11/27/2777337.html
 
 **Less Copies in Python with the Buffer Protocol and memoryviews**
 http://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-protocol-and-memoryviews/
