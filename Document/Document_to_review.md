@@ -128,3 +128,12 @@ http://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-pr
 
 *Brandon Craig Rhodes 的讲座“The Mighty Dictionary”散列表*
 http://pyvideo.org/video/276/the-mighty-dictionary-55
+
+The Python "with" Statement by Example
+http://preshing.com/20110920/the-python-with-statement-by-example/
+
+Python Design Patterns
+http://pyvideo.org/europython-2011/python-design-patterns.html
+
+Machine learning in Python with scikit-learn
+https://www.bilibili.com/video/av6922044/?from=search&seid=9246628062659044503
