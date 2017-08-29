@@ -137,3 +137,9 @@ http://pyvideo.org/europython-2011/python-design-patterns.html
 
 Machine learning in Python with scikit-learn
 https://www.bilibili.com/video/av6922044/?from=search&seid=9246628062659044503
+
+How the heck does async/await work in Python 3.5?
+https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/
+
+greedy algorithm with coroutines
+http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
