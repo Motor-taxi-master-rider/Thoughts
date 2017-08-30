@@ -143,3 +143,9 @@ https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/
 
 greedy algorithm with coroutines
 http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
+
+知其所以然（三）：为什么算法这么难？
+http://mindhacks.cn/2011/07/10/the-importance-of-knowing-why-part3/
+
+数学之美番外篇：快排为什么那样快？
+http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
