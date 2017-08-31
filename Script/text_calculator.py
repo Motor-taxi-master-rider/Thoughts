@@ -106,11 +106,12 @@ class Calculator:
             if accept('NUM'):
                 return Number(int(current.value))
             else:
-                raise SyntaxError()
+                raise SyntaxError('Invalid character.')
 
         return expr()
 
     def _evaluate(self, node):
+        """遍历生成树计算结果"""
         @singledispatch
         def visit(obj):
             raise NotImplemented
@@ -118,12 +119,12 @@ class Calculator:
         @visit.register(BinOp)
         def _(node):
             """
-            生成器。
+            协程。
             visit method for BinOp
             """
             left = yield node.left
             right = yield node.right
-            # could be more dynamic
+            # TODO: could be more dynamic
             switch = {
                 '+': lambda x, y: x + y,
                 '-': lambda x, y: x - y,
@@ -143,17 +144,19 @@ class Calculator:
 
         def gen_visit(node):
             """
-            visit生成器。
+            委派生成器。
             返回输入数值及中间值。
             """
             result = visit(node)
+            #非常tricky的写法
             return (yield from result) if isinstance(result, types.GeneratorType) else result
 
-        stack = [gen_visit(node)]  # 将跟节点的协程放入栈
+        stack = [gen_visit(node)]  # 将根节点的协程放入栈
         result = None
         while stack:
             try:
                 node = stack[-1].send(result)  # send(None)预激协程，send（result）将计算好的值存入协程
+                print(node)
                 stack.append(gen_visit(node))  # 深度遍历添加协程，等待处理
                 result = None
             except StopIteration as e:
@@ -164,10 +167,11 @@ class Calculator:
 
 def main():
     cal = Calculator()
-    a = cal.caculate('1+2*4-5^2')
-    print(a)
-    b = cal.caculate('+'.join(str(i) for i in range(2017)))
-    print(b)
+    a = cal.caculate('1+2*4-5')
+    #print(a)
+    # b = cal.caculate('+'.join(str(i) for i in range(2017)))  # 超深栈计算
+    # print(b)
+
 
 if __name__ == '__main__':
     main()
