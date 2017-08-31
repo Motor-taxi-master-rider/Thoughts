@@ -149,3 +149,6 @@ http://mindhacks.cn/2011/07/10/the-importance-of-knowing-why-part3/
 
 数学之美番外篇：快排为什么那样快？
 http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
+
+Introduce to tornado
+http://demo.pythoner.com/itt2zh/ch1.html#ch1-1

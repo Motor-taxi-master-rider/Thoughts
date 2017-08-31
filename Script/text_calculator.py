@@ -168,9 +168,9 @@ class Calculator:
 def main():
     cal = Calculator()
     a = cal.caculate('1+2*4-5')
-    #print(a)
-    # b = cal.caculate('+'.join(str(i) for i in range(2017)))  # 超深栈计算
-    # print(b)
+    print(a)
+     b = cal.caculate('+'.join(str(i) for i in range(2017)))  # 超深栈计算
+     print(b)
 
 
 if __name__ == '__main__':
