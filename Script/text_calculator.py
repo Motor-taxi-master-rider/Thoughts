@@ -156,7 +156,6 @@ class Calculator:
         while stack:
             try:
                 node = stack[-1].send(result)  # send(None)预激协程，send（result）将计算好的值存入协程
-                print(node)
                 stack.append(gen_visit(node))  # 深度遍历添加协程，等待处理
                 result = None
             except StopIteration as e:
@@ -169,8 +168,8 @@ def main():
     cal = Calculator()
     a = cal.caculate('1+2*4-5')
     print(a)
-     b = cal.caculate('+'.join(str(i) for i in range(2017)))  # 超深栈计算
-     print(b)
+    b = cal.caculate('+'.join(str(i) for i in range(2017)))  # 超深栈计算
+    print(b)
 
 
 if __name__ == '__main__':
