@@ -152,3 +152,6 @@ http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
 
 Introduce to tornado
 http://demo.pythoner.com/itt2zh/ch1.html#ch1-1
+
+The difference between yield and yield-from
+https://groups.google.com/forum/#!msg/python-tulip/bmphRrryuFk/aB45sEJUomYJ
