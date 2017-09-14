@@ -141,7 +141,7 @@ https://www.bilibili.com/video/av6922044/?from=search&seid=9246628062659044503
 How the heck does async/await work in Python 3.5?
 https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/
 
-greedy algorithm with coroutines
+**greedy algorithm with coroutines**
 http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
 
 知其所以然（三）：为什么算法这么难？
@@ -153,7 +153,7 @@ http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
 Introduce to tornado
 http://demo.pythoner.com/itt2zh/ch1.html#ch1-1
 
-The difference between yield and yield-from
+*The difference between yield and yield-from*
 https://groups.google.com/forum/#!msg/python-tulip/bmphRrryuFk/aB45sEJUomYJ
 
 27 个Jupyter Notebook的小提示与技巧
