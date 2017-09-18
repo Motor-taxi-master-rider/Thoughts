@@ -1,4 +1,4 @@
-Python的练手项目有哪些：
+﻿Python的练手项目有哪些：
 https://www.zhihu.com/question/29372574
 
 图灵社区：
@@ -158,3 +158,6 @@ https://groups.google.com/forum/#!msg/python-tulip/bmphRrryuFk/aB45sEJUomYJ
 
 27 个Jupyter Notebook的小提示与技巧
 http://blog.csdn.net/gx19862005/article/details/60141711
+
+Python vim
+https://segmentfault.com/a/1190000003962806
