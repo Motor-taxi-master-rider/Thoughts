@@ -65,7 +65,7 @@ http://python.jobbole.com/84769/
 *Python argparse*
 http://blog.xiayf.cn/2013/03/30/argparse/
 
-Python threading
+*Python threading*
 http://www.osetc.com/archives/14154.html
 
 Matplotlib blog
@@ -80,7 +80,7 @@ https://segmentfault.com/a/1190000006121957
 廖雪峰
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-谈谈 Python 程序的运行原理
+**谈谈 Python 程序的运行原理**
 http://www.cnblogs.com/restran/p/4903056.html
 
 Introduction to Nginx – Complete Tutorial
@@ -110,7 +110,7 @@ http://docs.python-guide.org/en/latest/
 编程珠玑（二）：字符反转--杂耍算法
 http://www.cnblogs.com/solidblog/archive/2012/07/15/2592009.html
 
-链表问题集合
+*链表问题集合*
 http://wuchong.me/blog/2014/03/25/interview-link-questions/
 
 Python 3 Module of the Week
@@ -129,7 +129,7 @@ http://eli.thegreenplace.net/2011/11/28/less-copies-in-python-with-the-buffer-pr
 *Brandon Craig Rhodes 的讲座“The Mighty Dictionary”散列表*
 http://pyvideo.org/video/276/the-mighty-dictionary-55
 
-The Python "with" Statement by Example
+*The Python "with" Statement by Example*
 http://preshing.com/20110920/the-python-with-statement-by-example/
 
 Python Design Patterns
@@ -141,7 +141,7 @@ https://www.bilibili.com/video/av6922044/?from=search&seid=9246628062659044503
 How the heck does async/await work in Python 3.5?
 https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/
 
-greedy algorithm with coroutines
+**greedy algorithm with coroutines**
 http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
 
 知其所以然（三）：为什么算法这么难？
@@ -153,7 +153,7 @@ http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
 Introduce to tornado
 http://demo.pythoner.com/itt2zh/ch1.html#ch1-1
 
-The difference between yield and yield-from
+*The difference between yield and yield-from*
 https://groups.google.com/forum/#!msg/python-tulip/bmphRrryuFk/aB45sEJUomYJ
 
 27 个Jupyter Notebook的小提示与技巧
