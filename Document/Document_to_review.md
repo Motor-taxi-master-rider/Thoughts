@@ -179,3 +179,6 @@ https://www.kaggle.com/
 
 Practice Reinforcement Learning:
 https://openai.com/
+
+Explore Happiness Data Using Python Pivot Tables
+https://www.dataquest.io/blog/pandas-pivot-table/
