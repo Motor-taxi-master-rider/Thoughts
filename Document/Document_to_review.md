@@ -161,3 +161,24 @@ http://blog.csdn.net/gx19862005/article/details/60141711
 
 Python vim
 https://segmentfault.com/a/1190000003962806
+
+*Builtin Superheroes*
+https://www.youtube.com/watch?v=j6VSAsKAj98
+
+Deep learning:
+https://www.coursera.org/specializations/deep-learning
+
+Machine learning:
+https://www.coursera.org/learn/machine-learning
+
+Learning reinforcement learning:
+https://youtu.be/2pWv7GOvuf0
+
+Practice ML, data science
+https://www.kaggle.com/
+
+Practice Reinforcement Learning:
+https://openai.com/
+
+Explore Happiness Data Using Python Pivot Tables
+https://www.dataquest.io/blog/pandas-pivot-table/
