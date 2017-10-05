@@ -2,23 +2,52 @@ import re
 import types
 from collections import namedtuple
 from functools import singledispatch
+from inspect import Parameter, Signature
 
 
-class Node:
+def make_signature(names):
+    """用一个列表来产生参数签名的模块函数,也可以放在StructureMeta内部"""
+    parameters = []
+    #抓出参数的名称、默认值和注释
+    parameter_re = re.compile(r'^(?P<name>\w+)(\s*=\s*(?P<default>\w+))?(\s*:\s*(?P<annotation>\w+))?$')
+    for name in names:
+        re_result = parameter_re.match(name)
+        if not re_result:
+            raise SyntaxError('Invalid parameter syntax：{}'.format(name))
+        parameters.append(Parameter(kind=Parameter.POSITIONAL_OR_KEYWORD, **re_result.groupdict()))  #支持参数默认值和注释
+    return Signature(parameters)
+
+
+class StructureMeta(type):
+    """
+    Structure类的元类，在生成class的时候将_fields里提供的属性转化为
+    参数签名类属性。
+    """
+
+    def __new__(cls, name, bases, clsdict):
+        clsobj = super().__new__(cls, name, bases, clsdict)
+        sig = make_signature(clsobj._fields)
+        setattr(clsobj, '__signature__', sig)
+        return clsobj
+
+
+class Structure(metaclass=StructureMeta):
     """简易数据结构构造父类"""
     _fields = []
 
-    def __init__(self, *args):
-        for name, value in zip(self._fields, args):
-            setattr(self, name, value)
+    def __init__(self, *args, **kwargs):
+        # 这里实际上取的是self.__class___.__signature__
+        bound = self.__signature__.bind(*args, **kwargs)
+        for name, val in bound.arguments.items():
+            setattr(self, name, val)
 
 
-class Number(Node):
+class Number(Structure):
     """数字型"""
     _fields = ['value']
 
 
-class BinOp(Node):
+class BinOp(Structure):
     """操作符号型"""
     _fields = ['op', 'left', 'right']
 
@@ -84,22 +113,19 @@ class Calculator:
         def expr():
             left = term()
             while accept('PLUS', 'MINUS'):
-                left = BinOp(current.value, left)
-                left.right = term()
+                left = BinOp(current.value, left, factor())
             return left
 
         def term():
             left = pow()
             while accept('TIMES', 'DIVIDE'):
-                left = BinOp(current.value, left)
-                left.right = pow()
+                left = BinOp(current.value, left, factor())
             return left
 
         def pow():
             left = factor()
             while accept('POWER'):
-                left = BinOp(current.value, left)
-                left.right = factor()
+                left = BinOp(current.value, left, factor())
             return left
 
         def factor():
@@ -112,6 +138,7 @@ class Calculator:
 
     def _evaluate(self, node):
         """遍历生成树计算结果"""
+
         @singledispatch
         def visit(obj):
             raise NotImplemented
@@ -148,7 +175,7 @@ class Calculator:
             返回输入数值及中间值。
             """
             result = visit(node)
-            #非常tricky的写法
+            # 非常tricky的写法
             return (yield from result) if isinstance(result, types.GeneratorType) else result
 
         stack = [gen_visit(node)]  # 将根节点的协程放入栈
