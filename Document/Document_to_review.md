@@ -19,7 +19,7 @@ http://www.cnblogs.com/avril/archive/2013/06/28/3161669.html
 **卡方检验**
 https://education.ti.com/sites/CHINA/downloads/pdf/chi_square_tests_xudeqian.pdf
 
-Python Mock的入门
+*Python Mock的入门*
 https://segmentfault.com/a/1190000002965620
 
 DjangoBook
@@ -49,7 +49,7 @@ https://pages.github.com/
 Advanced Bash-Scripting Guide
 https://linuxstory.gitbooks.io/advanced-bash-scripting-guide-in-chinese/content/
 
-Data Visualization with JavaScript
+*Data Visualization with JavaScript*
 http://jsdatav.is/intro.html
 
 *global css style*
@@ -59,7 +59,7 @@ http://v3.bootcss.com/css/#grid-example-fluid
 http://www.cnblogs.com/heaad/archive/2011/01/02/1924195.html
 http://oserror.com/backend/bloomfilter/?utm_source=tuicool&utm_medium=referral
 
-Python 命令行工具
+*Python 命令行工具*
 http://python.jobbole.com/84769/
 
 *Python argparse*
@@ -80,7 +80,7 @@ https://segmentfault.com/a/1190000006121957
 廖雪峰
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-**谈谈 Python 程序的运行原理**
+*谈谈 Python 程序的运行原理*
 http://www.cnblogs.com/restran/p/4903056.html
 
 Introduction to Nginx – Complete Tutorial
@@ -104,7 +104,7 @@ http://python.jobbole.com/85231/
 *yield from*
 http://blog.theerrorlog.com/yield-from-in-python-3.html
 
-hitchhiker-guide
+*hitchhiker-guide*
 http://docs.python-guide.org/en/latest/
 
 编程珠玑（二）：字符反转--杂耍算法
@@ -161,3 +161,6 @@ http://blog.csdn.net/gx19862005/article/details/60141711
 
 CFFI documentation
 https://cffi.readthedocs.io/en/latest/whatsnew.html
+
+unittest.mock examples
+https://docs.python.org/3.4/library/unittest.mock-examples.html
