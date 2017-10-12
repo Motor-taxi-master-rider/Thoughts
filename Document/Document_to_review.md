@@ -164,3 +164,18 @@ https://cffi.readthedocs.io/en/latest/whatsnew.html
 
 unittest.mock examples
 https://docs.python.org/3.4/library/unittest.mock-examples.html
+
+Deep learning:
+https://www.coursera.org/specializations/deep-learning
+
+Machine learning:
+https://www.coursera.org/learn/machine-learning
+
+Learning reinforcement learning:
+https://youtu.be/2pWv7GOvuf0
+
+Practice ML, data science
+https://www.kaggle.com/
+
+Practice Reinforcement Learning:
+https://openai.com/
