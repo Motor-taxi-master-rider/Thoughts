@@ -13,7 +13,7 @@ http://stackoverflow.com/questions/100003/what-is-a-metaclass-in-python
 *提高你的Python: 解释‘yield’和‘Generators（生成器）’:*
 https://www.oschina.net/translate/improve-your-python-yield-and-generators-explained?lang=chs&page=1#  
 
-*抛硬币直到连续若干次正面的概率s*
+*抛硬币直到连续若干次正面的概率*
 http://www.cnblogs.com/avril/archive/2013/06/28/3161669.html
 
 **卡方检验**
@@ -179,3 +179,6 @@ https://www.kaggle.com/
 
 Practice Reinforcement Learning:
 https://openai.com/
+
+Text Analytics and Visualization
+http://pythondata.com/text-analytics-visualization/
