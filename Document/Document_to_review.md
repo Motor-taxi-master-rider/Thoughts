@@ -182,3 +182,6 @@ https://openai.com/
 
 Text Analytics and Visualization
 http://pythondata.com/text-analytics-visualization/
+
+Introduction to Machine Learning with Python's Scikit-learn
+https://www.codementor.io/garethdwyer/introduction-to-machine-learning-with-python-s-scikit-learn-czha398p1
