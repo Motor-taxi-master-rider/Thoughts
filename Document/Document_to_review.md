@@ -182,3 +182,12 @@ https://openai.com/
 
 Text Analytics and Visualization
 http://pythondata.com/text-analytics-visualization/
+
+机器学习中的数学(5)-强大的矩阵奇异值分解(SVD)及其应用
+http://www.cnblogs.com/LeftNotEasy/archive/2011/01/19/svd-and-applications.html
+
+浅谈流形学习
+http://blog.pluskid.org/?p=533
+
+从SNE到t-SNE再到LargeVis
+http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/
