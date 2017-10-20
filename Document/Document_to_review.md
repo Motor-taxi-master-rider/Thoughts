@@ -191,3 +191,6 @@ http://blog.pluskid.org/?p=533
 
 从SNE到t-SNE再到LargeVis
 http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/
+
+Introduction to Machine Learning with Python's Scikit-learn
+https://www.codementor.io/garethdwyer/introduction-to-machine-learning-with-python-s-scikit-learn-czha398p1
