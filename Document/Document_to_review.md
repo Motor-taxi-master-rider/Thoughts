@@ -162,7 +162,7 @@ http://blog.csdn.net/gx19862005/article/details/60141711
 CFFI documentation
 https://cffi.readthedocs.io/en/latest/whatsnew.html
 
-unittest.mock examples
+*unittest.mock examples*
 https://docs.python.org/3.4/library/unittest.mock-examples.html
 
 Deep learning:
@@ -194,3 +194,6 @@ http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/
 
 Introduction to Machine Learning with Python's Scikit-learn
 https://www.codementor.io/garethdwyer/introduction-to-machine-learning-with-python-s-scikit-learn-czha398p1
+
+Python Mocks: a gentle introduction
+http://blog.thedigitalcatonline.com/blog/2016/03/06/python-mocks-a-gentle-introduction-part-1/#.We21oPmCxjU
