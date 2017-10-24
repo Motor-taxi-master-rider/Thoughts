@@ -197,3 +197,9 @@ https://www.codementor.io/garethdwyer/introduction-to-machine-learning-with-pyth
 
 Python Mocks: a gentle introduction
 http://blog.thedigitalcatonline.com/blog/2016/03/06/python-mocks-a-gentle-introduction-part-1/#.We21oPmCxjU
+
+*Abstract Base Classes in Python*
+http://blog.thedigitalcatonline.com/blog/2016/04/03/abstract-base-classes-in-python/#.We8ICPmCxjU
+
+Clean architectures in Python: a step-by-step example
+http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/#.We8IL_mCxjV
