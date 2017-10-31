@@ -195,7 +195,7 @@ http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/
 Introduction to Machine Learning with Python's Scikit-learn
 https://www.codementor.io/garethdwyer/introduction-to-machine-learning-with-python-s-scikit-learn-czha398p1
 
-Python Mocks: a gentle introduction
+*Python Mocks: a gentle introduction*
 http://blog.thedigitalcatonline.com/blog/2016/03/06/python-mocks-a-gentle-introduction-part-1/#.We21oPmCxjU
 
 *Abstract Base Classes in Python*
@@ -203,3 +203,6 @@ http://blog.thedigitalcatonline.com/blog/2016/04/03/abstract-base-classes-in-pyt
 
 Clean architectures in Python: a step-by-step example
 http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/#.We8IL_mCxjV
+
+Python Mocks: a gentle introduction 2
+http://blog.thedigitalcatonline.com/blog/2016/09/27/python-mocks-a-gentle-introduction-part-2/#.Wfg_b_mCxjU
