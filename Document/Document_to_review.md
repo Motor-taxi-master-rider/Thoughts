@@ -1,10 +1,10 @@
-Python的练手项目有哪些：
+*Python的练手项目有哪些：*
 https://www.zhihu.com/question/29372574
 
 图灵社区：
 http://www.ituring.com.cn/article?sort=newest
 
-Python性能分析：
+*Python性能分析：* **line_profiler** **memory_profiler** **objgraph**
 http://python.jobbole.com/86903/
 
 *What are metaclasses?:*
@@ -22,10 +22,10 @@ https://education.ti.com/sites/CHINA/downloads/pdf/chi_square_tests_xudeqian.pdf
 *Python Mock的入门*
 https://segmentfault.com/a/1190000002965620
 
-DjangoBook
+*DjangoBook*
 http://djangobook.py3k.cn/chapter01/
 
-Darkhorse Analytic
+*Darkhorse Analytic*
 http://www.darkhorseanalytics.com/blog/
 
 500 lines or less
@@ -40,7 +40,7 @@ http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
 seaborn
 https://seaborn.pydata.org/
 
-spurious correlations
+*spurious correlations*
 http://www.tylervigen.com/spurious-correlations
 
 *git pages*
@@ -68,7 +68,7 @@ http://blog.xiayf.cn/2013/03/30/argparse/
 *Python threading*
 http://www.osetc.com/archives/14154.html
 
-Matplotlib blog
+*Matplotlib blog*
 https://monkey0105.github.io/
 
 *Markdown 语法*
@@ -77,7 +77,7 @@ http://www.appinn.com/markdown/
 *Backtracking回溯法(又称DFS,递归)全解*
 https://segmentfault.com/a/1190000006121957
 
-廖雪峰
+*廖雪峰*
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
 *谈谈 Python 程序的运行原理*
@@ -206,3 +206,12 @@ http://blog.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-pytho
 
 *Python Mocks: a gentle introduction 2*
 http://blog.thedigitalcatonline.com/blog/2016/09/27/python-mocks-a-gentle-introduction-part-2/#.Wfg_b_mCxjU
+
+**Getting Started with GPU Computing in Anaconda**
+https://www.anaconda.com/blog/developer-blog/getting-started-with-gpu-computing-in-anaconda/
+
+*Python 3: Variable Annotations* **mypy in python3.6**
+http://www.blog.pythonlibrary.org/2017/10/31/python-3-variable-annotations/
+
+How to make your code 80 times faster
+http://feedproxy.google.com/~r/PyPyStatusBlog/~3/nxgk9LMY-NU/how-to-make-your-code-80-times-faster.html
