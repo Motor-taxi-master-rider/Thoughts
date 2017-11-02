@@ -215,3 +215,6 @@ http://www.blog.pythonlibrary.org/2017/10/31/python-3-variable-annotations/
 
 How to make your code 80 times faster
 http://feedproxy.google.com/~r/PyPyStatusBlog/~3/nxgk9LMY-NU/how-to-make-your-code-80-times-faster.html
+
+**Raymond Hettinger: Modern Python Dictionaries: A confluence of a dozen great ideas**
+https://dl.dropboxusercontent.com/u/3967849/compdict/_build/html/index.html
