@@ -86,10 +86,8 @@ http://www.cnblogs.com/restran/p/4903056.html
 Introduction to Nginx – Complete Tutorial
 https://www.systemcodegeeks.com/web-servers/nginx/introduction-to-nginx-complete-tutorial/
 
-
 红黑树
 https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md
-
 
 *使用scrapy-deltafetch实现爬虫增量去重*
 http://blog.csdn.net/zsl10/article/details/52885597
@@ -215,3 +213,9 @@ http://www.blog.pythonlibrary.org/2017/10/31/python-3-variable-annotations/
 
 How to make your code 80 times faster
 http://feedproxy.google.com/~r/PyPyStatusBlog/~3/nxgk9LMY-NU/how-to-make-your-code-80-times-faster.html
+
+andreamosaic
+http://www.andreaplanet.com/andreamosaic/
+
+Optical Character Recognition
+http://aosabook.org/en/500L/optical-character-recognition-ocr.html
