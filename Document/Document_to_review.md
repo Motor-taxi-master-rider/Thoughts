@@ -46,7 +46,7 @@ http://www.tylervigen.com/spurious-correlations
 *git pages*
 https://pages.github.com/
 
-Advanced Bash-Scripting Guide
+*Advanced Bash-Scripting Guide*
 https://linuxstory.gitbooks.io/advanced-bash-scripting-guide-in-chinese/content/
 
 *Data Visualization with JavaScript*
@@ -83,13 +83,11 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 *谈谈 Python 程序的运行原理*
 http://www.cnblogs.com/restran/p/4903056.html
 
-Introduction to Nginx – Complete Tutorial
+*Introduction to Nginx – Complete Tutorial*
 https://www.systemcodegeeks.com/web-servers/nginx/introduction-to-nginx-complete-tutorial/
-
 
 红黑树
 https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md
-
 
 *使用scrapy-deltafetch实现爬虫增量去重*
 http://blog.csdn.net/zsl10/article/details/52885597
@@ -135,7 +133,7 @@ http://preshing.com/20110920/the-python-with-statement-by-example/
 Python Design Patterns
 http://pyvideo.org/europython-2011/python-design-patterns.html
 
-Machine learning in Python with scikit-learn
+*Machine learning in Python with scikit-learn*
 https://www.bilibili.com/video/av6922044/?from=search&seid=9246628062659044503
 
 **How the heck does async/await work in Python 3.5?**
@@ -150,7 +148,7 @@ http://mindhacks.cn/2011/07/10/the-importance-of-knowing-why-part3/
 数学之美番外篇：快排为什么那样快？
 http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
 
-Introduce to tornado
+*Introduce to tornado*
 http://demo.pythoner.com/itt2zh/ch1.html#ch1-1
 
 *The difference between yield and yield-from*
@@ -218,3 +216,9 @@ http://feedproxy.google.com/~r/PyPyStatusBlog/~3/nxgk9LMY-NU/how-to-make-your-co
 
 **Raymond Hettinger: Modern Python Dictionaries: A confluence of a dozen great ideas**
 https://dl.dropboxusercontent.com/u/3967849/compdict/_build/html/index.html
+
+andreamosaic
+http://www.andreaplanet.com/andreamosaic/
+
+Optical Character Recognition
+http://aosabook.org/en/500L/optical-character-recognition-ocr.html
