@@ -145,7 +145,7 @@ http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
 知其所以然（三）：为什么算法这么难？
 http://mindhacks.cn/2011/07/10/the-importance-of-knowing-why-part3/
 
-数学之美番外篇：快排为什么那样快？
+**数学之美番外篇：快排为什么那样快？**
 http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
 
 *Introduce to tornado*
@@ -214,8 +214,14 @@ http://www.blog.pythonlibrary.org/2017/10/31/python-3-variable-annotations/
 How to make your code 80 times faster
 http://feedproxy.google.com/~r/PyPyStatusBlog/~3/nxgk9LMY-NU/how-to-make-your-code-80-times-faster.html
 
-andreamosaic
+*andreamosaic*
 http://www.andreaplanet.com/andreamosaic/
 
 Optical Character Recognition
 http://aosabook.org/en/500L/optical-character-recognition-ocr.html
+
+talkpython
+https://talkpython.fm/episodes/all
+
+Making your First Machine Learning Classifier in Scikit-learn
+https://www.codementor.io/mgalarny/making-your-first-machine-learning-classifier-in-scikit-learn-python-db7d7iqdh
