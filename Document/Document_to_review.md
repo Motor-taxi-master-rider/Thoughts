@@ -1,7 +1,7 @@
 *Python的练手项目有哪些：*
 https://www.zhihu.com/question/29372574
 
-图灵社区：
+*图灵社区：*
 http://www.ituring.com.cn/article?sort=newest
 
 *Python性能分析：* **line_profiler** **memory_profiler** **objgraph**
@@ -28,7 +28,7 @@ http://djangobook.py3k.cn/chapter01/
 *Darkhorse Analytic*
 http://www.darkhorseanalytics.com/blog/
 
-500 lines or less
+**500 lines or less**
 http://aosabook.org/en/index.html
 
 python NLTK
@@ -111,7 +111,7 @@ http://www.cnblogs.com/solidblog/archive/2012/07/15/2592009.html
 *链表问题集合*
 http://wuchong.me/blog/2014/03/25/interview-link-questions/
 
-Python 3 Module of the Week
+`Python 3 Module of the Week`
 https://pymotw.com/3/
 
 *The definitive guide on how to use static, class or abstract methods in Python*
@@ -220,7 +220,7 @@ http://www.andreaplanet.com/andreamosaic/
 Optical Character Recognition
 http://aosabook.org/en/500L/optical-character-recognition-ocr.html
 
-talkpython
+`talkpython`
 https://talkpython.fm/episodes/all
 
 BUILDING GAME AI USING MACHINE LEARNING: WORKING WITH TENSORFLOW, KERAS, AND THE INTEL MKL IN PYTHON
