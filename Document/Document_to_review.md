@@ -1,7 +1,7 @@
 *Python的练手项目有哪些：*
 https://www.zhihu.com/question/29372574
 
-图灵社区：
+*图灵社区：*
 http://www.ituring.com.cn/article?sort=newest
 
 *Python性能分析：* **line_profiler** **memory_profiler** **objgraph**
@@ -28,7 +28,7 @@ http://djangobook.py3k.cn/chapter01/
 *Darkhorse Analytic*
 http://www.darkhorseanalytics.com/blog/
 
-500 lines or less
+**500 lines or less**
 http://aosabook.org/en/index.html
 
 python NLTK
@@ -111,7 +111,7 @@ http://www.cnblogs.com/solidblog/archive/2012/07/15/2592009.html
 *链表问题集合*
 http://wuchong.me/blog/2014/03/25/interview-link-questions/
 
-Python 3 Module of the Week
+`Python 3 Module of the Week`
 https://pymotw.com/3/
 
 *The definitive guide on how to use static, class or abstract methods in Python*
@@ -145,7 +145,7 @@ http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
 知其所以然（三）：为什么算法这么难？
 http://mindhacks.cn/2011/07/10/the-importance-of-knowing-why-part3/
 
-数学之美番外篇：快排为什么那样快？
+**数学之美番外篇：快排为什么那样快？**
 http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
 
 *Introduce to tornado*
@@ -217,8 +217,17 @@ http://feedproxy.google.com/~r/PyPyStatusBlog/~3/nxgk9LMY-NU/how-to-make-your-co
 **Raymond Hettinger: Modern Python Dictionaries: A confluence of a dozen great ideas**
 https://dl.dropboxusercontent.com/u/3967849/compdict/_build/html/index.html
 
-andreamosaic
+*andreamosaic*
 http://www.andreaplanet.com/andreamosaic/
 
 Optical Character Recognition
 http://aosabook.org/en/500L/optical-character-recognition-ocr.html
+
+`talkpython`
+https://talkpython.fm/episodes/all
+
+BUILDING GAME AI USING MACHINE LEARNING: WORKING WITH TENSORFLOW, KERAS, AND THE INTEL MKL IN PYTHON
+https://www.activestate.com/blog/2017/05/building-game-ai-using-machine-learning-working-tensorflow-keras-and-intel-mkl-python
+
+Keras
+https://keras.io/
