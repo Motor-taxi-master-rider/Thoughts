@@ -214,7 +214,7 @@ http://www.blog.pythonlibrary.org/2017/10/31/python-3-variable-annotations/
 How to make your code 80 times faster
 http://feedproxy.google.com/~r/PyPyStatusBlog/~3/nxgk9LMY-NU/how-to-make-your-code-80-times-faster.html
 
-andreamosaic
+*andreamosaic*
 http://www.andreaplanet.com/andreamosaic/
 
 Optical Character Recognition
@@ -223,8 +223,13 @@ http://aosabook.org/en/500L/optical-character-recognition-ocr.html
 talkpython
 https://talkpython.fm/episodes/all
 
+<<<<<<< HEAD
 BUILDING GAME AI USING MACHINE LEARNING: WORKING WITH TENSORFLOW, KERAS, AND THE INTEL MKL IN PYTHON
 https://www.activestate.com/blog/2017/05/building-game-ai-using-machine-learning-working-tensorflow-keras-and-intel-mkl-python
 
 Keras
 https://keras.io/
+=======
+Making your First Machine Learning Classifier in Scikit-learn
+https://www.codementor.io/mgalarny/making-your-first-machine-learning-classifier-in-scikit-learn-python-db7d7iqdh
+>>>>>>> 5cd2f3f402c82a348266b71662387b678e1aa53f
