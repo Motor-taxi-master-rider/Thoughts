@@ -145,7 +145,7 @@ http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
 知其所以然（三）：为什么算法这么难？
 http://mindhacks.cn/2011/07/10/the-importance-of-knowing-why-part3/
 
-数学之美番外篇：快排为什么那样快？
+**数学之美番外篇：快排为什么那样快？**
 http://mindhacks.cn/2008/06/13/why-is-quicksort-so-quick/
 
 *Introduce to tornado*
@@ -219,3 +219,12 @@ http://www.andreaplanet.com/andreamosaic/
 
 Optical Character Recognition
 http://aosabook.org/en/500L/optical-character-recognition-ocr.html
+
+talkpython
+https://talkpython.fm/episodes/all
+
+BUILDING GAME AI USING MACHINE LEARNING: WORKING WITH TENSORFLOW, KERAS, AND THE INTEL MKL IN PYTHON
+https://www.activestate.com/blog/2017/05/building-game-ai-using-machine-learning-working-tensorflow-keras-and-intel-mkl-python
+
+Keras
+https://keras.io/
