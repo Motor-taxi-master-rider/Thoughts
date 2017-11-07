@@ -231,3 +231,6 @@ https://www.activestate.com/blog/2017/05/building-game-ai-using-machine-learning
 
 Keras
 https://keras.io/
+
+python built-in shutil
+https://pymotw.com/3/shutil/
