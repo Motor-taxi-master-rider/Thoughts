@@ -237,3 +237,6 @@ https://pymotw.com/3/shutil/
 
 google image search api
 https://www.googleapis.com/customsearch/v1?q=hello
+
+bing image search api
+https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/
