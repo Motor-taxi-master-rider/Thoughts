@@ -232,5 +232,8 @@ https://www.activestate.com/blog/2017/05/building-game-ai-using-machine-learning
 Keras
 https://keras.io/
 
-python built-in shutil
+*python built-in shutil*
 https://pymotw.com/3/shutil/
+
+google image search api
+https://www.googleapis.com/customsearch/v1?q=hello
