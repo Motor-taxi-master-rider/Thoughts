@@ -235,8 +235,14 @@ https://keras.io/
 *python built-in shutil*
 https://pymotw.com/3/shutil/
 
-google image search api
+*google image search api*
 https://www.googleapis.com/customsearch/v1?q=hello
 
-bing image search api
+*bing image search api*
 https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/
+
+Jukka Lehtosalo, David Fisher Static Types for Python
+https://www.youtube.com/watch?v=7ZbwZgrXnwY
+
+*Larry Hastings The Gilectomy How's It Going*
+https://www.youtube.com/watch?v=pLqv11ScGsQ
