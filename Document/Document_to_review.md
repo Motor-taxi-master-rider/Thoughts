@@ -184,10 +184,10 @@ http://pythondata.com/text-analytics-visualization/
 机器学习中的数学(5)-强大的矩阵奇异值分解(SVD)及其应用
 http://www.cnblogs.com/LeftNotEasy/archive/2011/01/19/svd-and-applications.html
 
-浅谈流形学习
+*浅谈流形学习*
 http://blog.pluskid.org/?p=533
 
-从SNE到t-SNE再到LargeVis
+*从SNE到t-SNE再到LargeVis*
 http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/
 
 Introduction to Machine Learning with Python's Scikit-learn
@@ -220,7 +220,7 @@ https://dl.dropboxusercontent.com/u/3967849/compdict/_build/html/index.html
 *andreamosaic*
 http://www.andreaplanet.com/andreamosaic/
 
-Optical Character Recognition
+**Optical Character Recognition**
 http://aosabook.org/en/500L/optical-character-recognition-ocr.html
 
 `talkpython`
@@ -252,3 +252,6 @@ https://knpuniversity.com/screencast/rest/put-versus-post
 
 30-minute Python Web Scraper
 https://www.codementor.io/chalarangelo/30-minute-python-web-scraper-du38wc083
+
+Error Backpropagation
+http://www.willamette.edu/~gorr/classes/cs449/backprop.html
