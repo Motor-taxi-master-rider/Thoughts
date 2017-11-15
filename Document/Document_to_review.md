@@ -249,3 +249,6 @@ https://www.youtube.com/watch?v=pLqv11ScGsQ
 
 *PUT Versus POST*
 https://knpuniversity.com/screencast/rest/put-versus-post
+
+30-minute Python Web Scraper
+https://www.codementor.io/chalarangelo/30-minute-python-web-scraper-du38wc083
