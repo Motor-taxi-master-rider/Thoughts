@@ -259,7 +259,7 @@ http://www.willamette.edu/~gorr/classes/cs449/backprop.html
 *Pyjion: who doesn’t want faster for free?*
 https://www.youtube.com/watch?v=1DAIzO3QXcA
 
-Debugging in Python 3.6 Better, Faster, Stronger
+**Debugging in Python 3.6 Better, Faster, Stronger**
 https://www.youtube.com/watch?v=NdObDUbLjdg&feature=youtu.be
 
 Optimizing Pandas Code
