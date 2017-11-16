@@ -31,13 +31,13 @@ http://www.darkhorseanalytics.com/blog/
 **500 lines or less**
 http://aosabook.org/en/index.html
 
-python NLTK
+`python NLTK`
 http://www.burnelltek.com/ml?page=1
 
 *git commands*
 http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
 
-seaborn
+`seaborn`
 https://seaborn.pydata.org/
 
 *spurious correlations*
@@ -253,5 +253,14 @@ https://knpuniversity.com/screencast/rest/put-versus-post
 30-minute Python Web Scraper
 https://www.codementor.io/chalarangelo/30-minute-python-web-scraper-du38wc083
 
-Error Backpropagation
+*Error Backpropagation*
 http://www.willamette.edu/~gorr/classes/cs449/backprop.html
+
+*Pyjion: who doesn’t want faster for free?*
+https://www.youtube.com/watch?v=1DAIzO3QXcA
+
+Debugging in Python 3.6 Better, Faster, Stronger
+https://www.youtube.com/watch?v=NdObDUbLjdg&feature=youtu.be
+
+Optimizing Pandas Code
+https://www.youtube.com/watch?v=HN5d490_KKk&feature=youtu.be
