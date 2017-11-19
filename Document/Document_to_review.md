@@ -262,5 +262,14 @@ https://www.youtube.com/watch?v=1DAIzO3QXcA
 **Debugging in Python 3.6 Better, Faster, Stronger**
 https://www.youtube.com/watch?v=NdObDUbLjdg&feature=youtu.be
 
-Optimizing Pandas Code
+**Optimizing Pandas Code**
 https://www.youtube.com/watch?v=HN5d490_KKk&feature=youtu.be
+
+*Microsoft's JIT-based Python Project: Pyjion*
+https://talkpython.fm/episodes/transcript/49/microsoft-s-jit-based-python-project-pyjion
+
+Brett Cannon: A survey of Python interpreters
+https://www.youtube.com/watch?v=NdJ9BxgRpOY
+
+Speed up your Python using Rust
+https://developers.redhat.com/blog/2017/11/16/speed-python-using-rust/
