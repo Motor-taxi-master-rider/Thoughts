@@ -273,3 +273,9 @@ https://www.youtube.com/watch?v=NdJ9BxgRpOY
 
 Speed up your Python using Rust
 https://developers.redhat.com/blog/2017/11/16/speed-python-using-rust/
+
+*Python Hashes and Equality*
+https://hynek.me/articles/hashes-and-equality/
+
+Google Tech Dev Guide
+https://techdevguide.withgoogle.com/
