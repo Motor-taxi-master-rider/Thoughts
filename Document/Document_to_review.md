@@ -190,7 +190,7 @@ http://blog.pluskid.org/?p=533
 *从SNE到t-SNE再到LargeVis*
 http://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/
 
-Introduction to Machine Learning with Python's Scikit-learn
+*Introduction to Machine Learning with Python's Scikit-learn*
 https://www.codementor.io/garethdwyer/introduction-to-machine-learning-with-python-s-scikit-learn-czha398p1
 
 *Python Mocks: a gentle introduction*
@@ -229,7 +229,7 @@ https://talkpython.fm/episodes/all
 BUILDING GAME AI USING MACHINE LEARNING: WORKING WITH TENSORFLOW, KERAS, AND THE INTEL MKL IN PYTHON
 https://www.activestate.com/blog/2017/05/building-game-ai-using-machine-learning-working-tensorflow-keras-and-intel-mkl-python
 
-Keras
+`Keras`
 https://keras.io/
 
 *python built-in shutil*
@@ -250,7 +250,7 @@ https://www.youtube.com/watch?v=pLqv11ScGsQ
 *PUT Versus POST*
 https://knpuniversity.com/screencast/rest/put-versus-post
 
-30-minute Python Web Scraper
+*30-minute Python Web Scraper*
 https://www.codementor.io/chalarangelo/30-minute-python-web-scraper-du38wc083
 
 *Error Backpropagation*
