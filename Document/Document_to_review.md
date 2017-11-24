@@ -279,3 +279,6 @@ https://hynek.me/articles/hashes-and-equality/
 
 Google Tech Dev Guide
 https://techdevguide.withgoogle.com/
+
+ **A tale of event loops**
+https://github.com/AndreLouisCaron/a-tale-of-event-loops
