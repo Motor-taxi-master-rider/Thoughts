@@ -280,5 +280,11 @@ https://hynek.me/articles/hashes-and-equality/
 Google Tech Dev Guide
 https://techdevguide.withgoogle.com/
 
- **A tale of event loops**
+ *A tale of event loops*
 https://github.com/AndreLouisCaron/a-tale-of-event-loops
+
+Some thoughts on asynchronous API design in a post-async/await world
+https://vorpus.org/blog/some-thoughts-on-asynchronous-api-design-in-a-post-asyncawait-world/
+
+*Fear and Awaiting in Async: A Savage Journey to the Heart of the Coroutine Dream*
+https://www.youtube.com/watch?v=E-1Y4kSsAFc
