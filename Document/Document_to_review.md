@@ -268,7 +268,7 @@ https://www.youtube.com/watch?v=HN5d490_KKk&feature=youtu.be
 *Microsoft's JIT-based Python Project: Pyjion*
 https://talkpython.fm/episodes/transcript/49/microsoft-s-jit-based-python-project-pyjion
 
-Brett Cannon: A survey of Python interpreters
+*Brett Cannon: A survey of Python interpreters*
 https://www.youtube.com/watch?v=NdJ9BxgRpOY
 
 Speed up your Python using Rust
@@ -288,3 +288,15 @@ https://vorpus.org/blog/some-thoughts-on-asynchronous-api-design-in-a-post-async
 
 *Fear and Awaiting in Async: A Savage Journey to the Heart of the Coroutine Dream*
 https://www.youtube.com/watch?v=E-1Y4kSsAFc
+
+*Of Syntax Warnings and Symbol Tables*
+http://akaptur.com/blog/2014/06/11/of-syntax-warnings-and-symbol-tables/
+
+*Another Thing About Python's Threadlocals*
+https://emptysqua.re/blog/another-thing-about-pythons-threadlocals/
+
+Unyielding
+https://glyph.twistedmatrix.com/2014/02/unyielding.html
+
+Rust book
+https://kaisery.gitbooks.io/rust-book-chinese/content/
