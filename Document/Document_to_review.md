@@ -295,7 +295,7 @@ http://akaptur.com/blog/2014/06/11/of-syntax-warnings-and-symbol-tables/
 *Another Thing About Python's Threadlocals*
 https://emptysqua.re/blog/another-thing-about-pythons-threadlocals/
 
-Unyielding
+*Unyielding*
 https://glyph.twistedmatrix.com/2014/02/unyielding.html
 
 Rust book
@@ -306,3 +306,6 @@ http://pbpython.com/pathlib-intro.html
 
 Regular Expressions for Data Scientists
 https://www.dataquest.io/blog/regular-expressions-data-scientists/
+
+From Python into Rust
+http://brunorocha.org/python/py2rs-from-python-to-rust-reference-guide.html
