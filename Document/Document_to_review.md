@@ -304,7 +304,7 @@ https://kaisery.gitbooks.io/rust-book-chinese/content/
 Practical Business Python
 http://pbpython.com/pathlib-intro.html
 
-Regular Expressions for Data Scientists
+*Regular Expressions for Data Scientists*
 https://www.dataquest.io/blog/regular-expressions-data-scientists/
 
 From Python into Rust
