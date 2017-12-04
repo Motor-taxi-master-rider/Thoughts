@@ -301,8 +301,8 @@ https://glyph.twistedmatrix.com/2014/02/unyielding.html
 Rust book
 https://kaisery.gitbooks.io/rust-book-chinese/content/
 
-Practical Business Python
-http://pbpython.com/pathlib-intro.html
+`Practical Business Python`
+http://pbpython.com/
 
 *Regular Expressions for Data Scientists*
 https://www.dataquest.io/blog/regular-expressions-data-scientists/
