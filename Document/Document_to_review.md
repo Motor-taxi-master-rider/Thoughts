@@ -312,3 +312,6 @@ http://brunorocha.org/python/py2rs-from-python-to-rust-reference-guide.html
 
 Synonyms with elasticsearch-dsl
 https://www.peterbe.com/plog/synonyms-with-elasticsearch-dsl
+
+`Advent of Code`
+http://adventofcode.com/
