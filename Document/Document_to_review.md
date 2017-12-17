@@ -315,3 +315,6 @@ https://www.peterbe.com/plog/synonyms-with-elasticsearch-dsl
 
 `Advent of Code`
 http://adventofcode.com/
+
+Flask asynchronous background tasks with Celery and Redis
+http://allynh.com/blog/flask-asynchronous-background-tasks-with-celery-and-redis/
