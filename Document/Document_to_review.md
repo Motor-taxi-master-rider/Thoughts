@@ -318,3 +318,6 @@ http://adventofcode.com/
 
 Flask asynchronous background tasks with Celery and Redis
 http://allynh.com/blog/flask-asynchronous-background-tasks-with-celery-and-redis/
+
+*Fastest way to uniquify a list in Python >=3.6*
+https://www.peterbe.com/plog/fastest-way-to-uniquify-a-list-in-python-3.6
