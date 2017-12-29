@@ -1,3 +1,6 @@
+from typing import List, Dict, Optional
+
+
 class Account:
     def __init__(self, name, balance):
         self.name = name
@@ -9,17 +12,17 @@ class Account:
 
 
 class Bank:
-    def __init__(self, name):
+    def __init__(self, name: str) -> None:
         self.name = name
-        self.accounts = {}
+        self.accounts: Dict[str, Account] = {}
 
     def get_account(self,
-                    name):
+                    name: str) -> Account:
         return self.accounts[name]
 
     def open_account(self,
-                     name,
-                     initial_balance
+                     name: str,
+                     initial_balance: float
                      ) -> None:
         signup_bonus = 20.0
         if name in self.accounts:
@@ -27,8 +30,8 @@ class Bank:
         self.accounts[name] = Account(name, initial_balance + signup_bonus)
 
     def deposit(self,
-                name,
-                amount):
+                name: str,
+                amount: float) -> Optional[float]:
         if name in self.accounts:
             account = self.accounts[name]
             return account.deposit(amount)
@@ -36,10 +39,10 @@ class Bank:
             return None
 
 
-def donate(bank,
-           names,
-           amount_each
-           ):
+def donate(bank: Bank,
+           names: List[str],
+           amount_each: float
+           ) -> float:
     amount_total = 0.0
     for name in names:
         amount_deposited = bank.deposit(name, amount_each)
@@ -52,15 +55,10 @@ def main():
     abc = Bank('ABC')
     abc.open_account('Tom', 100)
     abc.open_account('Jerry', 200)
-    donate(abc, ['Tom', 'Jerry'], 100)
+    donate(abc, ['Ton', 'Jerry'], 100)
     print(abc.get_account('Tom').balance)
     print(abc.get_account('Jerry').balance)
 
 
 if __name__ == '__main__':
-    from pyannotate_runtime import collect_types
-
-    collect_types.init_types_collection()
-    with collect_types.collect():
-        main()
-    collect_types.dump_stats('type_info.json')
+    main()
