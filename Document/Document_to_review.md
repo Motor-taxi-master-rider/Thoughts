@@ -325,7 +325,7 @@ https://www.peterbe.com/plog/fastest-way-to-uniquify-a-list-in-python-3.6
 Rust playground
 https://play.rust-lang.org/
 
-Criticizing the Rust Language, and Why C/C++ Will Never Die
+*Criticizing the Rust Language, and Why C/C++ Will Never Die*
 https://www.viva64.com/en/b/0324/
 
 How to create a REST API in Python using the Flask Microframework
