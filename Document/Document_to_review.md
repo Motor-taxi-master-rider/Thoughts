@@ -330,3 +330,6 @@ https://www.viva64.com/en/b/0324/
 
 How to create a REST API in Python using the Flask Microframework
 https://www.codementor.io/johnkagga/how-to-create-a-rest-api-in-python-using-the-flask-microframework-f75i77d0j
+
+20 best Python questions at stackoverflow in 2017
+http://python-weekly.blogspot.com/2018/01/20-best-perl-questions-at-stackoverflow.html
