@@ -166,7 +166,7 @@ https://docs.python.org/3.4/library/unittest.mock-examples.html
 Deep learning:
 https://www.coursera.org/specializations/deep-learning
 
-Machine learning:
+*Machine learning:*
 https://www.coursera.org/learn/machine-learning
 
 Learning reinforcement learning:
@@ -331,5 +331,8 @@ https://www.viva64.com/en/b/0324/
 How to create a REST API in Python using the Flask Microframework
 https://www.codementor.io/johnkagga/how-to-create-a-rest-api-in-python-using-the-flask-microframework-f75i77d0j
 
-20 best Python questions at stackoverflow in 2017
+*20 best Python questions at stackoverflow in 2017* **regx_trie** **for _ in itertools.repeat(None, count)**
 http://python-weekly.blogspot.com/2018/01/20-best-perl-questions-at-stackoverflow.html
+
+Learning Curves for Machine Learning
+https://www.dataquest.io/blog/learning-curves-machine-learning/
