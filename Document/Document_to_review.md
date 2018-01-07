@@ -336,3 +336,9 @@ http://python-weekly.blogspot.com/2018/01/20-best-perl-questions-at-stackoverflo
 
 Learning Curves for Machine Learning
 https://www.dataquest.io/blog/learning-curves-machine-learning/
+
+Copy-on-write friendly Python garbage collection
+https://engineering.instagram.com/copy-on-write-friendly-python-garbage-collection-ad6ed5233ddf
+
+Controlling Python Async Creep
+https://hackernoon.com/controlling-python-async-creep-ec0a0f4b79ba
