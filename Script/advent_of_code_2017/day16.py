@@ -15,7 +15,9 @@ def time(func):
 
 
 def solution(lst, order):
+    # 循环数组，start为头指针
     result_list = list(order)
+    # 减少Partner时间复杂度的字典
     result_dict = {s: i for i, s in enumerate(result_list)}
     length = len(result_list)
     start = 0

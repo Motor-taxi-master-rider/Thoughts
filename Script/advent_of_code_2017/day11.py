@@ -1,6 +1,3 @@
-from collections import Counter
-
-
 def switcher(direction):
     return {'n': lambda x, y: (x, y + 1),
             's': lambda x, y: (x, y - 1),
