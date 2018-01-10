@@ -157,7 +157,7 @@ https://groups.google.com/forum/#!msg/python-tulip/bmphRrryuFk/aB45sEJUomYJ
 **27 个Jupyter Notebook的小提示与技巧**
 http://blog.csdn.net/gx19862005/article/details/60141711
 
-CFFI documentation
+*CFFI documentation*
 https://cffi.readthedocs.io/en/latest/whatsnew.html
 
 *unittest.mock examples*
@@ -346,5 +346,8 @@ https://hackernoon.com/controlling-python-async-creep-ec0a0f4b79ba
 Recognizing Handwritten digits with TensorFlow
 https://medium.com/@sanjitjain2/recognizing-handwritten-digits-with-tensorflow-28d4cb95cd60
 
-Extending Python 3 in Go
+*Extending Python 3 in Go*  **not fast as native python because of cgo overhead**
 https://hackernoon.com/extending-python-3-in-go-78f3a69552ac
+
+**How does pickle work in Python?**
+https://rushter.com/blog/pickle-serialization-internals/
