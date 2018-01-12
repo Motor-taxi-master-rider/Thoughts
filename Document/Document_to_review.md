@@ -351,3 +351,9 @@ https://hackernoon.com/extending-python-3-in-go-78f3a69552ac
 
 **How does pickle work in Python?**
 https://rushter.com/blog/pickle-serialization-internals/
+
+Pandas Concatenation Tutorial
+https://www.dataquest.io/blog/pandas-concatenation-tutorial/
+
+How to get your first job as a data scientist
+https://www.dataquest.io/blog/how-to-get-your-first-data-science-job/
