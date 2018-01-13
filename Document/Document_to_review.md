@@ -313,7 +313,7 @@ http://brunorocha.org/python/py2rs-from-python-to-rust-reference-guide.html
 Synonyms with elasticsearch-dsl
 https://www.peterbe.com/plog/synonyms-with-elasticsearch-dsl
 
-`Advent of Code`
+*Advent of Code*
 http://adventofcode.com/
 
 Flask asynchronous background tasks with Celery and Redis
@@ -355,5 +355,5 @@ https://rushter.com/blog/pickle-serialization-internals/
 Pandas Concatenation Tutorial
 https://www.dataquest.io/blog/pandas-concatenation-tutorial/
 
-How to get your first job as a data scientist
+**How to get your first job as a data scientist**
 https://www.dataquest.io/blog/how-to-get-your-first-data-science-job/
