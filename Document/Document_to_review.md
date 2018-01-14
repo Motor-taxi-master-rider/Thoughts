@@ -334,7 +334,7 @@ https://www.codementor.io/johnkagga/how-to-create-a-rest-api-in-python-using-the
 *20 best Python questions at stackoverflow in 2017* **regx_trie** **for _ in itertools.repeat(None, count)**
 http://python-weekly.blogspot.com/2018/01/20-best-perl-questions-at-stackoverflow.html
 
-Learning Curves for Machine Learning
+**Learning Curves for Machine Learning**  **[bayes_error_rate](https://en.wikipedia.org/wiki/Bayes_error_rate)**  **random forest**
 https://www.dataquest.io/blog/learning-curves-machine-learning/
 
 *Copy-on-write friendly Python garbage collection*
