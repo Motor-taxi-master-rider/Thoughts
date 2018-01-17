@@ -62,19 +62,23 @@ Theta2_grad = zeros(size(Theta2));
 %               and Theta2_grad from Part 2.
 %
 
+# compute h(x)
+a1 = [ones(size(X, 1), 1), X]';
+z2 = Theta1 * a1;
+a2 = [ones(size(z2, 2), 1)'; sigmoid(z2)];
+z3 = Theta2 * a2;
+a3 = sigmoid(z3);
 
+# recode y to result vector
+r = zeros(num_labels, size(X, 1));
+for i = 1:size(y,1)
+  r(y(i), i) = 1;
+end
 
-
-
-
-
-
-
-
-
-
-
-
+# compute cost function
+J = sum((-r .* log(a3) - (1 - r) .* log(1 - a3))(:)) / m + ...
+# regularization without bias vector
+    (sum((Theta1(:, 2:input_layer_size + 1).** 2)(:)) + sum((Theta2(:, 2:hidden_layer_size + 1).** 2)(:))) * lambda / 2 / m;
 
 
 

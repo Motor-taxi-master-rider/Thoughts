@@ -357,3 +357,6 @@ https://www.dataquest.io/blog/pandas-concatenation-tutorial/
 
 **How to get your first job as a data scientist**
 https://www.dataquest.io/blog/how-to-get-your-first-data-science-job/
+
+Ten Things I Wish I’d Known About bash
+https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/
