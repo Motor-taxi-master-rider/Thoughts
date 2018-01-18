@@ -70,15 +70,12 @@ z3 = Theta2 * a2;
 a3 = sigmoid(z3);
 
 # recode y to result vector
-r = zeros(num_labels, size(X, 1));
-for i = 1:size(y,1)
-  r(y(i), i) = 1;
-end
+r = ([1:num_labels] == y)';
 
 # compute cost function
 J = sum((-r .* log(a3) - (1 - r) .* log(1 - a3))(:)) / m + ...
 # regularization without bias vector
-    (sum((Theta1(:, 2:input_layer_size + 1).** 2)(:)) + sum((Theta2(:, 2:hidden_layer_size + 1).** 2)(:))) * lambda / 2 / m;
+    (sum((Theta1(:, 2:end).** 2)(:)) + sum((Theta2(:, 2:end).** 2)(:))) * lambda / 2 / m;
 
 # compute layers' delta
 d3 = a3 - r;
