@@ -75,17 +75,19 @@ r = ([1:num_labels] == y)';
 # compute cost function
 J = sum((-r .* log(a3) - (1 - r) .* log(1 - a3))(:)) / m + ...
 # regularization without bias vector
-    (sum((Theta1(:, 2:end).** 2)(:)) + sum((Theta2(:, 2:end).** 2)(:))) * lambda / 2 / m;
+    (sum((Theta1(:, 2: end).** 2)(:)) + sum((Theta2(:, 2: end).** 2)(:))) * lambda / 2 / m;
 
 # compute layers' delta
 d3 = a3 - r;
-d2 = Theta2(:, 2:end)' * d3 .* sigmoidGradient(z2);
+d2 = (Theta2' * d3 .* sigmoidGradient([ones(size(z2, 2), 1)'; z2]))(2: end, :);
 
-# cumupte theta grad
-Theta1_grad = d3 * a2(2:end, :)' / m;
-Theta1_grad = d2 * a1(2:end, :)' / m;
+# comupte theta grad
+Theta1_grad = (d2 *  a1' / m);
+Theta2_grad = (d3 *  a2' / m);
 
-
+# regularization theta grad
+Theta1_grad(:, 2: end) += Theta1(:, 2: end) * lambda / m;
+Theta2_grad(:, 2: end) += Theta2(:, 2: end) * lambda / m;
 
 % -------------------------------------------------------------
 
