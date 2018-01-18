@@ -80,7 +80,13 @@ J = sum((-r .* log(a3) - (1 - r) .* log(1 - a3))(:)) / m + ...
 # regularization without bias vector
     (sum((Theta1(:, 2:input_layer_size + 1).** 2)(:)) + sum((Theta2(:, 2:hidden_layer_size + 1).** 2)(:))) * lambda / 2 / m;
 
+# compute layers' delta
+d3 = a3 - r;
+d2 = Theta2(:, 2:end)' * d3 .* sigmoidGradient(z2);
 
+# cumupte theta grad
+Theta1_grad = d3 * a2(2:end, :)' / m;
+Theta1_grad = d2 * a1(2:end, :)' / m;
 
 
 
