@@ -63,14 +63,14 @@ Theta2_grad = zeros(size(Theta2));
 %
 
 # compute h(x)
-a1 = [ones(size(X, 1), 1), X]';
-z2 = Theta1 * a1;
-a2 = [ones(size(z2, 2), 1)'; sigmoid(z2)];
-z3 = Theta2 * a2;
+a1 = [ones(size(X, 1), 1), X];
+z2 = a1 * Theta1';
+a2 = [ones(size(z2, 1), 1), sigmoid(z2)];
+z3 = a2 * Theta2';
 a3 = sigmoid(z3);
 
 # recode y to result vector
-r = ([1:num_labels] == y)';
+r = ([1:num_labels] == y);
 
 # compute cost function
 J = sum((-r .* log(a3) - (1 - r) .* log(1 - a3))(:)) / m + ...
@@ -79,11 +79,11 @@ J = sum((-r .* log(a3) - (1 - r) .* log(1 - a3))(:)) / m + ...
 
 # compute layers' delta
 d3 = a3 - r;
-d2 = (Theta2' * d3 .* sigmoidGradient([ones(size(z2, 2), 1)'; z2]))(2: end, :);
+d2 = (d3 * Theta2 .* sigmoidGradient([ones(size(z2, 1), 1), z2]))(:, 2:end);
 
 # comupte theta grad
-Theta1_grad = (d2 *  a1' / m);
-Theta2_grad = (d3 *  a2' / m);
+Theta1_grad = (d2' *  a1 / m);
+Theta2_grad = (d3' *  a2 / m);
 
 # regularization theta grad
 Theta1_grad(:, 2: end) += Theta1(:, 2: end) * lambda / m;
