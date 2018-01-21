@@ -358,11 +358,14 @@ https://www.dataquest.io/blog/pandas-concatenation-tutorial/
 **How to get your first job as a data scientist**
 https://www.dataquest.io/blog/how-to-get-your-first-data-science-job/
 
-Ten Things I Wish I’d Known About bash
+*Ten Things I Wish I’d Known About bash*
 https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/
 
 Levenshtein Distance and Text Similarity in Python
 http://stackabuse.com/levenshtein-distance-and-text-similarity-in-python/
 
-Jupyter notebooks and version control
+*Jupyter notebooks and version control*
 http://droettboom.com/blog/2018/01/18/diffable-jupyter-notebooks/
+
+`python data`
+http://pythondata.com
