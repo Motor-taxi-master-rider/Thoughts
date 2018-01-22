@@ -369,3 +369,6 @@ http://droettboom.com/blog/2018/01/18/diffable-jupyter-notebooks/
 
 `python data`
 http://pythondata.com
+
+**Understanding internals of Python classes**
+https://rushter.com/blog/python-class-internals/
