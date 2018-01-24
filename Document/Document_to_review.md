@@ -372,3 +372,9 @@ http://pythondata.com
 
 **Understanding internals of Python classes**
 https://rushter.com/blog/python-class-internals/
+
+20+ Python Web Scraping Examples (Beautifulsoup & Selenium)
+https://www.codementor.io/likegeeks/20-python-web-scraping-examples-beautifulsoup-selenium-fw6y3lfck
+
+Monitoring Your Asynchronous Python Web Applications Using Prometheus
+https://blog.codeship.com/monitoring-your-asynchronous-python-web-applications-using-prometheus/
