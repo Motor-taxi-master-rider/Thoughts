@@ -31,9 +31,10 @@ for i = 1:length(steps_vec)
     predictions = [predictions; svmPredict(svmTrain(X, y, C, @(x1, x2) gaussianKernel(x1, x2, sigma)),Xval)];
   end
 end
-
-
-
+error_matrix =  mean(double(predictions ~= yval))
+[error index] = min(error_matrix)
+C = steps_vec(ceil(index / 8) );
+sigma = steps_vec(mod(index, 8));
 
 
 % =========================================================================
