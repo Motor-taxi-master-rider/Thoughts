@@ -378,3 +378,6 @@ https://www.codementor.io/likegeeks/20-python-web-scraping-examples-beautifulsou
 
 Monitoring Your Asynchronous Python Web Applications Using Prometheus
 https://blog.codeship.com/monitoring-your-asynchronous-python-web-applications-using-prometheus/
+
+Simplifying Offline Python Deployments With Docker
+https://realpython.com/blog/python/offline-python-deployments-with-docker/
