@@ -25,10 +25,11 @@ centroids = zeros(K, n);
 %
 % Note: You can use a for-loop over the centroids to compute this.
 %
-
-
-
-
+compare = [1: K];
+# cluter result in 1 and 0, column index  i stand for ith cluster
+cluster_result = (idx == compare);
+# cluster and mean matrix
+centroids = cluster_result' * X ./ sum(cluster_result, 1)';
 
 
 
