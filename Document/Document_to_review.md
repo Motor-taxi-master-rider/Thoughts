@@ -142,7 +142,7 @@ https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/
 **greedy algorithm with coroutines**
 http://seriously.dontusethiscode.com/2013/05/01/greedy-coroutine.html
 
-知其所以然（三）：为什么算法这么难？
+**知其所以然（三）：为什么算法这么难？**
 http://mindhacks.cn/2011/07/10/the-importance-of-knowing-why-part3/
 
 **数学之美番外篇：快排为什么那样快？**
@@ -340,7 +340,7 @@ https://www.dataquest.io/blog/learning-curves-machine-learning/
 *Copy-on-write friendly Python garbage collection*
 https://engineering.instagram.com/copy-on-write-friendly-python-garbage-collection-ad6ed5233ddf
 
-Controlling Python Async Creep
+*Controlling Python Async Creep*  **need debug**
 https://hackernoon.com/controlling-python-async-creep-ec0a0f4b79ba
 
 Recognizing Handwritten digits with TensorFlow
@@ -381,3 +381,9 @@ https://blog.codeship.com/monitoring-your-asynchronous-python-web-applications-u
 
 Simplifying Offline Python Deployments With Docker
 https://realpython.com/blog/python/offline-python-deployments-with-docker/
+
+9 new pandas updates that will save you time
+http://www.dataschool.io/python-pandas-updates/
+
+*Introduction to Functional Programming in Python*
+https://www.dataquest.io/blog/introduction-functional-programming-python/
