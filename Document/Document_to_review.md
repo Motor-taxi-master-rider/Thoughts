@@ -387,3 +387,9 @@ http://www.dataschool.io/python-pandas-updates/
 
 *Introduction to Functional Programming in Python*
 https://www.dataquest.io/blog/introduction-functional-programming-python/
+
+Fastest way to generate a random-like unique string with random length in Python 3
+https://stackoverflow.com/questions/48421142/fastest-way-to-generate-a-random-like-unique-string-with-random-length-in-python
+
+Image Colorization Using Optimization in Python
+https://sandipanweb.wordpress.com/2018/01/27/image-colorization-using-optimization-in-python/
