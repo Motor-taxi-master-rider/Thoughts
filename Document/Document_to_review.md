@@ -393,3 +393,12 @@ https://stackoverflow.com/questions/48421142/fastest-way-to-generate-a-random-li
 
 Image Colorization Using Optimization in Python
 https://sandipanweb.wordpress.com/2018/01/27/image-colorization-using-optimization-in-python/
+
+*A brief tour of Python 3.7 data classes*
+https://hackernoon.com/a-brief-tour-of-python-3-7-data-classes-22ee5e046517
+
+Enhancing Python with Custom C Extensions
+http://stackabuse.com/enhancing-python-with-custom-c-extensions/
+
+Advanced Python Debugging with pdb
+https://www.codementor.io/stevek/advanced-python-debugging-with-pdb-g56gvmpfa
