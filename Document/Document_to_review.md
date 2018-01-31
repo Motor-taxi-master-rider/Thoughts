@@ -402,3 +402,6 @@ http://stackabuse.com/enhancing-python-with-custom-c-extensions/
 
 **Advanced Python Debugging with pdb**  **..pdbrc**
 https://www.codementor.io/stevek/advanced-python-debugging-with-pdb-g56gvmpfa
+
+Python + Memcached: Efficient Caching in Distributed Applications
+https://realpython.com/blog/python/python-memcache-efficient-caching/
