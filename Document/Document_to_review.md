@@ -400,5 +400,5 @@ https://hackernoon.com/a-brief-tour-of-python-3-7-data-classes-22ee5e046517
 Enhancing Python with Custom C Extensions
 http://stackabuse.com/enhancing-python-with-custom-c-extensions/
 
-Advanced Python Debugging with pdb
+**Advanced Python Debugging with pdb**  **..pdbrc**
 https://www.codementor.io/stevek/advanced-python-debugging-with-pdb-g56gvmpfa

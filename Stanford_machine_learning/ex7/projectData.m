@@ -17,9 +17,10 @@ Z = zeros(size(X, 1), K);
 %                    x = X(i, :)';
 %                    projection_k = x' * U(:, k);
 %
-
-
-
+# compute reduce matrix
+U_reduce = U(:, 1:K);
+# compute low dimension of each point
+Z = X * U_reduce;
 
 % =============================================================
 
