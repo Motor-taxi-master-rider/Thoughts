@@ -211,7 +211,7 @@ https://www.anaconda.com/blog/developer-blog/getting-started-with-gpu-computing-
 *Python 3: Variable Annotations* **mypy in python3.6**
 http://www.blog.pythonlibrary.org/2017/10/31/python-3-variable-annotations/
 
-How to make your code 80 times faster
+*How to make your code 80 times faster*
 http://feedproxy.google.com/~r/PyPyStatusBlog/~3/nxgk9LMY-NU/how-to-make-your-code-80-times-faster.html
 
 **Raymond Hettinger: Modern Python Dictionaries: A confluence of a dozen great ideas**
