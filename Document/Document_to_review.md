@@ -405,3 +405,6 @@ https://www.codementor.io/stevek/advanced-python-debugging-with-pdb-g56gvmpfa
 
 Python + Memcached: Efficient Caching in Distributed Applications
 https://realpython.com/blog/python/python-memcache-efficient-caching/
+
+*Fastest way to unzip a zip file in Python*
+https://www.peterbe.com/plog/fastest-way-to-unzip-a-zip-file-in-python
