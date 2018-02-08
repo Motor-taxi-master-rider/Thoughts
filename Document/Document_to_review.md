@@ -328,9 +328,6 @@ https://play.rust-lang.org/
 *Criticizing the Rust Language, and Why C/C++ Will Never Die*
 https://www.viva64.com/en/b/0324/
 
-How to create a REST API in Python using the Flask Microframework
-https://www.codementor.io/johnkagga/how-to-create-a-rest-api-in-python-using-the-flask-microframework-f75i77d0j
-
 *20 best Python questions at stackoverflow in 2017* **regx_trie** **for _ in itertools.repeat(None, count)**
 http://python-weekly.blogspot.com/2018/01/20-best-perl-questions-at-stackoverflow.html
 
@@ -352,7 +349,7 @@ https://hackernoon.com/extending-python-3-in-go-78f3a69552ac
 **How does pickle work in Python?**
 https://rushter.com/blog/pickle-serialization-internals/
 
-Pandas Concatenation Tutorial
+**Pandas Concatenation Tutorial**
 https://www.dataquest.io/blog/pandas-concatenation-tutorial/
 
 **How to get your first job as a data scientist**
@@ -388,7 +385,7 @@ http://www.dataschool.io/python-pandas-updates/
 *Introduction to Functional Programming in Python*
 https://www.dataquest.io/blog/introduction-functional-programming-python/
 
-Fastest way to generate a random-like unique string with random length in Python 3
+*Fastest way to generate a random-like unique string with random length in Python 3*  **random functions**
 https://stackoverflow.com/questions/48421142/fastest-way-to-generate-a-random-like-unique-string-with-random-length-in-python
 
 Image Colorization Using Optimization in Python
