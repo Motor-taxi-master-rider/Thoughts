@@ -408,3 +408,6 @@ https://www.peterbe.com/plog/fastest-way-to-unzip-a-zip-file-in-python
 
 Kaggle Learn review: there is a deep learning track and it is worth your time
 https://www.codementor.io/akashtndnacm/kaggle-learn-review-there-is-a-deep-learning-track-and-it-is-worth-your-time-gfpc0ydui
+
+Testing Python Applications with Pytest
+https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
