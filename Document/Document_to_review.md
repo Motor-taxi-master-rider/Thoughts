@@ -412,5 +412,5 @@ https://www.codementor.io/akashtndnacm/kaggle-learn-review-there-is-a-deep-learn
 Testing Python Applications with Pytest
 https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest
 
-Numpy Tutorial Part 1: Introduction to Arrays
+**Numpy Tutorial Part 1: Introduction to Arrays**
 https://www.machinelearningplus.com/numpy-tutorial-part1-array-python-examples/
