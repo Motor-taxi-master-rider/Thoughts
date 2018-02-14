@@ -414,3 +414,6 @@ https://semaphoreci.com/community/tutorials/testing-python-applications-with-pyt
 
 **Numpy Tutorial Part 1: Introduction to Arrays**
 https://www.machinelearningplus.com/numpy-tutorial-part1-array-python-examples/
+
+*Remove combinations that contains some values before even calculated*
+https://stackoverflow.com/questions/48616694/remove-combinations-that-contains-some-values-before-even-calculated
