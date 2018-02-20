@@ -417,3 +417,9 @@ https://www.machinelearningplus.com/numpy-tutorial-part1-array-python-examples/
 
 *Remove combinations that contains some values before even calculated*
 https://stackoverflow.com/questions/48616694/remove-combinations-that-contains-some-values-before-even-calculated
+
+*Python splitting list to sublists at given start/end keywords*
+https://stackoverflow.com/questions/48783894/python-splitting-list-to-sublists-at-given-start-end-keywords
+
+**Python Design Patterns: For Sleek And Fashionable Code**
+https://www.toptal.com/python/python-design-patterns
