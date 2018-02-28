@@ -427,5 +427,5 @@ https://www.toptal.com/python/python-design-patterns
 **A Python gargoyle**
 https://nedbatchelder.com//blog/201802/a_python_gargoyle.html
 
-How to speed up Python application startup time
+*How to speed up Python application startup time*
 https://dev.to/methane/how-to-speed-up-python-application-startup-time-nkf
