@@ -429,3 +429,12 @@ https://nedbatchelder.com//blog/201802/a_python_gargoyle.html
 
 *How to speed up Python application startup time*
 https://dev.to/methane/how-to-speed-up-python-application-startup-time-nkf
+
+机器学习速成课程
+https://developers.google.cn/machine-learning/crash-course/
+
+5 speed improvements in Python 3.7
+https://hackernoon.com/5-speed-improvements-in-python-3-7-1b39d1581d86
+
+build blog with pelican
+http://pythonforundergradengineers.com/how-i-built-this-site-1.html
