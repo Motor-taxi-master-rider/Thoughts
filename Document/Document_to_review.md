@@ -436,5 +436,11 @@ https://developers.google.cn/machine-learning/crash-course/
 *5 speed improvements in Python 3.7*
 https://hackernoon.com/5-speed-improvements-in-python-3-7-1b39d1581d86
 
-build blog with pelican
+*build blog with pelican*
 http://pythonforundergradengineers.com/how-i-built-this-site-1.html
+
+TensorFlow全新的数据读取方式：Dataset API入门教程
+http://blog.csdn.net/qq_40027052/article/details/78528898
+
+`Tensorflow中文社区`
+http://www.tensorfly.cn/tfdoc/get_started/introduction.html
