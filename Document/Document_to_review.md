@@ -444,3 +444,6 @@ http://blog.csdn.net/qq_40027052/article/details/78528898
 
 `Tensorflow中文社区`
 http://www.tensorfly.cn/tfdoc/get_started/introduction.html
+
+Neural Networks, Manifolds, and Topology
+http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
