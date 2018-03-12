@@ -277,7 +277,7 @@ https://developers.redhat.com/blog/2017/11/16/speed-python-using-rust/
 *Python Hashes and Equality*
 https://hynek.me/articles/hashes-and-equality/
 
-Google Tech Dev Guide
+*Google Tech Dev Guide*
 https://techdevguide.withgoogle.com/
 
  *A tale of event loops*
@@ -450,3 +450,6 @@ http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/
 
 A Phone Number Proxy
 https://www.twilio.com/blog/2018/02/phone-number-forward-mask-python-flask.html
+
+Bite-sized command line tools: pylintdb
+https://nedbatchelder.com/blog/201712/bitesized_command_line_tools_pylintdb.html
