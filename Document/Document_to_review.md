@@ -452,3 +452,6 @@ A Phone Number Proxy
 
 Bite-sized command line tools: pylintdb
 <https://nedbatchelder.com/blog/201712/bitesized_command_line_tools_pylintdb.html>
+
+Data science with Python: Turn your conditional loops to Numpy vectors
+<https://www.codementor.io/tirthajyotisarkar/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-he1yo9265>
