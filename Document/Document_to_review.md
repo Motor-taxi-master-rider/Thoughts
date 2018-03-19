@@ -450,8 +450,8 @@ Neural Networks, Manifolds, and Topology
 A Phone Number Proxy
 <https://www.twilio.com/blog/2018/02/phone-number-forward-mask-python-flask.html>
 
-Bite-sized command line tools: pylintdb
+_Bite-sized command line tools: pylintdb_
 <https://nedbatchelder.com/blog/201712/bitesized_command_line_tools_pylintdb.html>
 
-Data science with Python: Turn your conditional loops to Numpy vectors
+_Data science with Python: Turn your conditional loops to Numpy vectors_
 <https://www.codementor.io/tirthajyotisarkar/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-he1yo9265>
