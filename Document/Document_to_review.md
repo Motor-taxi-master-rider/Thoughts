@@ -455,3 +455,6 @@ _Bite-sized command line tools: pylintdb_
 
 _Data science with Python: Turn your conditional loops to Numpy vectors_
 <https://www.codementor.io/tirthajyotisarkar/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-he1yo9265>
+
+`From Python to Numpy`
+<http://www.labri.fr/perso/nrougier/from-python-to-numpy/>
