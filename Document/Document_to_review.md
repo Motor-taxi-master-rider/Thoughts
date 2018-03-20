@@ -297,7 +297,7 @@ _Another Thing About Python's Threadlocals_
 _Unyielding_
 <https://glyph.twistedmatrix.com/2014/02/unyielding.html>
 
-Rust book
+`Rust book`
 <https://kaisery.gitbooks.io/rust-book-chinese/content/>
 
 `Practical Business Python`
