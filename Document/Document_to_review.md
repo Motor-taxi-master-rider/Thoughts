@@ -458,3 +458,9 @@ _Data science with Python: Turn your conditional loops to Numpy vectors_
 
 `From Python to Numpy`
 <http://www.labri.fr/perso/nrougier/from-python-to-numpy/>
+
+RUNNING YOUR END TO END TESTS ON KUBERNETES
+<https://www.gocd.org/2018/02/27/running-end-to-end-tests-kubernetes/?utm_campaign=e2e_k8s&utm_medium=newsletter_ad&utm_source=import_python&utm_content=e2e_k8s&utm_term=>
+
+_Memory efficiency of parallel IO operations in Python_
+<https://code.kiwi.com/memory-efficiency-of-parallel-io-operations-in-python-6e7d6c51905d>
