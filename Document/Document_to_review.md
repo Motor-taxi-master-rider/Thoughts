@@ -466,4 +466,4 @@ _Memory efficiency of parallel IO operations in Python_
 <https://code.kiwi.com/memory-efficiency-of-parallel-io-operations-in-python-6e7d6c51905d>
 
 _Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click_
-https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/
+<https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/>
