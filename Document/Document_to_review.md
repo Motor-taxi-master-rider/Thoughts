@@ -470,3 +470,6 @@ _Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click
 
 Dynamic programming and memoization: bottom-up vs top-down approaches
 <https://stackoverflow.com/questions/6164629/dynamic-programming-and-memoization-bottom-up-vs-top-down-approaches>
+
+Pythonic Data Cleaning With NumPy and Pandas
+<https://realpython.com/python-data-cleaning-numpy-pandas/>
