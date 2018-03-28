@@ -468,7 +468,7 @@ _Memory efficiency of parallel IO operations in Python_
 _Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click_
 <https://realpython.com/comparing-python-command-line-parsing-libraries-argparse-docopt-click/>
 
-Dynamic programming and memoization: bottom-up vs top-down approaches
+_Dynamic programming and memoization: bottom-up vs top-down approaches_
 <https://stackoverflow.com/questions/6164629/dynamic-programming-and-memoization-bottom-up-vs-top-down-approaches>
 
 Pythonic Data Cleaning With NumPy and Pandas
