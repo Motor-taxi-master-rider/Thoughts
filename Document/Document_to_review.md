@@ -473,3 +473,6 @@ _Dynamic programming and memoization: bottom-up vs top-down approaches_
 
 Pythonic Data Cleaning With NumPy and Pandas
 <https://realpython.com/python-data-cleaning-numpy-pandas/>
+
+Test automation framework thoughts and examples with Python, pytest and Jenkins
+<http://davidemoro.blogspot.se/2018/03/test-automation-python-pytest-jenkins.html>
