@@ -476,3 +476,9 @@ Pythonic Data Cleaning With NumPy and Pandas
 
 Test automation framework thoughts and examples with Python, pytest and Jenkins
 <http://davidemoro.blogspot.se/2018/03/test-automation-python-pytest-jenkins.html>
+
+**How To Quickly Compute The Mandelbrot Set In Python**
+<https://www.ibm.com/developerworks/community/blogs/jfp/entry/How_To_Compute_Mandelbrodt_Set_Quickly?lang=en>
+
+**How To Make Python Run As Fast As Julia**
+<https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en>
