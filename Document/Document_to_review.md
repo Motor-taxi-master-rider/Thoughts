@@ -482,3 +482,9 @@ Test automation framework thoughts and examples with Python, pytest and Jenkins
 
 **How To Make Python Run As Fast As Julia**
 <https://www.ibm.com/developerworks/community/blogs/jfp/entry/Python_Meets_Julia_Micro_Performance?lang=en>
+
+_Three lists zipped into list of dicts_
+<https://stackoverflow.com/questions/49506266/three-lists-zipped-into-list-of-dicts>
+
+`Python Data Science Handbook`
+https://jakevdp.github.io/PythonDataScienceHandbook/
