@@ -129,7 +129,7 @@ _Brandon Craig Rhodes 的讲座“The Mighty Dictionary”散列表_
 _The Python "with" Statement by Example_
 <http://preshing.com/20110920/the-python-with-statement-by-example/>
 
-Python Design Patterns
+_Python Design Patterns_
 <http://pyvideo.org/europython-2011/python-design-patterns.html>
 
 _Machine learning in Python with scikit-learn_
