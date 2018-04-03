@@ -487,4 +487,10 @@ _Three lists zipped into list of dicts_
 <https://stackoverflow.com/questions/49506266/three-lists-zipped-into-list-of-dicts>
 
 `Python Data Science Handbook`
-https://jakevdp.github.io/PythonDataScienceHandbook/
+<https://jakevdp.github.io/PythonDataScienceHandbook/>
+
+10 Data Science Projects You Can Join Today
+<https://www.dataquest.io/blog/10-data-science-projects-join/>
+
+`Dataquest`
+https://www.dataquest.io/blog/
