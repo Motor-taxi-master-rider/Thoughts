@@ -493,4 +493,7 @@ _Three lists zipped into list of dicts_
 <https://www.dataquest.io/blog/10-data-science-projects-join/>
 
 `Dataquest`
-https://www.dataquest.io/blog/
+<https://www.dataquest.io/blog/>
+
+Why Rust?
+<http://www.oreilly.com/programming/free/files/why-rust.pdf>
