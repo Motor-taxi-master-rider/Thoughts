@@ -497,3 +497,6 @@ _Three lists zipped into list of dicts_
 
 Why Rust?
 <http://www.oreilly.com/programming/free/files/why-rust.pdf>
+
+Distributed Testing with Selenium Grid and Docker
+<https://testdriven.io/distributed-testing-with-selenium-grid>
