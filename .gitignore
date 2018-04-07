@@ -2,6 +2,7 @@
 .idea/
 test.*
 ?mypy_cache
+Tools/config/*.cfg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
