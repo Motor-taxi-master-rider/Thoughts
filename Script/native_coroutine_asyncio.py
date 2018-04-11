@@ -1,6 +1,6 @@
-from types import coroutine
 from collections import deque
-from selectors import DefaultSelector, EVENT_READ, EVENT_WRITE
+from selectors import EVENT_READ, EVENT_WRITE, DefaultSelector
+from types import coroutine
 
 
 @coroutine

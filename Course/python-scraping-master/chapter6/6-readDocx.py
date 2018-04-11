@@ -1,6 +1,7 @@
-from zipfile import ZipFile
-from urllib.request import urlopen
 from io import BytesIO
+from urllib.request import urlopen
+from zipfile import ZipFile
+
 from bs4 import BeautifulSoup
 
 wordFile = urlopen("http://pythonscraping.com/pages/AWordDocument.docx").read()

@@ -1,6 +1,7 @@
+import subprocess
 import time
 from urllib.request import urlretrieve
-import subprocess
+
 from selenium import webdriver
 
 #driver = webdriver.PhantomJS(executable_path='/Users/ryan/Documents/pythonscraping/code/headless/phantomjs-1.9.8-macosx/bin/phantomjs')

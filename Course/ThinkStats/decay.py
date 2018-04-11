@@ -5,10 +5,11 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
+from math import exp
+
 import thinkbayes
 import thinkplot
 
-from math import exp
 
 """This file contains a partial solution to a problem from
 MacKay, "Information Theory, Inference, and Learning Algorithms."

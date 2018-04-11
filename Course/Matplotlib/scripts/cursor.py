@@ -1,9 +1,8 @@
 #!/usr/bin/env python
 
-from matplotlib.widgets import Cursor
-import numpy as np
 import matplotlib.pyplot as plt
-
+import numpy as np
+from matplotlib.widgets import Cursor
 
 fig = plt.figure(figsize=(8, 6))
 ax = fig.add_subplot(111, axisbg='#FFFFCC')

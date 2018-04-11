@@ -1,5 +1,5 @@
-import urllib
 import json
+import urllib
 
 # serviceurl = 'http://maps.googleapis.com/maps/api/geocode/json?'
 serviceurl = 'http://python-data.dr-chuck.net/geojson?'
@@ -28,4 +28,3 @@ while True:
     print 'lat',lat,'lng',lng
     location = js['results'][0]['formatted_address']
     print location
-

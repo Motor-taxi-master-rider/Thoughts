@@ -1,6 +1,6 @@
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
 plt.style.use('seaborn-whitegrid')
 np.random.seed(123)

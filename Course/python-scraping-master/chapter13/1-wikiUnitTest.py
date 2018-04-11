@@ -1,9 +1,11 @@
-from urllib.request import urlopen
-from urllib.parse import unquote
 import random
 import re
-from bs4 import BeautifulSoup
 import unittest
+from urllib.parse import unquote
+from urllib.request import urlopen
+
+from bs4 import BeautifulSoup
+
 
 class TestWikipedia(unittest.TestCase):
     

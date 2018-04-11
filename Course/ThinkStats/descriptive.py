@@ -5,14 +5,15 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import first
 import math
+
+import matplotlib.pyplot as pyplot
+
+import first
+import myplot
 import Pmf
 import survey
 import thinkstats
-
-import matplotlib.pyplot as pyplot
-import myplot
 
 
 def Process(table, name):

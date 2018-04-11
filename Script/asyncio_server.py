@@ -1,6 +1,7 @@
 import asyncio
+from socket import AF_INET, SO_REUSEADDR, SOCK_STREAM, SOL_SOCKET, socket
+
 import native_coroutine_asyncio as native
-from socket import socket, AF_INET, SOCK_STREAM, SOL_SOCKET, SO_REUSEADDR
 
 loop = asyncio.get_event_loop()
 #loop=native.Loop()

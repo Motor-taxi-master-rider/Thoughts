@@ -1,5 +1,6 @@
-from urllib.request import urlopen
 from random import randint
+from urllib.request import urlopen
+
 
 def wordListSum(wordList):
     sum = 0
@@ -54,9 +55,3 @@ for i in range(0, length):
     currentWord = retrieveRandomWord(wordDict[currentWord])
 
 print(chain)
-
-
-
-
-
-

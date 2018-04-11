@@ -1,4 +1,5 @@
 import urllib
+
 import twurl
 
 TWITTER_URL = 'https://api.twitter.com/1.1/statuses/user_timeline.json'

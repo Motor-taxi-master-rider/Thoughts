@@ -1,9 +1,10 @@
+import re
 import sqlite3
 import time
 import urllib
-import re
 import zlib
 from datetime import datetime, timedelta
+
 # Not all systems have this
 try:
     import dateutil.parser as parser 
@@ -259,4 +260,3 @@ for message_row in cur_2 :
 # Close the connections
 cur.close()
 cur_2.close()
-

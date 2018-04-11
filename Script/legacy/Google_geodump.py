@@ -1,6 +1,6 @@
-import sqlite3
-import json
 import codecs
+import json
+import sqlite3
 
 conn = sqlite3.connect(r'E:\3.9.0\Python1.sqlite')
 cur = conn.cursor()
@@ -36,4 +36,3 @@ cur.close()
 fhand.close()
 print (count, "records written to where.js")
 print ("Open where.html to view the data in a browser")
-

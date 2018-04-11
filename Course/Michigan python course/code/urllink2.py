@@ -3,6 +3,7 @@
 # Into the same folder as this program
 
 import urllib
+
 from BeautifulSoup import *
 
 url = raw_input('Enter - ')

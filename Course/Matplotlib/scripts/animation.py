@@ -1,7 +1,7 @@
+import matplotlib.animation as animation
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.animation as animation
 
 n=100
 x=np.random.randn(n)

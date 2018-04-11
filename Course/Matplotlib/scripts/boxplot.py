@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
+import mpl_toolkits.axes_grid1.inset_locator as mpl_il
 import numpy as np
 import pandas as pd
-import mpl_toolkits.axes_grid1.inset_locator as mpl_il
 
 normal_sample = np.random.normal(loc=0.0, scale=1.0, size=10000)
 random_sample = np.random.random(size=10000)

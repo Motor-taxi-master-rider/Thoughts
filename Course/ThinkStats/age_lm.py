@@ -99,10 +99,11 @@ sudo apt-get install python-rpy2
 
 """
 
+import agemodel
 import rpy2.robjects as robjects
+
 r = robjects.r
 
-import agemodel
 
 
 def GetAgeWeightFirst(table):

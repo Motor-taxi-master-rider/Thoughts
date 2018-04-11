@@ -78,17 +78,19 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE, DAMMIT.
 """
 from __future__ import generators
 
+import codecs
+import re
+import sgmllib
+import types
+from sgmllib import SGMLParseError, SGMLParser
+
+import markupbase
+
 __author__ = "Leonard Richardson (leonardr@segfault.org)"
 __version__ = "3.0.8.1"
 __copyright__ = "Copyright (c) 2004-2010 Leonard Richardson"
 __license__ = "New-style BSD"
 
-from sgmllib import SGMLParser, SGMLParseError
-import codecs
-import markupbase
-import types
-import re
-import sgmllib
 try:
   from htmlentitydefs import name2codepoint
 except ImportError:

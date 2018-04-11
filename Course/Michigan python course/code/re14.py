@@ -1,5 +1,6 @@
 # Search for lines that start with From and have an at sign
 import re
+
 fname = raw_input('Enter file:')
 hand = open(fname)
 nums = list()
@@ -11,4 +12,3 @@ for line in hand:
         nums.append(val)
 print len(nums)
 print sum(nums)/len(nums)
-

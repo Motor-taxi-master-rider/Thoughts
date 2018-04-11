@@ -6,9 +6,11 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
 import unittest
-import thinkstats
-import Pmf
+
 import Cdf
+import Pmf
+import thinkstats
+
 
 class Test(unittest.TestCase):
 

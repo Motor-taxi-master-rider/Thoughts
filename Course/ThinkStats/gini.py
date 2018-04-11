@@ -8,10 +8,9 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 import math
 import sys
 
-import irs
-
-import Pmf
 import Cdf
+import irs
+import Pmf
 
 
 def PmfMean(pmf):

@@ -22,14 +22,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 """
 
-import cgi
-import urllib
-import time
-import random
-import urlparse
-import hmac
 import binascii
-
+import cgi
+import hmac
+import random
+import time
+import urllib
+import urlparse
 
 VERSION = '1.0' # Hi Blaine!
 HTTP_METHOD = 'GET'

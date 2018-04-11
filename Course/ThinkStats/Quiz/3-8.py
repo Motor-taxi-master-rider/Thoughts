@@ -1,8 +1,10 @@
-import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import sys
 import urllib.request
+
 import Pmf
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 results = 'http://coolrunning.com/results/10/ma/Apr25_27thAn_set1.shtml'
 

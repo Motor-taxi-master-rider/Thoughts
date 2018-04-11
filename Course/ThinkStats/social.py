@@ -11,8 +11,8 @@ import os
 import sys
 
 import Cdf
-import Pmf
 import myplot
+import Pmf
 import thinkstats
 
 

@@ -6,9 +6,12 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
 import random
-import thinkstats
-import myplot
+
 import matplotlib.pyplot as pyplot
+
+import myplot
+import thinkstats
+
 
 def Sample(n=6):
     """Generates a sample from a standard normal variate.

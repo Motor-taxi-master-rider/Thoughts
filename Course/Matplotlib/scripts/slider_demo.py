@@ -1,6 +1,6 @@
-import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.widgets import Slider, Button, RadioButtons
+import numpy as np
+from matplotlib.widgets import Button, RadioButtons, Slider
 
 fig, ax = plt.subplots()
 plt.subplots_adjust(left=0.25, bottom=0.25)

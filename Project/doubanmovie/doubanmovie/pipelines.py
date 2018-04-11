@@ -6,11 +6,12 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-from scrapy import log
-from twisted.enterprise import adbapi
-from scrapy.http import Request
-
 import json
+
+from scrapy import log
+from scrapy.http import Request
+from twisted.enterprise import adbapi
+
 
 class DoubanmoviePipeline(object):
     def __init__(self):

@@ -19,6 +19,7 @@ import logging
 import math
 import random
 
+
 class _DictWrapper(object):
     """An object that contains a dictionary."""
 

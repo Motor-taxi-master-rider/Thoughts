@@ -5,10 +5,10 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import relay
 import Cdf
-import Pmf
 import myplot
+import Pmf
+import relay
 
 
 def BiasPmf(pmf, speed, name=None):

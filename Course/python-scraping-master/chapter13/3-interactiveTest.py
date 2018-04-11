@@ -1,8 +1,7 @@
 from selenium import webdriver
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
-
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.remote.webelement import WebElement
 
 driver = webdriver.PhantomJS(executable_path='phantomjs/bin/phantomjs')
 driver.get("http://pythonscraping.com/pages/files/form.html")

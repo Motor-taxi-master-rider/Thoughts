@@ -22,4 +22,3 @@ s.party()
 j = FootballFan("Jim")
 j.party()
 j.touchdown()
-

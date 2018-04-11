@@ -1,7 +1,9 @@
-import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import sys
+
 import thinkstats
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 def Biocoin(n, k, p = 1/2):
     return thinkstats.Binom(n, k) * p ** k * (1 - p) ** (n - k)

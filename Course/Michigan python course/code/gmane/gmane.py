@@ -1,12 +1,11 @@
-import sys
-import sqlite3
-import time
-import ssl
-import urllib
-from urlparse import urljoin
-from urlparse import urlparse
 import re
+import sqlite3
+import ssl
+import sys
+import time
+import urllib
 from datetime import datetime, timedelta
+from urlparse import urljoin, urlparse
 
 # Not all systems have this so conditionally define parser
 try:
@@ -182,4 +181,3 @@ while True:
 
 conn.commit()
 cur.close()
-

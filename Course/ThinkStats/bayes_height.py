@@ -5,20 +5,20 @@ Copyright 2011 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import math
-import numpy
 import cPickle
+import math
 import random
 
+import matplotlib.pyplot as pyplot
+import numpy
+
 import brfss
-import correlation
 import Cdf
+import correlation
 import myplot
 import Pmf
-import thinkstats
 import rankit
-
-import matplotlib.pyplot as pyplot
+import thinkstats
 
 
 def MakeUniformPrior(t, num_points, label, spread=3.0):

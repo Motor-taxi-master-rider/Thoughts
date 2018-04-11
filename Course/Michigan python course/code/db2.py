@@ -17,4 +17,3 @@ for row in cur :
 cur.execute('DELETE FROM Tracks WHERE plays < 100')
 
 cur.close()
-

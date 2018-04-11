@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 #coding:utf8
-from sqlalchemy import create_engine
+from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String
-from  sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker
+
 Base = declarative_base() #生成一个SqlORM 基类
 engine = create_engine("mysql+pymysql://root:admin@127.0.0.1:3306/scrapy_comic",echo=True)
 #echo如果为True，那么当他执行整个代码的数据库的时候会显示过程

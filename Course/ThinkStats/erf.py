@@ -6,8 +6,9 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 
 """
 
-import numpy
 import math
+
+import numpy
 from scipy.special import erf, erfinv
 
 import Cdf
@@ -118,5 +119,3 @@ class FixedPointNormalPmf(Pmf.Pmf):
     def NormalProb(self, x):
         """Looks up the probability for the value closest to x."""
         return self.d.get(round(x, self.digits), self.default)
-
-

@@ -1,5 +1,6 @@
 import time
-from socket import socket, AF_INET, SOCK_STREAM, SOL_SOCKET, SO_REUSEADDR
+from socket import AF_INET, SO_REUSEADDR, SOCK_STREAM, SOL_SOCKET, socket
+
 
 def benchmark(addr,nmessages):
     sock=socket(AF_INET,SOCK_STREAM)

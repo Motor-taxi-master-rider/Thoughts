@@ -5,12 +5,12 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import descriptive
-import Pmf
-import myplot
-import risk
-
 import matplotlib.pyplot as pyplot
+
+import descriptive
+import myplot
+import Pmf
+import risk
 
 
 def ConditionPmf(pmf, filter_func, name='conditional'):

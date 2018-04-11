@@ -1,6 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver import ActionChains
+from selenium.webdriver.remote.webelement import WebElement
 
 driver = webdriver.PhantomJS(executable_path='phantomjs/bin/phantomjs')
 driver.get('http://pythonscraping.com/pages/javascript/draggableDemo.html')

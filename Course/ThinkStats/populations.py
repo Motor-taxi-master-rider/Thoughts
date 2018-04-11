@@ -8,9 +8,11 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 import csv
 import sys
 import urllib
+
+import matplotlib.pyplot as pyplot
+
 import Cdf
 import Pmf
-import matplotlib.pyplot as pyplot
 
 
 def ReadData(filename='populations.csv'):

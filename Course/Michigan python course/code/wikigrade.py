@@ -2,10 +2,11 @@
 # http://www.pythonlearn.com/code/BeautifulSoup.py
 # Into the same folder as this program
 
-import string
 import sqlite3
+import string
 import urllib
 import xml.etree.ElementTree as ET
+
 from BeautifulSoup import *
 
 conn = sqlite3.connect('wikidata.db')

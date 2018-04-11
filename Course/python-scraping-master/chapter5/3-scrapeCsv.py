@@ -1,5 +1,6 @@
 import csv
 from urllib.request import urlopen
+
 from bs4 import BeautifulSoup
 
 html = urlopen("http://en.wikipedia.org/wiki/Comparison_of_text_editors")

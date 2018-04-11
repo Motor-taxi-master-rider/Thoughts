@@ -1,5 +1,7 @@
-from PIL import Image
 import subprocess
+
+from PIL import Image
+
 
 def cleanFile(filePath, newFilePath):
     image = Image.open(filePath)

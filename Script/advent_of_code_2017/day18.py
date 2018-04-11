@@ -1,6 +1,7 @@
-from collections import defaultdict
 import threading
-from queue import Queue, Empty
+import time
+from collections import defaultdict
+from queue import Empty, Queue
 
 finish = [False, False]
 q = [Queue(), Queue()]
@@ -54,7 +55,6 @@ def solve(lst, id):
 with open('input.txt', 'r') as f:
     lst = [line[:-1] for line in f.readlines()]
 print(list(enumerate(lst)))
-import time
 
 t0 = threading.Thread(target=solve, args=(lst, 0))
 t1 = threading.Thread(target=solve, args=(lst, 1))

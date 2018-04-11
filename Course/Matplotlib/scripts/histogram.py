@@ -1,6 +1,6 @@
+import matplotlib.gridspec as gridspec
 import matplotlib.pyplot as plt
 import numpy as np
-import matplotlib.gridspec as gridspec
 
 plt.figure()
 gspec = gridspec.GridSpec(3, 3)

@@ -1,9 +1,12 @@
-import sys
-sys.path.append('\Python\ThinkStats')
 import random
+import sys
+
+import numpy as np
+
 import Cdf
 import myplot
-import numpy as np
+
+sys.path.append('\Python\ThinkStats')
 
 list = []
 for i in range(44000):

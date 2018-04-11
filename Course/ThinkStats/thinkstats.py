@@ -8,6 +8,7 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 import bisect
 import random
 
+
 def Mean(t):
     """Computes the mean of a sequence of numbers.
 

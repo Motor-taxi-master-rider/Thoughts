@@ -18,8 +18,8 @@ between them and the rest of the population.
 
 """
 
-import relay
 import rankit
+import relay
 
 
 def main():

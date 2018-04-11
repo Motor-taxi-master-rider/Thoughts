@@ -1,8 +1,10 @@
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
 import re
 import string
 from collections import OrderedDict
+from urllib.request import urlopen
+
+from bs4 import BeautifulSoup
+
 
 def cleanInput(input):
     input = re.sub('\n+', " ", input)

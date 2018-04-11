@@ -1,10 +1,10 @@
-from urllib.request import urlopen
-from urllib.request import HTTPError
-from bs4 import BeautifulSoup
 import datetime
 import json
 import random
 import re
+from urllib.request import HTTPError, urlopen
+
+from bs4 import BeautifulSoup
 
 random.seed(datetime.datetime.now())
 def getLinks(articleUrl):

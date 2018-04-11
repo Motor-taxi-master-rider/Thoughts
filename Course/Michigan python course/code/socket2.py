@@ -15,4 +15,3 @@ while True:
     print data,
 
 mysock.close()
-

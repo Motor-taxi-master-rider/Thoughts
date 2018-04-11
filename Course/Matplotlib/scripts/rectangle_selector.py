@@ -1,4 +1,10 @@
 from __future__ import print_function
+
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.widgets import RectangleSelector
+
+
 """
 Do a mouseclick somewhere, move the mouse to some destination, release
 the button.  This class gives click- and release-events and also draws
@@ -8,9 +14,6 @@ method 'self.ignore()' it is checked wether the button from eventpress
 and eventrelease are the same.
 
 """
-from matplotlib.widgets import RectangleSelector
-import numpy as np
-import matplotlib.pyplot as plt
 
 
 def line_select_callback(eclick, erelease):

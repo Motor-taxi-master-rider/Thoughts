@@ -1,9 +1,12 @@
 import sys
-sys.path.append('\Myfile\TRAINING\Course\Python\ThinkStats')
-import Pmf
+
+import matplotlib.pyplot as pyplot
+
 import descriptive
 import myplot
-import matplotlib.pyplot as pyplot
+import Pmf
+
+sys.path.append('\Myfile\TRAINING\Course\Python\ThinkStats')
 
 def MakeFigure(*pmfs):
     weeks = range(35, 46)

@@ -6,6 +6,7 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
 import math
+
 import matplotlib
 import matplotlib.pyplot as pyplot
 import numpy as np

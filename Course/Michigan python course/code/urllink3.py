@@ -3,6 +3,7 @@
 # Into the same folder as this program
 
 import urllib
+
 from BeautifulSoup import *
 
 todo = list()
@@ -37,4 +38,3 @@ while len(todo) > 0 :
         newurl = tag.get('href', None)
         if ( newurl != None ) : 
             todo.append(newurl)
-

@@ -5,16 +5,17 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import Pmf
-import Cdf
 import random
-import myplot
-import thinkstats
 
 import matplotlib.pyplot as pyplot
 import numpy
 import scipy
 import scipy.stats
+
+import Cdf
+import myplot
+import Pmf
+import thinkstats
 
 
 def ChiSquared(expected, observed):

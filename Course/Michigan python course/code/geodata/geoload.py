@@ -1,8 +1,8 @@
-import urllib
-import sqlite3
 import json
-import time
+import sqlite3
 import ssl
+import time
+import urllib
 
 # If you are in China use this URL:
 # serviceurl = "http://maps.google.cn/maps/api/geocode/json?"

@@ -5,9 +5,11 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import unittest
 import random
+import unittest
+
 import thinkstats
+
 
 class Test(unittest.TestCase):
 

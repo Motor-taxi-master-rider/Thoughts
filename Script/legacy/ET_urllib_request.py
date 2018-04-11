@@ -12,4 +12,3 @@ while True:
     tree=ET.fromstring(data)
     counts=tree.findall('.//count')
     print (sum([int(item.text) for item in counts]))
-

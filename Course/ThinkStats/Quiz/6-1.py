@@ -1,8 +1,11 @@
-import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import sys
+
 import numpy as np
+
 import survey
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 
 def Skewness(t):

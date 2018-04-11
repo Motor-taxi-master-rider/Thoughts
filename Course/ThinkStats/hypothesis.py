@@ -5,13 +5,15 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
+import math
+import random
+
+import matplotlib.pyplot as pyplot
+
 import Cdf
 import cumulative
-import math
 import myplot
-import random
 import thinkstats
-import matplotlib.pyplot as pyplot
 
 
 def RunTest(root,

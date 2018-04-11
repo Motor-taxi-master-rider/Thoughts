@@ -16,6 +16,3 @@ for word in c:
         bigc = value
 
 print bigw, bigc
-
-
-  

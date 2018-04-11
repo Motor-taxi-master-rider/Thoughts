@@ -15,4 +15,3 @@ s.party()
 j = PartyAnimal("Jim")
 j.party()
 s.party()
-

@@ -1,7 +1,9 @@
-from selenium import webdriver
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.webdriver import ActionChains
 import unittest
+
+from selenium import webdriver
+from selenium.webdriver import ActionChains
+from selenium.webdriver.remote.webelement import WebElement
+
 
 class TestAddition(unittest.TestCase):
     driver = None

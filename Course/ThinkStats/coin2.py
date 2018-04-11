@@ -22,7 +22,7 @@ rather than fair?"
 
 """
 
-from coin import *    
+from coin import *
 
 
 def IntegrateLikelihood(evidence, suite, step):

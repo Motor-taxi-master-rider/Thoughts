@@ -7,10 +7,12 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
 import math
+import random
+
 import matplotlib.pyplot as pyplot
+
 import myplot
 import Pmf
-import random
 import thinkstats
 
 

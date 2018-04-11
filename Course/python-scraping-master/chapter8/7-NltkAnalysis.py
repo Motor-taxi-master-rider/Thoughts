@@ -1,4 +1,5 @@
-from nltk import word_tokenize, sent_tokenize, pos_tag
+from nltk import pos_tag, sent_tokenize, word_tokenize
+
 sentences = sent_tokenize("Google is one of the best companies in the world. I constantly google myself to see what I'm up to.")
 nouns = ['NN', 'NNS', 'NNP', 'NNPS']
 

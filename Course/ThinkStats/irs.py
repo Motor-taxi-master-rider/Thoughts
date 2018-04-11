@@ -16,9 +16,9 @@ at least for people with taxable income above the median.
 import csv
 import sys
 
+import Cdf
 import myplot
 import Pmf
-import Cdf
 
 
 def ReadIncomeFile(filename='08in11si.csv'):

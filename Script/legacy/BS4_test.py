@@ -1,6 +1,7 @@
-from bs4 import BeautifulSoup
-import urllib.request
 import random
+import urllib.request
+
+from bs4 import BeautifulSoup
 
 url='http://www.aflcio.org/Legislation-and-Politics/Legislative-Alerts'
 user_agent='Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.44 Safari/537.36 OPR/24.0.1558.25 (Edition Next)'

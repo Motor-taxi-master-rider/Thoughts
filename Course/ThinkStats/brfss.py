@@ -7,6 +7,7 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 
 import math
 import sys
+
 import survey
 import thinkstats
 

@@ -1,8 +1,8 @@
 import sqlite3
+import ssl
 import urllib
-import ssl 
-from urlparse import urljoin
-from urlparse import urlparse
+from urlparse import urljoin, urlparse
+
 from BeautifulSoup import *
 
 # Deal with SSL certificate anomalies Python > 2.7
@@ -150,4 +150,3 @@ while True:
     print count
 
 cur.close()
-

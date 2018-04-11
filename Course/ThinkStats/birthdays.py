@@ -12,6 +12,7 @@ import sys
 import Cdf
 import myplot
 
+
 def ReadBirthdays(filename='birthdays.csv'):
     """Reads a CSV file of birthdays and returns a list of date objects.
 

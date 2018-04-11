@@ -1,4 +1,5 @@
 import csv
+
 #from os import open
 
 csvFile = open("../files/test.csv", 'w+', newline='')

@@ -1,10 +1,11 @@
+import concurrent.futures
+import functools
 import os
 import subprocess
-import functools
-import concurrent.futures
-import click
 from configparser import ConfigParser
 from multiprocessing import cpu_count
+
+import click
 
 CONFIG_PATH = r'config/project_controler.cfg'
 
@@ -23,20 +24,20 @@ def sync():
     GIT_CONFIG = 'Git Path'
 
     config = ConfigParser()
-    try:
-        config.read(CONFIG_PATH)
-    except:
-        click.echo(f'Enable to open config file, please check in {CONFIG_PATH}.')
+    if not os.path.exists(CONFIG_PATH):
+        click.echo(f'Enable to read config file, please check in {os.path.realpath(CONFIG_PATH)}.')
+        return
+    config.read(CONFIG_PATH)
 
     with concurrent.futures.ProcessPoolExecutor(max_workers=cpu_count()) as executor:
-        tasks={}
+        tasks = {}
         for branch in config[GIT_CONFIG]:
             path = config[GIT_CONFIG][branch]
-            tasks[executor.submit(functools.partial(git_pull,path,branch))]=(path,branch)
+            tasks[executor.submit(functools.partial(git_pull, path, branch))] = (path, branch)
         for task in concurrent.futures.as_completed(tasks):
-            path,branch=tasks[task]
+            path, branch = tasks[task]
             try:
-                data=task.result()
+                data = task.result()
             except subprocess.CalledProcessError as exc:
                 click.echo(f'Synchronize failed in {path}:{branch}.')
 

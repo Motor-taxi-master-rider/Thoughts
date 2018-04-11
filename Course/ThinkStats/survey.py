@@ -5,9 +5,10 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import sys
 import gzip
 import os
+import sys
+
 
 class Record(object):
     """Represents a record."""

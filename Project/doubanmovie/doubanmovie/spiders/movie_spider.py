@@ -1,9 +1,11 @@
-from scrapy.selector import Selector
-from scrapy.spiders import CrawlSpider,Rule
-from scrapy.linkextractors import LinkExtractor
 import sys
-sys.path.append('C:\My files\TRAINING\Course\Python\doubanmovie')
+
 from doubanmovie.items import DoubanmovieItem
+from scrapy.linkextractors import LinkExtractor
+from scrapy.selector import Selector
+from scrapy.spiders import CrawlSpider, Rule
+
+sys.path.append('C:\My files\TRAINING\Course\Python\doubanmovie')
 
 class MoiveSpider(CrawlSpider):
     name="doubanmovie"

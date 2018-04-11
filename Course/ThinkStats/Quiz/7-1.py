@@ -1,14 +1,17 @@
-import sys
+import math
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import random
+import sys
+
+import matplotlib.pyplot as pyplot
 import numpy as np
+
 import Cdf
 import cumulative
-import math
 import myplot
-import random
 import thinkstats
-import matplotlib.pyplot as pyplot
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 
 def RunTest(root,

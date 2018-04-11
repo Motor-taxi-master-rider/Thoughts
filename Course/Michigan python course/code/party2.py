@@ -9,4 +9,3 @@ an = PartyAnimal()
 
 print "Type", type(an)
 print "Dir ", dir(an)
-

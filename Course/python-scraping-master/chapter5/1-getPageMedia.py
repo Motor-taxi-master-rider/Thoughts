@@ -1,6 +1,6 @@
 import os
-from urllib.request import urlretrieve
-from urllib.request import urlopen
+from urllib.request import urlopen, urlretrieve
+
 from bs4 import BeautifulSoup
 
 downloadDirectory = "downloaded"

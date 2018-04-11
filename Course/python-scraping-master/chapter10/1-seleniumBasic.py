@@ -1,5 +1,6 @@
-from selenium import webdriver
 import time
+
+from selenium import webdriver
 
 driver = webdriver.PhantomJS(executable_path='')
 driver.get("http://pythonscraping.com/pages/javascript/ajaxDemo.html")

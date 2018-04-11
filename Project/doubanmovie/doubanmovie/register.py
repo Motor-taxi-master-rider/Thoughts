@@ -1,5 +1,4 @@
 import sys
-
 from winreg import *
 
 # tweak as necessary

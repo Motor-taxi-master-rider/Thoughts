@@ -18,5 +18,3 @@ lst.sort()
 
 for value, key in lst:
   print key, value
-
-  

@@ -5,11 +5,12 @@ Copyright 2011 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
+import random
+
 import matplotlib.pyplot as pyplot
 
 import Cdf
 import myplot
-import random
 
 
 def ParetoCdf(x, alpha, xmin):

@@ -1,6 +1,7 @@
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
 import re
+from urllib.request import urlopen
+
+from bs4 import BeautifulSoup
 
 pages = set()
 def getLinks(pageUrl):

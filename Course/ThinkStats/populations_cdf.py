@@ -23,8 +23,9 @@ as well, or better, with lognormal models.
 """
 
 
-import Cdf
 import math
+
+import Cdf
 import myplot
 import populations
 import rankit

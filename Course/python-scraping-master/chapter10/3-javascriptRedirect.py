@@ -1,7 +1,9 @@
-from selenium import webdriver
 import time
-from selenium.webdriver.remote.webelement import WebElement
+
+from selenium import webdriver
 from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.remote.webelement import WebElement
+
 
 def waitForLoad(driver):
     elem = driver.find_element_by_tag_name("html")

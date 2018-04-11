@@ -6,11 +6,12 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
 import math
+
+import hypothesis
 import matplotlib.pyplot as pyplot
 
-import erf
 import cumulative
-import hypothesis
+import erf
 import thinkstats
 
 

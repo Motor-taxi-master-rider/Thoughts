@@ -1,5 +1,6 @@
-import pandas as pd
+import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 
 years=range(1880,2011)
 pieces=[]
@@ -62,7 +63,6 @@ table=names.pivot_table(values='births'
 subtable=table.reindex(columns=[1910,1960,2010],level='year')
 letter_prop=subtable/subtable.sum().astype(float)
 
-import matplotlib.pyplot as plt
 fig,axes=plt.subplots(2,1,figsize=(10,8))
 letter_prop['M'].plot(kind='bar',rot=0,ax=axes[0],title='Male')
 letter_prop['F'].plot(kind='bar',rot=0,ax=axes[1],title='Female',legend=False)

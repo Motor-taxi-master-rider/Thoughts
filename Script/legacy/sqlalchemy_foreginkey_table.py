@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # coding:utf8
-from sqlalchemy import create_engine,func
+from sqlalchemy import Column, ForeignKey, Integer, String, create_engine, func
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.orm import sessionmaker, relationship
+from sqlalchemy.orm import relationship, sessionmaker
+
 Base = declarative_base()  # 生成一个SqlORM 基类
 engine = create_engine(
     "mysql+pymysql://root:admin@127.0.0.1:3306/scrapy_comic", echo=True)

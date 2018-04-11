@@ -1,9 +1,8 @@
 from __future__ import print_function
 
 import numpy as np
-
-from matplotlib.widgets import LassoSelector
 from matplotlib.path import Path
+from matplotlib.widgets import LassoSelector
 
 try:
     raw_input

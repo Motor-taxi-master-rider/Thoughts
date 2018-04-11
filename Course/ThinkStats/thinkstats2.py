@@ -7,6 +7,20 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 
 from __future__ import print_function
 
+import bisect
+import copy
+import logging
+import math
+import random
+import re
+
+import numpy as np
+import pandas as pd
+import scipy.stats
+from scipy.special import erf, erfinv
+
+import thinkplot
+
 """This file contains class definitions for:
 
 Hist: represents a histogram (map from values to integer frequencies).
@@ -21,20 +35,9 @@ Pdf: represents a continuous probability density function
 
 """
 
-import bisect
-import copy
-import logging
-import math
-import random
-import re
 
-import thinkplot
 
-import numpy as np
-import pandas as pd
 
-import scipy.stats
-from scipy.special import erf, erfinv
 
 ROOT2 = math.sqrt(2)
 

@@ -1,12 +1,13 @@
 from __future__ import division, print_function
-import numpy as np
+
 import matplotlib
-import matplotlib.colors as colors
-import matplotlib.patches as patches
-import matplotlib.mathtext as mathtext
-import matplotlib.pyplot as plt
 import matplotlib.artist as artist
+import matplotlib.colors as colors
 import matplotlib.image as image
+import matplotlib.mathtext as mathtext
+import matplotlib.patches as patches
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 class ItemProperties(object):

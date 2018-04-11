@@ -69,4 +69,3 @@ fhand.write("\n];\n")
 
 print "Data written to gline.js"
 print "Open gline.htm in a browser to view"
-

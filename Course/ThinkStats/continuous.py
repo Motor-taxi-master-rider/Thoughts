@@ -5,15 +5,18 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import erf
+import math
+import random
+
+import matplotlib.pyplot as pyplot
+
 import Cdf
 import cumulative
-import math
+import erf
 import myplot
-import random
 import rankit
 import thinkstats
-import matplotlib.pyplot as pyplot
+
 
 def ExpoCdf(x, lam):
     """Evaluates CDF of the exponential distribution with parameter lam."""

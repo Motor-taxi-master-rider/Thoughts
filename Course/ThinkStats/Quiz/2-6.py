@@ -1,7 +1,9 @@
 import sys
-sys.path.append('\Myfile\TRAINING\Course\Python\ThinkStats')
-import Pmf
+
 import descriptive
+import Pmf
+
+sys.path.append('\Myfile\TRAINING\Course\Python\ThinkStats')
 
 def ProbRange(pmf, low, high):
     total=0.0

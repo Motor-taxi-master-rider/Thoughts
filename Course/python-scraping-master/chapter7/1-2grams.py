@@ -1,5 +1,7 @@
 from urllib.request import urlopen
+
 from bs4 import BeautifulSoup
+
 
 def getNgrams(input, n):
   input = input.split(' ')

@@ -1,7 +1,6 @@
 from selenium import webdriver
-from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver import ActionChains
-
+from selenium.webdriver.remote.webelement import WebElement
 
 driver = webdriver.PhantomJS(executable_path='<Path to Phantom JS>')
 driver.implicitly_wait(5)

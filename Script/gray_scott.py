@@ -3,8 +3,8 @@
 # Copyright (2017) Nicolas P. Rougier - BSD license
 # More information at https://github.com/rougier/numpy-book
 # -----------------------------------------------------------------------------
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from matplotlib.animation import FuncAnimation
 
 # Parameters from http://www.aliensaint.com/uo/java/rd/

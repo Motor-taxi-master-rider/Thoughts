@@ -1,7 +1,8 @@
+import os
+
+import numpy as np
 from pandas import *
 from pandas.util.decorators import cache_readonly
-import numpy as np
-import os
 
 base = 'ml-100k'
 

@@ -1,8 +1,9 @@
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
+import operator
 import re
 import string
-import operator
+from urllib.request import urlopen
+
+from bs4 import BeautifulSoup
 
 
 def cleanInput(input):

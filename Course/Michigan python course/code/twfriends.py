@@ -1,7 +1,8 @@
-import urllib
-import twurl
 import json
 import sqlite3
+import urllib
+
+import twurl
 
 TWITTER_URL = 'https://api.twitter.com/1.1/friends/list.json'
 
@@ -74,4 +75,3 @@ while True:
     conn.commit()
 
 cur.close()
-

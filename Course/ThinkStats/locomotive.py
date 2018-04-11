@@ -13,11 +13,13 @@ railroad has."
 
 """
 
+from math import pow
+
 import matplotlib.pyplot as pyplot
+
+import Cdf
 import myplot
 import Pmf
-import Cdf
-from math import pow
 
 
 def MakeUniformSuite(low, high, steps):

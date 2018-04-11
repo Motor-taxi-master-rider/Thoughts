@@ -1,4 +1,5 @@
 import urllib
+
 from twurl import augment
 
 print '* Calling Twitter...'

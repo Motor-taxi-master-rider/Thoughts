@@ -1,10 +1,10 @@
-from urllib.request import urlretrieve
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
 import subprocess
+from urllib.request import urlopen, urlretrieve
+
 import requests
-from PIL import Image
-from PIL import ImageOps
+from bs4 import BeautifulSoup
+from PIL import Image, ImageOps
+
 
 def cleanImage(imagePath):
     image = Image.open(imagePath)

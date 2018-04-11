@@ -1,8 +1,8 @@
 import sqlite3
+import string
 import time
 import urllib
 import zlib
-import string
 
 conn = sqlite3.connect('index.sqlite')
 conn.text_factory = str

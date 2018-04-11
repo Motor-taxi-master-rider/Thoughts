@@ -1,8 +1,10 @@
 import smtplib
-from email.mime.text import MIMEText
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
 import time
+from email.mime.text import MIMEText
+from urllib.request import urlopen
+
+from bs4 import BeautifulSoup
+
 
 def sendMail(subject, body):
     msg = MIMEText(body)

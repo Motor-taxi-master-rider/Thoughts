@@ -16,8 +16,11 @@
 # The data you have been given is near Tampa, Florida, United States, and the stations the data comes from are shown on the map below.
 
 import matplotlib.pyplot as plt
-import mplleaflet
+import numpy as np
 import pandas as pd
+
+import mplleaflet
+
 
 def leaflet_plot_stations(binsize, hashid):
 
@@ -38,10 +41,6 @@ def leaflet_plot_stations(binsize, hashid):
 
 leaflet_plot_stations(400,'b091d88a3b4e7d3c9707df0e1cd8e7d5be82221e8f40485f1464c1ae')
 
-import matplotlib.pyplot as plt
-import mplleaflet
-import pandas as pd
-import numpy as np
 %matplotlib notebook
 
 def line_polt_temp(binsize, hashid):

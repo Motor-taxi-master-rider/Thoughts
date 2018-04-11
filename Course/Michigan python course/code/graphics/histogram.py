@@ -1,4 +1,5 @@
-import string 
+import string
+
 from graphics import *
 
 fname = raw_input("Enter file name:")

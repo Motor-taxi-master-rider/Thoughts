@@ -5,17 +5,19 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import brfss
-#import cPickle
-import continuous
-import Cdf
 import math
+import random
+import sys
+
 import matplotlib
 import matplotlib.pyplot as pyplot
+
+import brfss
+import Cdf
+#import cPickle
+import continuous
 import myplot
-import random
 import rankit
-import sys
 import survey
 import thinkstats
 

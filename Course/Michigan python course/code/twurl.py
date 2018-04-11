@@ -1,6 +1,8 @@
 import urllib
-import oauth
+
 import hidden
+import oauth
+
 
 def augment(url, parameters) :
     secrets = hidden.oauth()

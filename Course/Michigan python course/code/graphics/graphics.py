@@ -133,15 +133,22 @@ or None if clearLastMouse() was called since the last click.
 #     Added ability to set text atttributes.
 #     Added Entry boxes.
 
-import time, os, sys
+import atexit
+import exceptions
+import os
+import sys
+import thread
+import time
 import Tkinter
+from copy import copy
+from Queue import Queue
+
 tk = Tkinter
 
 
 ##########################################################################
 # Module Exceptions
 
-import exceptions
 
 class GraphicsError(exceptions.Exception):
     """Generic error class for graphics module exceptions."""
@@ -156,10 +163,6 @@ DEAD_THREAD = "Graphics thread quit unexpectedly"
 ###########################################################################
 # Support to run Tk in a separate thread
 
-from copy import copy
-from Queue import Queue
-import thread
-import atexit
 
 
 _tk_request = Queue(0)

@@ -5,10 +5,11 @@ Copyright 2010 Allen B. Downey
 License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
-import descriptive
 import itertools
-import Pmf
 import random
+
+import descriptive
+import Pmf
 import risk
 import thinkstats
 

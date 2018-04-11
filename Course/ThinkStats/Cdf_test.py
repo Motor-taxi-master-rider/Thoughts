@@ -6,7 +6,9 @@ Distributed under the GNU General Public License at gnu.org/licenses/gpl.html.
 """
 
 import unittest
+
 import Cdf
+
 
 class Test(unittest.TestCase):
 

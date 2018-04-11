@@ -1,7 +1,6 @@
-from scrapy.spiders import Spider
-from scrapy.selector import Selector
-
 from dirbot.items import Website
+from scrapy.selector import Selector
+from scrapy.spiders import Spider
 
 
 class DmozSpider(Spider):

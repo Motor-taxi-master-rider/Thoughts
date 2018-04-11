@@ -6,19 +6,20 @@ License: GNU GPLv3 http://www.gnu.org/licenses/gpl.html
 """
 
 import math
+
 import matplotlib
 import matplotlib.pyplot as pyplot
 
+import Cdf
 import correlation
 import cumulative
 import descriptive
 import first
 import myplot
+import Pmf
 import survey
 import thinkstats
 
-import Cdf
-import Pmf
 
 """
 * Results:
