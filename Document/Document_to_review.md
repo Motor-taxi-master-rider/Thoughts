@@ -495,8 +495,11 @@ _Three lists zipped into list of dicts_
 `Dataquest`
 <https://www.dataquest.io/blog/>
 
-Why Rust?1
+Why Rust?
 <http://www.oreilly.com/programming/free/files/why-rust.pdf>
 
 Distributed Testing with Selenium Grid and Docker
 <https://testdriven.io/distributed-testing-with-selenium-grid>
+
+聊聊Linux 五种IO模型
+https://my.oschina.net/xianggao/blog/663655
