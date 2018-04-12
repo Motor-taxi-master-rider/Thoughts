@@ -503,3 +503,6 @@ Distributed Testing with Selenium Grid and Docker
 
 聊聊Linux 五种IO模型
 https://my.oschina.net/xianggao/blog/663655
+
+`python cookbook`
+http://python3-cookbook.readthedocs.io/zh_CN/latest/
