@@ -35,7 +35,8 @@ def sync():
         tasks = {}
         for branch in config[GIT_CONFIG]:
             path = config[GIT_CONFIG][branch]
-            tasks[executor.submit(functools.partial(git_pull, path, branch))] = (path, branch)
+            tasks[executor.submit(functools.partial(
+                git_pull, path, branch))] = (path, branch)
 
         if not len(tasks):
             click.echo('No repository to synchronize.')
@@ -79,7 +80,8 @@ def git_pull(path, branch):
     :return:
     """
     os.chdir(path)
-    subprocess.run(['git', 'checkout', branch], check=True)
+    subprocess.run(['git', 'checkout', branch],
+                   check=True, stdout=None, stderr=None)
     subprocess.run(['git', 'pull', '--rebase'], check=True)
 
 
