@@ -506,3 +506,6 @@ https://my.oschina.net/xianggao/blog/663655
 
 `python cookbook`
 http://python3-cookbook.readthedocs.io/zh_CN/latest/
+
+Look Ma, No For-Loops: Array Programming With NumPy
+https://realpython.com/numpy-array-programming/
