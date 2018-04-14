@@ -502,10 +502,13 @@ Distributed Testing with Selenium Grid and Docker
 <https://testdriven.io/distributed-testing-with-selenium-grid>
 
 聊聊Linux 五种IO模型
-https://my.oschina.net/xianggao/blog/663655
+<https://my.oschina.net/xianggao/blog/663655>
 
 `python cookbook`
-http://python3-cookbook.readthedocs.io/zh_CN/latest/
+<http://python3-cookbook.readthedocs.io/zh_CN/latest/>
 
-Look Ma, No For-Loops: Array Programming With NumPy
-https://realpython.com/numpy-array-programming/
+**Look Ma, No For-Loops: Array Programming With NumPy**
+<https://realpython.com/numpy-array-programming/>
+
+Array Broadcasting in numpy
+<http://scipy.github.io/old-wiki/pages/EricsBroadcastingDoc>
