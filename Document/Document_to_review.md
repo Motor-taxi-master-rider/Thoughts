@@ -510,5 +510,5 @@ Distributed Testing with Selenium Grid and Docker
 **Look Ma, No For-Loops: Array Programming With NumPy**
 <https://realpython.com/numpy-array-programming/>
 
-Array Broadcasting in numpy
+_Array Broadcasting in numpy_ **high dimensional broad cast will generate a large intermediate matrix in one step. which is not a necessity for calculation. We can use lower dimensional broadcast along with python looping instead.**
 <http://scipy.github.io/old-wiki/pages/EricsBroadcastingDoc>
