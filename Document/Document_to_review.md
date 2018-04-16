@@ -512,3 +512,9 @@ Distributed Testing with Selenium Grid and Docker
 
 _Array Broadcasting in numpy_ **high dimensional broad cast will generate a large intermediate matrix in one step. which is not a necessity for calculation. We can use lower dimensional broadcast along with python looping instead.**
 <http://scipy.github.io/old-wiki/pages/EricsBroadcastingDoc>
+
+THE SET THEORY AND PYTHON + TIPS & TRICKS
+https://www.idiotinside.com/2017/08/19/set-theory-and-python-tips-tricks/
+
+Generic Function in Python with Singledispatch
+https://rafiqul.rocks/generic-function-in-python-with-singledispatch/
