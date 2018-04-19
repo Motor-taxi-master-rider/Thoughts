@@ -514,10 +514,13 @@ _Array Broadcasting in numpy_ **high dimensional broad cast will generate a larg
 <http://scipy.github.io/old-wiki/pages/EricsBroadcastingDoc>
 
 _THE SET THEORY AND PYTHON + TIPS & TRICKS_
-https://www.idiotinside.com/2017/08/19/set-theory-and-python-tips-tricks/
+<https://www.idiotinside.com/2017/08/19/set-theory-and-python-tips-tricks/>
 
 _Generic Function in Python with Singledispatch_
-https://rafiqul.rocks/generic-function-in-python-with-singledispatch/
+<https://rafiqul.rocks/generic-function-in-python-with-singledispatch/>
 
 _Why Functional Programming Matters_
-https://www.youtube.com/watch?v=oB8jN68KGcU
+<https://www.youtube.com/watch?v=oB8jN68KGcU>
+
+_Python Modules and Packages – An introduction_
+<https://realpython.com/python-modules-packages/>
