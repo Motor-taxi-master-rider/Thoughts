@@ -501,7 +501,7 @@ Why Rust?
 Distributed Testing with Selenium Grid and Docker
 <https://testdriven.io/distributed-testing-with-selenium-grid>
 
-聊聊Linux 五种IO模型
+_聊聊Linux 五种IO模型_
 <https://my.oschina.net/xianggao/blog/663655>
 
 `python cookbook`
@@ -524,3 +524,6 @@ _Why Functional Programming Matters_
 
 _Python Modules and Packages – An introduction_
 <https://realpython.com/python-modules-packages/>
+
+`Import python`
+http://importpython.com/newsletter/
