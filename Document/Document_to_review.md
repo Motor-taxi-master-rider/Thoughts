@@ -527,3 +527,6 @@ _Python Modules and Packages – An introduction_
 
 `Import python`
 http://importpython.com/newsletter/
+
+`MongoDB university`
+https://university.mongodb.com/courses/catalog
