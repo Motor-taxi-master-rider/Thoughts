@@ -536,3 +536,6 @@ Some Essential Hacks and Tricks for Machine Learning with Python
 
 Unittest with pyspark
 <https://blog.cambridgespark.com/unit-testing-with-pyspark-fb31671b1ad8>
+
+Transforming Python ASTs to Optimize Comprehensions  **interesting dynamic programming**
+https://cypher.codes/writing/transforming-python-asts-to-optimize-comprehensions-at-runtime
