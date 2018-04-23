@@ -526,7 +526,13 @@ _Python Modules and Packages – An introduction_
 <https://realpython.com/python-modules-packages/>
 
 `Import python`
-http://importpython.com/newsletter/
+<http://importpython.com/newsletter/>
 
 `MongoDB university`
-https://university.mongodb.com/courses/catalog
+<https://university.mongodb.com/courses/catalog>
+
+Some Essential Hacks and Tricks for Machine Learning with Python
+<https://medium.com/m/global-identity?redirectUrl=https://heartbeat.fritz.ai/some-essential-hacks-and-tricks-for-machine-learning-with-python-5478bc6593f2>
+
+Unittest with pyspark
+<https://blog.cambridgespark.com/unit-testing-with-pyspark-fb31671b1ad8>
