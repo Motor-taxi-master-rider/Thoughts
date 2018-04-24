@@ -7,8 +7,8 @@ from multiprocessing import cpu_count
 
 import click
 
-CONFIG_PATH = r'config/project_controler.cfg'
-GIT_CONFIG = 'Git Path'
+CONFIG_PATH = r'config/project_controler.cfg'  # Config file path
+GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
 
 
 @click.group()
@@ -33,8 +33,8 @@ def sync():
     # use git pull to synchronous all the repository simultaneously
     with concurrent.futures.ProcessPoolExecutor(max_workers=cpu_count()) as executor:
         tasks = {}
-        for branch in config[GIT_CONFIG]:
-            path = config[GIT_CONFIG][branch]
+        for project, path in config[GIT_PATH].items():
+            branch = config[GIT_BRANCH].get(project, 'master')
             tasks[executor.submit(functools.partial(
                 git_pull, path, branch))] = (path, branch)
 
@@ -63,12 +63,15 @@ def create_config():
     if os.path.exists(CONFIG_PATH):
         click.echo(f'Config file {CONFIG_PATH} already existed.')
         return
-    sections = {GIT_CONFIG: '# Config path and branch to checkout in this section\n'
-                            '# Syntax:{Branch name} = {Path/to/repo}\n'}
+    sections = {GIT_PATH: '# Config project name and local path of the project\n'
+                '# Syntax:{project name} = {Path/to/repo}\n',
+                GIT_BRANCH: '# Config project name and branch to synchronize, default master if not config\n'
+                '# Syntax:{project name} = {repository branch}\n'}
     with open(CONFIG_PATH, 'w') as file:
         for section_name, comment in sections.items():
-            file.write(f'[{section_name}]')
+            file.write(f'[{section_name}]\n')
             file.write(comment)
+            file.write('\n')
     click.echo(f'Config file template is created.')
 
 
