@@ -543,5 +543,8 @@ Transforming Python ASTs to Optimize Comprehensions  **interesting dynamic progr
 The best of Python: a collection of my favorite articles from 2017 and 2018
 <https://medium.freecodecamp.org/python-collection-of-my-favorite-articles-8469b8455939>
 
-Why Did So Many Startups Choose MongoDB?
+_Why Did So Many Startups Choose MongoDB?_
 <https://www.nemil.com/mongo/1.html?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website>
+
+What is Docker and How to Use it With Python
+<https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/>
