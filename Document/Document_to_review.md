@@ -546,7 +546,7 @@ The best of Python: a collection of my favorite articles from 2017 and 2018
 _Why Did So Many Startups Choose MongoDB?_
 <https://www.nemil.com/mongo/1.html?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website>
 
-What is Docker and How to Use it With Python
+**What is Docker and How to Use it With Python**
 <https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/>
 
 How to rewrite your SQL queries in Pandas, and more
@@ -557,3 +557,9 @@ The need for speed without bothering too much: An introduction to numba
 
 Keyword (Named) Arguments in Python: How to Use Them
 <http://treyhunner.com/2018/04/keyword-arguments-in-python/>
+
+Mining Twitter Data with Python (Part 1: Collecting data)
+https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
+
+Natural Language Processing Made Easy – using SpaCy  **[sentiment classification](https://github.com/explosion/spaCy/blob/master/examples/deep_learning_keras.py)**
+https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/
