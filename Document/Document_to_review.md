@@ -561,5 +561,5 @@ _Keyword (Named) Arguments in Python: How to Use Them_
 Mining Twitter Data with Python (Part 1: Collecting data)
 https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
 
-Natural Language Processing Made Easy – using SpaCy  **[sentiment classification](https://github.com/explosion/spaCy/blob/master/examples/deep_learning_keras.py)**
+_Natural Language Processing Made Easy – using SpaCy_  **[sentiment classification](https://github.com/explosion/spaCy/blob/master/examples/deep_learning_keras.py)**
 https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/
