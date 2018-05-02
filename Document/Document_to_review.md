@@ -555,7 +555,7 @@ How to rewrite your SQL queries in Pandas, and more
 The need for speed without bothering too much: An introduction to numba
 <http://nbviewer.jupyter.org/github/akittas/presentations/blob/master/pythess/numba/numba.ipynb?utm_source=newsletter_mailer&utm_medium=email&utm_campaign=weekly#The-need-for-speed-without-bothering-too-much:-An-introduction-to-numba>
 
-Keyword (Named) Arguments in Python: How to Use Them
+_Keyword (Named) Arguments in Python: How to Use Them_
 <http://treyhunner.com/2018/04/keyword-arguments-in-python/>
 
 Mining Twitter Data with Python (Part 1: Collecting data)
