@@ -559,7 +559,10 @@ _Keyword (Named) Arguments in Python: How to Use Them_
 <http://treyhunner.com/2018/04/keyword-arguments-in-python/>
 
 Mining Twitter Data with Python (Part 1: Collecting data)
-https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
+<https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/>
 
 _Natural Language Processing Made Easy – using SpaCy_  **[sentiment classification](https://github.com/explosion/spaCy/blob/master/examples/deep_learning_keras.py)**
-https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/
+<https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/>
+
+Unlearning toxic behaviors in a code review culture
+<https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c>
