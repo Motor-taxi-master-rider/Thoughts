@@ -564,7 +564,7 @@ Mining Twitter Data with Python (Part 1: Collecting data)
 _Natural Language Processing Made Easy – using SpaCy_  **[sentiment classification](https://github.com/explosion/spaCy/blob/master/examples/deep_learning_keras.py)**
 <https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/>
 
-Unlearning toxic behaviors in a code review culture
+_Unlearning toxic behaviors in a code review culture_
 <https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c>
 
 Pipenv: A Guide to the New Python Packaging Tool
