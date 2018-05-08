@@ -549,7 +549,7 @@ _Why Did So Many Startups Choose MongoDB?_
 **What is Docker and How to Use it With Python**
 <https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/>
 
-How to rewrite your SQL queries in Pandas, and more
+_How to rewrite your SQL queries in Pandas, and more_
 <https://codeburst.io/how-to-rewrite-your-sql-queries-in-pandas-and-more-149d341fc53e>
 
 The need for speed without bothering too much: An introduction to numba
