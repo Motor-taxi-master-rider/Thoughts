@@ -567,7 +567,7 @@ _Natural Language Processing Made Easy – using SpaCy_  **[sentiment classifica
 _Unlearning toxic behaviors in a code review culture_
 <https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c>
 
-Pipenv: A Guide to the New Python Packaging Tool
+**Pipenv** _: A Guide to the New Python Packaging Tool_
 <https://realpython.com/pipenv-guide/>
 
 Testing a Flask Application using pytest
