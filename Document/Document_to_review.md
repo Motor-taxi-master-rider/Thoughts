@@ -572,3 +572,6 @@ _Unlearning toxic behaviors in a code review culture_
 
 Testing a Flask Application using pytest
 <http://www.patricksoftwareblog.com/testing-a-flask-application-using-pytest/>
+
+_Announcing glom: Restructured Data for Python_ **glom**
+http://sedimental.org/glom_restructured_data.html
