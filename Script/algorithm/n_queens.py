@@ -10,14 +10,15 @@ def n_queens_backtrack(n):
         if col == n:
             return True
         for row in range(n):
-            array.append((row, col))
-            if is_safe(row, col) and place_queen(col + 1):
-                result.append(copy.copy(array))
-            array.pop()
+            if is_safe(row, col):
+                array.append((row, col))
+                if place_queen(col+1):
+                    result.append(copy.copy(array))
+                array.pop()
         return False
 
     def is_safe(row, col):
-        for r, c in array[:-1]:
+        for r, c in array:
             if r == row:
                 return False
             if abs(r - row) == abs(c - col):
@@ -52,5 +53,6 @@ def n_queens_enumerate(n):
 
 
 if __name__ == '__main__':
+    print(n_queens_backtrack(4))
     assert len(n_queens_backtrack(8)) == 92
     assert len(n_queens_enumerate(8)) == 92
