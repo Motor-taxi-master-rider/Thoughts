@@ -1,4 +1,7 @@
-def n_queens(n):
+import copy
+
+
+def n_queens_backtrack(n):
     array = []
     result = []
 
@@ -9,7 +12,7 @@ def n_queens(n):
         for row in range(n):
             array.append((row, col))
             if is_safe(row, col) and place_queen(col + 1):
-                result.append(array)
+                result.append(copy.copy(array))
             array.pop()
         return False
 
@@ -25,14 +28,14 @@ def n_queens(n):
     return result
 
 
-def n_queens_iter(n):
+def n_queens_enumerate(n):
     array = [1] * n
     result = []
 
     def place_queen(array, col):
         nonlocal n, result
         if col == n:
-            result.append(array)
+            result.append(copy.copy(array))
             return
         for row in range(n):
             array[col] = row
@@ -43,10 +46,11 @@ def n_queens_iter(n):
                     break
             if flag:
                 place_queen(array, col + 1)
+
     place_queen(array, 0)
     return result
 
 
 if __name__ == '__main__':
-    assert len(n_queens(8) == 92
-    assert len(n_queens_iter(8)) == 92
+    assert len(n_queens_backtrack(8)) == 92
+    assert len(n_queens_enumerate(8)) == 92
