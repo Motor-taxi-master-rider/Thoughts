@@ -579,5 +579,5 @@ _Announcing glom: Restructured Data for Python_ **glom**
 _Why Senior Devs Write Dumb Code and How to Spot a Junior From A Mile Away_
 <https://hackernoon.com/why-senior-devs-write-dumb-code-and-how-to-spot-a-junior-from-a-mile-away-27fa263b101a>
 
-You Don't Have To Be a Workaholic To Win: 13 Alternative Ways To Stand Out
+_You Don't Have To Be a Workaholic To Win: 13 Alternative Ways To Stand Out_
 <https://www.kevinball.com/2018/04/17/you-dont-have-to-be-a-workaholic/>
