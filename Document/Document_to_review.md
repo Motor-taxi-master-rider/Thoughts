@@ -369,7 +369,7 @@ _Jupyter notebooks and version control_
 **Understanding internals of Python classes**
 <https://rushter.com/blog/python-class-internals/>
 
->20+ Python Web Scraping Examples (Beautifulsoup & Selenium)
+~~20+ Python Web Scraping Examples (Beautifulsoup & Selenium)~~
 <https://www.codementor.io/likegeeks/20-python-web-scraping-examples-beautifulsoup-selenium-fw6y3lfck>
 
 Monitoring Your Asynchronous Python Web Applications Using Prometheus
@@ -405,7 +405,7 @@ Python + Memcached: Efficient Caching in Distributed Applications
 _Fastest way to unzip a zip file in Python_
 <https://www.peterbe.com/plog/fastest-way-to-unzip-a-zip-file-in-python>
 
->Kaggle Learn review: there is a deep learning track and it is worth your time
+~~Kaggle Learn review: there is a deep learning track and it is worth your time~~
 <https://www.codementor.io/akashtndnacm/kaggle-learn-review-there-is-a-deep-learning-track-and-it-is-worth-your-time-gfpc0ydui>
 
 #Testing Python Applications with Pytest
@@ -426,7 +426,7 @@ _Python splitting list to sublists at given start/end keywords_
 **A Python gargoyle**
 <https://nedbatchelder.com//blog/201802/a_python_gargoyle.html>
 
->How to speed up Python application startup time
+~~How to speed up Python application startup time~~
 <https://dev.to/methane/how-to-speed-up-python-application-startup-time-nkf>
 
 _机器学习速成课程_
@@ -453,7 +453,7 @@ A Phone Number Proxy
 _Bite-sized command line tools: pylintdb_
 <https://nedbatchelder.com/blog/201712/bitesized_command_line_tools_pylintdb.html>
 
->Data science with Python: Turn your conditional loops to Numpy vectors
+~~Data science with Python: Turn your conditional loops to Numpy vectors~~
 <https://www.codementor.io/tirthajyotisarkar/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-he1yo9265>
 
 `From Python to Numpy`
@@ -576,8 +576,8 @@ _Unlearning toxic behaviors in a code review culture_
 _Announcing glom: Restructured Data for Python_ **glom**
 <http://sedimental.org/glom_restructured_data.html>
 
->Why Senior Devs Write Dumb Code and How to Spot a Junior From A Mile Away
+~~Why Senior Devs Write Dumb Code and How to Spot a Junior From A Mile Away~~
 <https://hackernoon.com/why-senior-devs-write-dumb-code-and-how-to-spot-a-junior-from-a-mile-away-27fa263b101a>
 
->You Don't Have To Be a Workaholic To Win: 13 Alternative Ways To Stand Out
+~~You Don't Have To Be a Workaholic To Win: 13 Alternative Ways To Stand Out~~
 <https://www.kevinball.com/2018/04/17/you-dont-have-to-be-a-workaholic/>
