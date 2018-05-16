@@ -471,7 +471,7 @@ _Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click
 _Dynamic programming and memoization: bottom-up vs top-down approaches_
 <https://stackoverflow.com/questions/6164629/dynamic-programming-and-memoization-bottom-up-vs-top-down-approaches>
 
-#Pythonic Data Cleaning With NumPy and Pandas
+_Pythonic Data Cleaning With NumPy and Pandas_
 <https://realpython.com/python-data-cleaning-numpy-pandas/>
 
 ##Test automation framework thoughts and examples with Python, pytest and Jenkins
