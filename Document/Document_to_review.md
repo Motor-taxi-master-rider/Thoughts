@@ -552,7 +552,7 @@ _Why Did So Many Startups Choose MongoDB?_
 _How to rewrite your SQL queries in Pandas, and more_
 <https://codeburst.io/how-to-rewrite-your-sql-queries-in-pandas-and-more-149d341fc53e>
 
-#The need for speed without bothering too much: An introduction to numba
+**The need for speed without bothering too much: An introduction to numba**
 <http://nbviewer.jupyter.org/github/akittas/presentations/blob/master/pythess/numba/numba.ipynb?utm_source=newsletter_mailer&utm_medium=email&utm_campaign=weekly#The-need-for-speed-without-bothering-too-much:-An-introduction-to-numba>
 
 _Keyword (Named) Arguments in Python: How to Use Them_
