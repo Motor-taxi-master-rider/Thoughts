@@ -408,7 +408,7 @@ _Fastest way to unzip a zip file in Python_
 ~~Kaggle Learn review: there is a deep learning track and it is worth your time~~
 <https://www.codementor.io/akashtndnacm/kaggle-learn-review-there-is-a-deep-learning-track-and-it-is-worth-your-time-gfpc0ydui>
 
-#Testing Python Applications with Pytest
+_Testing Python Applications with Pytest_ **some pytest examples, may be I can try Semaphore CI for my search project**
 <https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest>
 
 **Numpy Tutorial Part 1: Introduction to Arrays**
