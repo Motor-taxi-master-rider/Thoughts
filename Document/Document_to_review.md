@@ -375,10 +375,12 @@ _Jupyter notebooks and version control_
 Monitoring Your Asynchronous Python Web Applications Using Prometheus
 <https://blog.codeship.com/monitoring-your-asynchronous-python-web-applications-using-prometheus/>
 
-##Simplifying Offline Python Deployments With Docker
+## Simplifying Offline Python Deployments With Docker
+
 <https://realpython.com/blog/python/offline-python-deployments-with-docker/>
 
-#9 new pandas updates that will save you time
+# 9 new pandas updates that will save you time
+
 <http://www.dataschool.io/python-pandas-updates/>
 
 _Introduction to Functional Programming in Python_
@@ -459,7 +461,8 @@ _Bite-sized command line tools: pylintdb_
 `From Python to Numpy`
 <http://www.labri.fr/perso/nrougier/from-python-to-numpy/>
 
-##Running Your End To End Tests On Kubernetes
+## Running Your End To End Tests On Kubernetes
+
 <https://www.gocd.org/2018/02/27/running-end-to-end-tests-kubernetes/?utm_campaign=e2e_k8s&utm_medium=newsletter_ad&utm_source=import_python&utm_content=e2e_k8s&utm_term=>
 
 _Memory efficiency of parallel IO operations in Python_
@@ -474,7 +477,8 @@ _Dynamic programming and memoization: bottom-up vs top-down approaches_
 _Pythonic Data Cleaning With NumPy and Pandas_
 <https://realpython.com/python-data-cleaning-numpy-pandas/>
 
-##Test automation framework thoughts and examples with Python, pytest and Jenkins
+## Test automation framework thoughts and examples with Python, pytest and Jenkins
+
 <http://davidemoro.blogspot.se/2018/03/test-automation-python-pytest-jenkins.html>
 
 **How To Quickly Compute The Mandelbrot Set In Python**
@@ -489,7 +493,8 @@ _Three lists zipped into list of dicts_
 `Python Data Science Handbook`
 <https://jakevdp.github.io/PythonDataScienceHandbook/>
 
-#10 Data Science Projects You Can Join Today
+# 10 Data Science Projects You Can Join Today
+
 <https://www.dataquest.io/blog/10-data-science-projects-join/>
 
 `Dataquest`
@@ -498,7 +503,8 @@ _Three lists zipped into list of dicts_
 Why Rust?
 <http://www.oreilly.com/programming/free/files/why-rust.pdf>
 
-##Distributed Testing with Selenium Grid and Docker
+## Distributed Testing with Selenium Grid and Docker
+
 <https://testdriven.io/distributed-testing-with-selenium-grid>
 
 _聊聊Linux 五种IO模型_
@@ -540,7 +546,8 @@ Unittest with pyspark
 Transforming Python ASTs to Optimize Comprehensions  **interesting dynamic programming**
 <https://cypher.codes/writing/transforming-python-asts-to-optimize-comprehensions-at-runtime>
 
-#The best of Python: a collection of my favorite articles from 2017 and 2018
+# The best of Python: a collection of my favorite articles from 2017 and 2018
+
 <https://medium.freecodecamp.org/python-collection-of-my-favorite-articles-8469b8455939>
 
 _Why Did So Many Startups Choose MongoDB?_
@@ -570,7 +577,8 @@ _Unlearning toxic behaviors in a code review culture_
 **Pipenv** _: A Guide to the New Python Packaging Tool_
 <https://realpython.com/pipenv-guide/>
 
-##Testing a Flask Application using pytest
+## Testing a Flask Application using pytest
+
 <http://www.patricksoftwareblog.com/testing-a-flask-application-using-pytest/>
 
 _Announcing glom: Restructured Data for Python_ **glom**
@@ -581,3 +589,12 @@ _Announcing glom: Restructured Data for Python_ **glom**
 
 ~~You Don't Have To Be a Workaholic To Win: 13 Alternative Ways To Stand Out~~
 <https://www.kevinball.com/2018/04/17/you-dont-have-to-be-a-workaholic/>
+
+**A Beginner’s Guide to Optimizing Pandas Code for Speed**
+<http://python-weekly.blogspot.com/2018/01/20-best-perl-questions-at-stackoverflow.html>
+
+**Data Pre-Processing in Python: How I learned to love parallelized applies with Dask and Numba**
+<https://towardsdatascience.com/how-i-learned-to-love-parallelized-applies-with-python-pandas-dask-and-numba-f06b0b367138>
+
+_Memory efficiency of parallel IO operations in Python_
+<https://code.kiwi.com/memory-efficiency-of-parallel-io-operations-in-python-6e7d6c51905d>
