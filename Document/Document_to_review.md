@@ -598,3 +598,9 @@ _Announcing glom: Restructured Data for Python_ **glom**
 
 _Memory efficiency of parallel IO operations in Python_
 <https://code.kiwi.com/memory-efficiency-of-parallel-io-operations-in-python-6e7d6c51905d>
+
+_Regex was taking 5 days to run. So I built a tool that did it in 15 minutes_ **flashtext** **Aho-Corasick algorithm**
+<https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f>
+
+_Million requests per second with python_
+<https://medium.freecodecamp.org/million-requests-per-second-with-python-95c137af319>
