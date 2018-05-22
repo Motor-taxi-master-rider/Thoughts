@@ -565,7 +565,7 @@ _How to rewrite your SQL queries in Pandas, and more_
 _Keyword (Named) Arguments in Python: How to Use Them_
 <http://treyhunner.com/2018/04/keyword-arguments-in-python/>
 
-Mining Twitter Data with Python (Part 1: Collecting data)
+_Mining Twitter Data with Python (Part 1: Collecting data)_
 <https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/>
 
 _Natural Language Processing Made Easy – using SpaCy_  **[sentiment classification](https://github.com/explosion/spaCy/blob/master/examples/deep_learning_keras.py)**
