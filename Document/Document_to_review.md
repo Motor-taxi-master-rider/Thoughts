@@ -604,3 +604,6 @@ _Regex was taking 5 days to run. So I built a tool that did it in 15 minutes_ **
 
 _Million requests per second with python_
 <https://medium.freecodecamp.org/million-requests-per-second-with-python-95c137af319>
+
+_Predict Movie Rating_
+<https://nycdatascience.com/blog/student-works/machine-learning/movie-rating-prediction/>
