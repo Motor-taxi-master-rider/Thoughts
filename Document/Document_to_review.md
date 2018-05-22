@@ -607,3 +607,12 @@ _Million requests per second with python_
 
 _Predict Movie Rating_
 <https://nycdatascience.com/blog/student-works/machine-learning/movie-rating-prediction/>
+
+How to write Dockerfiles for Python Web Apps
+<https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d>
+
+Get Started with PySpark and Jupyter Notebook in 3 Minutes
+<https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f>
+
+The Hitchhiker’s Guide to Machine Learning in Python
+<https://medium.freecodecamp.org/the-hitchhikers-guide-to-machine-learning-algorithms-in-python-bfad66adb378>
