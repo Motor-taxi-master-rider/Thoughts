@@ -86,7 +86,8 @@ _谈谈 Python 程序的运行原理_
 _Introduction to Nginx – Complete Tutorial_
 <https://www.systemcodegeeks.com/web-servers/nginx/introduction-to-nginx-complete-tutorial/>
 
-红黑树
+## 红黑树
+
 <https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md>
 
 _使用scrapy-deltafetch实现爬虫增量去重_
@@ -440,7 +441,8 @@ _5 speed improvements in Python 3.7_
 _build blog with pelican_
 <http://pythonforundergradengineers.com/how-i-built-this-site-1.html>
 
-TensorFlow全新的数据读取方式：Dataset API入门教程
+## TensorFlow全新的数据读取方式：Dataset API入门教程
+
 <http://blog.csdn.net/qq_40027052/article/details/78528898>
 
 `Tensorflow中文社区`
@@ -577,7 +579,7 @@ _Unlearning toxic behaviors in a code review culture_
 **Pipenv** _: A Guide to the New Python Packaging Tool_
 <https://realpython.com/pipenv-guide/>
 
-## Testing a Flask Application using pytest
+_Testing a Flask Application using pytest_
 
 <http://www.patricksoftwareblog.com/testing-a-flask-application-using-pytest/>
 
@@ -614,5 +616,6 @@ How to write Dockerfiles for Python Web Apps
 Get Started with PySpark and Jupyter Notebook in 3 Minutes
 <https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f>
 
-The Hitchhiker’s Guide to Machine Learning in Python
+# The Hitchhiker’s Guide to Machine Learning in Python
+
 <https://medium.freecodecamp.org/the-hitchhikers-guide-to-machine-learning-algorithms-in-python-bfad66adb378>
