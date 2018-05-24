@@ -622,3 +622,6 @@ Get Started with PySpark and Jupyter Notebook in 3 Minutes
 
 Pure Python vs NumPy vs TensorFlow Performance Comparison
 <https://realpython.com/numpy-tensorflow-performance/>
+
+_The other (great) benefit of Python type annotations_
+<https://medium.com/@shamir.stav_83310/the-other-great-benefit-of-python-type-annotations-896c7d077c6b>
