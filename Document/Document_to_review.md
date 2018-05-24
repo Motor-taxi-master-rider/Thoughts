@@ -619,3 +619,6 @@ Get Started with PySpark and Jupyter Notebook in 3 Minutes
 # The Hitchhiker’s Guide to Machine Learning in Python
 
 <https://medium.freecodecamp.org/the-hitchhikers-guide-to-machine-learning-algorithms-in-python-bfad66adb378>
+
+Pure Python vs NumPy vs TensorFlow Performance Comparison
+<https://realpython.com/numpy-tensorflow-performance/>
