@@ -625,3 +625,6 @@ Pure Python vs NumPy vs TensorFlow Performance Comparison
 
 _The other (great) benefit of Python type annotations_
 <https://medium.com/@shamir.stav_83310/the-other-great-benefit-of-python-type-annotations-896c7d077c6b>
+
+_Best practice with retries with requests_ **request retry feature**
+<https://www.peterbe.com/plog/best-practice-with-retries-with-requests>
