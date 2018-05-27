@@ -2,11 +2,13 @@ import concurrent.futures
 import functools
 import os
 import subprocess
+import time
 from configparser import ConfigParser
 from multiprocessing import cpu_count
 
 import click
 from git_pull import git_pull
+from document_archive import document_archive
 
 CONFIG_PATH = r'config/project_controler.cfg'  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
@@ -45,14 +47,17 @@ def sync():
         for task in concurrent.futures.as_completed(tasks):
             path, branch = tasks[task]
             try:
-                data = task.result()
+                task.result()
             except subprocess.CalledProcessError:
                 click.echo(f'Synchronize failed in {path}:{branch}.')
-            else:
-                if data:
-                    click.echo(f'Return data: {data}.')
         else:
+            time.sleep(0.1)  # wait for logging message printing
             click.echo('All repository is synchronized.')
+
+
+@main.command()
+def doc_archive():
+    print(document_archive())
 
 
 @main.command()

@@ -1,6 +1,9 @@
 import os
 import subprocess
+
 from util.logger import MyLogger
+
+PULL_CACHE = {}
 
 
 def git_pull(path: str, branch: str):
@@ -9,12 +12,12 @@ def git_pull(path: str, branch: str):
     :param path: path of local root repository
     :param branch: branch to checkout
     """
-    cache = {}
-    if path not in cache:
+    if path not in PULL_CACHE:
         git_puller = GitPuller(path)
         git_puller.pull(branch)
+        PULL_CACHE[path] = git_puller
     else:
-        cache[path].pull(branch)
+        PULL_CACHE[path].pull(branch)
 
 
 class GitPuller:
