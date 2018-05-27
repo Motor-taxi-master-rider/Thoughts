@@ -6,6 +6,7 @@ from configparser import ConfigParser
 from multiprocessing import cpu_count
 
 import click
+from git_pull import git_pull
 
 CONFIG_PATH = r'config/project_controler.cfg'  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
@@ -64,28 +65,15 @@ def create_config():
         click.echo(f'Config file {CONFIG_PATH} already existed.')
         return
     sections = {GIT_PATH: '# Config project name and local path of the project\n'
-                '# Syntax:{project name} = {Path/to/repo}\n',
+                          '# Syntax:{project name} = {Path/to/repo}\n',
                 GIT_BRANCH: '# Config project name and branch to synchronize, default master if not config\n'
-                '# Syntax:{project name} = {repository branch}\n'}
+                            '# Syntax:{project name} = {repository branch}\n'}
     with open(CONFIG_PATH, 'w') as file:
         for section_name, comment in sections.items():
             file.write(f'[{section_name}]\n')
             file.write(comment)
             file.write('\n')
     click.echo(f'Config file template is created.')
-
-
-def git_pull(path, branch):
-    """
-    git pull from remote repository
-    :param path: path of local root repository
-    :param branch: branch to checkout
-    :return:
-    """
-    os.chdir(path)
-    subprocess.run(['git', 'checkout', branch],
-                   check=True, stdout=None, stderr=None)
-    subprocess.run(['git', 'pull', '--rebase'], check=True)
 
 
 if __name__ == '__main__':
