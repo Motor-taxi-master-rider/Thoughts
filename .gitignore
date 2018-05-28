@@ -3,6 +3,7 @@
 test.*
 ?mypy_cache
 Tools/config/*.cfg
+archive_document.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

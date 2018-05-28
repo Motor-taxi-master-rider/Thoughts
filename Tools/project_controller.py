@@ -1,10 +1,12 @@
 import concurrent.futures
 import functools
+import json
 import os
 import subprocess
 import time
 from configparser import ConfigParser
 from multiprocessing import cpu_count
+from pprint import pprint
 
 import click
 from git_pull import git_pull
@@ -59,8 +61,14 @@ def doc_archive():
     """
     Reconstruct document to review file into a json format file
     """
-    from pprint import pprint
-    pprint(document_archive())
+    json_file_path = 'archive_document.json'
+    json_doc = document_archive()
+    click.echo(f'Succesfully retrived {len(json_doc)} data:\n......')
+    pprint(json_doc[-5:])
+    with open(json_file_path, 'w', encoding='utf-8') as fh:
+        json.dump(json_doc, fh)
+    click.echo(
+        f'Json file is generated. Please check in {os.path.realpath(json_file_path)}.')
 
 
 @main.command()
