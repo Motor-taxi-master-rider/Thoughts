@@ -23,7 +23,6 @@ def main():
 def sync():
     """
     Synchronize local git repository with remote ones
-    :return:
     """
 
     config = ConfigParser()
@@ -57,14 +56,17 @@ def sync():
 
 @main.command()
 def doc_archive():
-    print(document_archive())
+    """
+    Reconstruct document to review file into a json format file
+    """
+    from pprint import pprint
+    pprint(document_archive())
 
 
 @main.command()
 def create_config():
     """
     Create config file template for project controller
-    :return:
     """
     if os.path.exists(CONFIG_PATH):
         click.echo(f'Config file {CONFIG_PATH} already existed.')
