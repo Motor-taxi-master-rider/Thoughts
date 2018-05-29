@@ -36,19 +36,25 @@ class GitPuller:
 
         os.chdir(self._repo_path)
 
-        with open(os.devnull, 'w') as rubbish:
-            checkout = subprocess.Popen(['git', 'checkout', branch], stdout=rubbish, stderr=subprocess.PIPE)
-            with checkout.stderr as checkout_err:
-                self._log_result('', checkout_err.read().decode('utf-8'))
-            checkout.wait()
+        current_branch = subprocess.check_output(
+            'git rev-parse --abbrev-ref HEAD').decode()[:-1]
+        if not current_branch == branch:
+            with open(os.devnull, 'w') as rubbish:
+                checkout = subprocess.Popen(
+                    ['git', 'checkout', branch], stdout=rubbish, stderr=subprocess.PIPE)
+                self._log_result(checkout)
 
-        pull = subprocess.Popen(['git', 'pull', '--rebase'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        with pull.stdout as pull_out, pull.stderr as pull_err:
-            self._log_result(pull_out.read().decode('utf-8'), pull_err.read().decode('utf-8'))
-        pull.wait()
+        pull = subprocess.Popen(
+            ['git', 'pull', '--rebase'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        self._log_result(pull)
 
-    def _log_result(self, stdout: str, stderr: str):
-        if stdout:
-            self._logger.info(stdout[:-1])
-        if stderr:
-            self._logger.error(stderr[:-1])
+    def _log_result(self, process: subprocess.Popen):
+        with process.stdout as stdout, process.stderr as stderr:
+            stdout = stdout.read().decode('utf-8')
+            if stdout:
+                self._logger.info(stdout[:-1])
+
+            stderr = stderr.read().decode('utf-8')
+            if stderr:
+                self._logger.error(stderr[:-1])
+        process.wait()

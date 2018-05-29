@@ -1,6 +1,6 @@
 import logging
 
-DEFAULT_FORMAT = {'fmt': '[%(levelname)s %(asctime)s]%(name)s: %(message)s',
+DEFAULT_FORMAT = {'fmt': '[%(levelname)s %(asctime)s] \033[1;32;40m%(name)s\033[0m: %(message)s',
                   'datefmt': "%H:%M:%S"}
 
 
