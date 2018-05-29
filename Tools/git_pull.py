@@ -26,7 +26,7 @@ class GitPuller:
         :param repo_path: path of local root repository
         """
         self._repo_path = repo_path
-        self._logger = MyLogger(os.path.basename(repo_path))
+        self._logger = MyLogger(os.path.basename(repo_path).upper())
 
     def pull(self, branch: str):
         """
