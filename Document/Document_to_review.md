@@ -628,3 +628,7 @@ _The other (great) benefit of Python type annotations_
 
 _Best practice with retries with requests_ **request retry feature**
 <https://www.peterbe.com/plog/best-practice-with-retries-with-requests>
+
+# How to use Python and Flask to build a web app — an in-depth tutorial
+
+<https://medium.freecodecamp.org/how-to-use-python-and-flask-to-build-a-web-app-an-in-depth-tutorial-437dbfe9f1c6>
