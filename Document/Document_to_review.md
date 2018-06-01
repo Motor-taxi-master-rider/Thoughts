@@ -637,6 +637,5 @@ _Best practice with retries with requests_ **request retry feature**
 
 <https://hackernoon.com/15-tips-to-enhance-your-github-flow-6af7ceb0d8a3>
 
-# Pipenv review, after using it in production
-
+_Pipenv review, after using it in production_
 <https://medium.com/@DJetelina/pipenv-review-after-using-in-production-a05e7176f3f0>
