@@ -1,11 +1,10 @@
-import sys
 import math
-sys.path.append('..')
-from algorithm.data_structure.Tree import build_tree_from_list
+
+from data_structure.Tree import build_tree_from_list
 
 
 def check_BST(root, low, high):
-    """check a binary tree whether is BST or not""
+    """check a binary tree whether is BST or not"""
     if not root:
         return True
     root_value = root.value
