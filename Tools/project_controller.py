@@ -9,8 +9,11 @@ from multiprocessing import cpu_count
 from pprint import pprint
 
 import click
-from git_pull import git_pull
+import pymongo
+from pymongo.errors import PyMongoError, ConnectionFailure
+
 from document_archive import document_archive
+from git_pull import git_pull
 
 CONFIG_PATH = r'config/project_controler.cfg'  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
@@ -57,18 +60,47 @@ def sync():
 
 
 @main.command()
-def doc_archive():
+@click.option('--file', default='archive_document.json')
+@click.option('--no-file', is_flag=True)
+@click.option('--mongo', default='localhost:27017')
+@click.option('--no-mongo', is_flag=True)
+def doc_archive(file, no_file, mongo, no_mongo):
     """
     Reconstruct document to review file into a json format file
     """
-    json_file_path = 'archive_document.json'
-    json_doc = document_archive()
-    click.echo(f'Succesfully retrived {len(json_doc)} data:\n......')
-    pprint(json_doc[-5:])
-    with open(json_file_path, 'w', encoding='utf-8') as fh:
-        json.dump(json_doc, fh)
-    click.echo(
-        f'Json file is generated. Please check in {os.path.realpath(json_file_path)}.')
+    json_data = document_archive()
+
+    if not no_file:
+        click.echo(f'Succesfully retrived {len(json_doc)} data:\n......')
+        pprint(json_data[-5:])
+        try:
+            with open(file, 'w', encoding='utf-8') as fh:
+                json.dump(json_data, fh)
+        except IOError:
+            click.echo(f'Unable to write file {os.path.realpath(file)}.')
+            return
+        click.echo(f'Json file is generated. Please check in {os.path.realpath(file)}.')
+
+    if not no_mongo:
+        click.echo(f'Trying to connect mongodb in {mongo}.')
+        try:
+            client = pymongo.MongoClient(f'mongodb://{mongo}/')
+        except ConnectionFailure:
+            click.echo(f'Unable to connect {mongo}.')
+            return
+
+        try:
+            database = client.doc_search
+            collection = database.document_meta
+        except PyMongoError:
+            click.echo('Unable to find correct collection in database. Please confirm doc_search.document_meta exists.')
+            return
+        try:
+            result = collection.insert_many(json_data)
+        except  PyMongoError:
+            click.echo('Unable insert data.')
+            return
+        click.echo(f'{len(result.inserted_ids)} documents have been loaded into mongodb.')
 
 
 @main.command()
