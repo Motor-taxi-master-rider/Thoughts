@@ -86,8 +86,7 @@ _谈谈 Python 程序的运行原理_
 _Introduction to Nginx – Complete Tutorial_
 <https://www.systemcodegeeks.com/web-servers/nginx/introduction-to-nginx-complete-tutorial/>
 
-## 红黑树
-
+红黑树
 <https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md>
 
 _使用scrapy-deltafetch实现爬虫增量去重_
@@ -172,10 +171,10 @@ _Machine learning:_
 Learning reinforcement learning:
 <https://youtu.be/2pWv7GOvuf0>
 
-`Practice ML, data science`
+Practice ML, data science
 <https://www.kaggle.com/>
 
-`Practice Reinforcement Learning`
+Practice Reinforcement Learning:
 <https://openai.com/>
 
 Text Analytics and Visualization
@@ -226,7 +225,7 @@ _andreamosaic_
 `talkpython`
 <https://talkpython.fm/episodes/all>
 
-Building Game Ai Using Machine Learning: Working With Tensorflow, Keras, And The Intel Mkl In Python
+BUILDING GAME AI USING MACHINE LEARNING: WORKING WITH TENSORFLOW, KERAS, AND THE INTEL MKL IN PYTHON
 <https://www.activestate.com/blog/2017/05/building-game-ai-using-machine-learning-working-tensorflow-keras-and-intel-mkl-python>
 
 `Keras`
@@ -322,7 +321,7 @@ Flask asynchronous background tasks with Celery and Redis
 _Fastest way to uniquify a list in Python >=3.6_
 <https://www.peterbe.com/plog/fastest-way-to-uniquify-a-list-in-python-3.6>
 
-`Rust playground`
+Rust playground
 <https://play.rust-lang.org/>
 
 _Criticizing the Rust Language, and Why C/C++ Will Never Die_
@@ -370,18 +369,16 @@ _Jupyter notebooks and version control_
 **Understanding internals of Python classes**
 <https://rushter.com/blog/python-class-internals/>
 
-~~20+ Python Web Scraping Examples (Beautifulsoup & Selenium)~~
+_20+ Python Web Scraping Examples (Beautifulsoup & Selenium)_
 <https://www.codementor.io/likegeeks/20-python-web-scraping-examples-beautifulsoup-selenium-fw6y3lfck>
 
 Monitoring Your Asynchronous Python Web Applications Using Prometheus
 <https://blog.codeship.com/monitoring-your-asynchronous-python-web-applications-using-prometheus/>
 
-## Simplifying Offline Python Deployments With Docker
-
+Simplifying Offline Python Deployments With Docker
 <https://realpython.com/blog/python/offline-python-deployments-with-docker/>
 
-# 9 new pandas updates that will save you time
-
+9 new pandas updates that will save you time
 <http://www.dataschool.io/python-pandas-updates/>
 
 _Introduction to Functional Programming in Python_
@@ -408,10 +405,10 @@ Python + Memcached: Efficient Caching in Distributed Applications
 _Fastest way to unzip a zip file in Python_
 <https://www.peterbe.com/plog/fastest-way-to-unzip-a-zip-file-in-python>
 
-~~Kaggle Learn review: there is a deep learning track and it is worth your time~~
+Kaggle Learn review: there is a deep learning track and it is worth your time
 <https://www.codementor.io/akashtndnacm/kaggle-learn-review-there-is-a-deep-learning-track-and-it-is-worth-your-time-gfpc0ydui>
 
-_Testing Python Applications with Pytest_ **some pytest examples, may be I can try Semaphore CI for my search project**
+Testing Python Applications with Pytest
 <https://semaphoreci.com/community/tutorials/testing-python-applications-with-pytest>
 
 **Numpy Tutorial Part 1: Introduction to Arrays**
@@ -429,7 +426,7 @@ _Python splitting list to sublists at given start/end keywords_
 **A Python gargoyle**
 <https://nedbatchelder.com//blog/201802/a_python_gargoyle.html>
 
-~~How to speed up Python application startup time~~
+_How to speed up Python application startup time_
 <https://dev.to/methane/how-to-speed-up-python-application-startup-time-nkf>
 
 _机器学习速成课程_
@@ -441,8 +438,7 @@ _5 speed improvements in Python 3.7_
 _build blog with pelican_
 <http://pythonforundergradengineers.com/how-i-built-this-site-1.html>
 
-## TensorFlow全新的数据读取方式：Dataset API入门教程
-
+TensorFlow全新的数据读取方式：Dataset API入门教程
 <http://blog.csdn.net/qq_40027052/article/details/78528898>
 
 `Tensorflow中文社区`
@@ -457,14 +453,13 @@ A Phone Number Proxy
 _Bite-sized command line tools: pylintdb_
 <https://nedbatchelder.com/blog/201712/bitesized_command_line_tools_pylintdb.html>
 
-~~Data science with Python: Turn your conditional loops to Numpy vectors~~
+_Data science with Python: Turn your conditional loops to Numpy vectors_
 <https://www.codementor.io/tirthajyotisarkar/data-science-with-python-turn-your-conditional-loops-to-numpy-vectors-he1yo9265>
 
 `From Python to Numpy`
 <http://www.labri.fr/perso/nrougier/from-python-to-numpy/>
 
-## Running Your End To End Tests On Kubernetes
-
+RUNNING YOUR END TO END TESTS ON KUBERNETES
 <https://www.gocd.org/2018/02/27/running-end-to-end-tests-kubernetes/?utm_campaign=e2e_k8s&utm_medium=newsletter_ad&utm_source=import_python&utm_content=e2e_k8s&utm_term=>
 
 _Memory efficiency of parallel IO operations in Python_
@@ -476,11 +471,10 @@ _Comparing Python Command-Line Parsing Libraries – Argparse, Docopt, and Click
 _Dynamic programming and memoization: bottom-up vs top-down approaches_
 <https://stackoverflow.com/questions/6164629/dynamic-programming-and-memoization-bottom-up-vs-top-down-approaches>
 
-_Pythonic Data Cleaning With NumPy and Pandas_
+Pythonic Data Cleaning With NumPy and Pandas
 <https://realpython.com/python-data-cleaning-numpy-pandas/>
 
-## Test automation framework thoughts and examples with Python, pytest and Jenkins
-
+Test automation framework thoughts and examples with Python, pytest and Jenkins
 <http://davidemoro.blogspot.se/2018/03/test-automation-python-pytest-jenkins.html>
 
 **How To Quickly Compute The Mandelbrot Set In Python**
@@ -495,8 +489,7 @@ _Three lists zipped into list of dicts_
 `Python Data Science Handbook`
 <https://jakevdp.github.io/PythonDataScienceHandbook/>
 
-# 10 Data Science Projects You Can Join Today
-
+10 Data Science Projects You Can Join Today
 <https://www.dataquest.io/blog/10-data-science-projects-join/>
 
 `Dataquest`
@@ -505,8 +498,7 @@ _Three lists zipped into list of dicts_
 Why Rust?
 <http://www.oreilly.com/programming/free/files/why-rust.pdf>
 
-## Distributed Testing with Selenium Grid and Docker
-
+Distributed Testing with Selenium Grid and Docker
 <https://testdriven.io/distributed-testing-with-selenium-grid>
 
 _聊聊Linux 五种IO模型_
@@ -548,8 +540,7 @@ Unittest with pyspark
 Transforming Python ASTs to Optimize Comprehensions  **interesting dynamic programming**
 <https://cypher.codes/writing/transforming-python-asts-to-optimize-comprehensions-at-runtime>
 
-# The best of Python: a collection of my favorite articles from 2017 and 2018
-
+The best of Python: a collection of my favorite articles from 2017 and 2018
 <https://medium.freecodecamp.org/python-collection-of-my-favorite-articles-8469b8455939>
 
 _Why Did So Many Startups Choose MongoDB?_
@@ -558,7 +549,7 @@ _Why Did So Many Startups Choose MongoDB?_
 **What is Docker and How to Use it With Python**
 <https://djangostars.com/blog/what-is-docker-and-how-to-use-it-with-python/>
 
-_How to rewrite your SQL queries in Pandas, and more_
+How to rewrite your SQL queries in Pandas, and more
 <https://codeburst.io/how-to-rewrite-your-sql-queries-in-pandas-and-more-149d341fc53e>
 
 **The need for speed without bothering too much: An introduction to numba**
@@ -567,75 +558,11 @@ _How to rewrite your SQL queries in Pandas, and more_
 _Keyword (Named) Arguments in Python: How to Use Them_
 <http://treyhunner.com/2018/04/keyword-arguments-in-python/>
 
-_Mining Twitter Data with Python (Part 1: Collecting data)_
-<https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/>
+Mining Twitter Data with Python (Part 1: Collecting data)
+https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/
 
-_Natural Language Processing Made Easy – using SpaCy_  **[sentiment classification](https://github.com/explosion/spaCy/blob/master/examples/deep_learning_keras.py)**
-<https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/>
+Natural Language Processing Made Easy – using SpaCy  **[sentiment classification](https://github.com/explosion/spaCy/blob/master/examples/deep_learning_keras.py)**
+https://www.analyticsvidhya.com/blog/2017/04/natural-language-processing-made-easy-using-spacy-%E2%80%8Bin-python/
 
-_Unlearning toxic behaviors in a code review culture_
-<https://medium.freecodecamp.org/unlearning-toxic-behaviors-in-a-code-review-culture-b7c295452a3c>
-
-**Pipenv** _: A Guide to the New Python Packaging Tool_
-<https://realpython.com/pipenv-guide/>
-
-_Testing a Flask Application using pytest_
-
-<http://www.patricksoftwareblog.com/testing-a-flask-application-using-pytest/>
-
-_Announcing glom: Restructured Data for Python_ **glom**
-<http://sedimental.org/glom_restructured_data.html>
-
-~~Why Senior Devs Write Dumb Code and How to Spot a Junior From A Mile Away~~
-<https://hackernoon.com/why-senior-devs-write-dumb-code-and-how-to-spot-a-junior-from-a-mile-away-27fa263b101a>
-
-~~You Don't Have To Be a Workaholic To Win: 13 Alternative Ways To Stand Out~~
-<https://www.kevinball.com/2018/04/17/you-dont-have-to-be-a-workaholic/>
-
-**A Beginner’s Guide to Optimizing Pandas Code for Speed**
-<http://python-weekly.blogspot.com/2018/01/20-best-perl-questions-at-stackoverflow.html>
-
-**Data Pre-Processing in Python: How I learned to love parallelized applies with Dask and Numba**
-<https://towardsdatascience.com/how-i-learned-to-love-parallelized-applies-with-python-pandas-dask-and-numba-f06b0b367138>
-
-_Memory efficiency of parallel IO operations in Python_
-<https://code.kiwi.com/memory-efficiency-of-parallel-io-operations-in-python-6e7d6c51905d>
-
-_Regex was taking 5 days to run. So I built a tool that did it in 15 minutes_ **flashtext** **Aho-Corasick algorithm**
-<https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f>
-
-_Million requests per second with python_
-<https://medium.freecodecamp.org/million-requests-per-second-with-python-95c137af319>
-
-_Predict Movie Rating_
-<https://nycdatascience.com/blog/student-works/machine-learning/movie-rating-prediction/>
-
-How to write Dockerfiles for Python Web Apps
-<https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d>
-
-Get Started with PySpark and Jupyter Notebook in 3 Minutes
-<https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f>
-
-# The Hitchhiker’s Guide to Machine Learning in Python
-
-<https://medium.freecodecamp.org/the-hitchhikers-guide-to-machine-learning-algorithms-in-python-bfad66adb378>
-
-Pure Python vs NumPy vs TensorFlow Performance Comparison
-<https://realpython.com/numpy-tensorflow-performance/>
-
-_The other (great) benefit of Python type annotations_
-<https://medium.com/@shamir.stav_83310/the-other-great-benefit-of-python-type-annotations-896c7d077c6b>
-
-_Best practice with retries with requests_ **request retry feature**
-<https://www.peterbe.com/plog/best-practice-with-retries-with-requests>
-
-# How to use Python and Flask to build a web app — an in-depth tutorial
-
-<https://medium.freecodecamp.org/how-to-use-python-and-flask-to-build-a-web-app-an-in-depth-tutorial-437dbfe9f1c6>
-
-# 15 Tips to Enhance your Github Flow
-
-<https://hackernoon.com/15-tips-to-enhance-your-github-flow-6af7ceb0d8a3>
-
-_Pipenv review, after using it in production_
-<https://medium.com/@DJetelina/pipenv-review-after-using-in-production-a05e7176f3f0>
+_difference between condition and event_
+<https://stackoverflow.com/questions/7424590/threading-condition-vs-threading-event>
