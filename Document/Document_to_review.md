@@ -620,7 +620,7 @@ Get Started with PySpark and Jupyter Notebook in 3 Minutes
 
 <https://medium.freecodecamp.org/the-hitchhikers-guide-to-machine-learning-algorithms-in-python-bfad66adb378>
 
-Pure Python vs NumPy vs TensorFlow Performance Comparison
+_Pure Python vs NumPy vs TensorFlow Performance Comparison_
 <https://realpython.com/numpy-tensorflow-performance/>
 
 _The other (great) benefit of Python type annotations_
