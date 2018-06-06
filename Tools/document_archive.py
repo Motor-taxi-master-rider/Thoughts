@@ -4,7 +4,7 @@ import re
 DOCUMENT_PATH = 'Document/Document_to_review.md'
 CATEGORY_GROUP = {
     'TODO': ['STERM', 'LTERM'],
-    'DONE': ['INTERST', 'INTERST_HL', 'REVIEW', 'REVIEW_HL', 'FLIP']
+    'DONE': ['INTEREST', 'INTEREST_HL', 'REVIEW', 'REVIEW_HL', 'FLIP']
 }
 STERM_REG = re.compile(r'^#+')
 LTERM_REG = re.compile(r'^`([^`]+)`')
@@ -41,11 +41,11 @@ def _parse_title(title: str) -> dict:
         data['category'] = 'LTERM'
         data['theme'] = LTERM_REG.findall(title)[0].strip()
     elif title.startswith('**'):
-        data['category'] = 'INTERST'
+        data['category'] = 'INTEREST'
         high_light = INTERST_REG.findall(title)
         data['theme'] = high_light.pop(0).strip()
         if high_light:
-            data['category'] = 'INTERST_HL'
+            data['category'] = 'INTEREST_HL'
             data['highlight'] = high_light
     elif title.startswith('_'):
         data['category'] = 'REVIEW'
