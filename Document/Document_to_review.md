@@ -645,3 +645,13 @@ _difference between condition and event_
 
 **Let’s Synchronize Threads in Python**
 <https://hackernoon.com/synchronization-primitives-in-python-564f89fee732>
+
+Pysystemd Representation in Pycon2018
+<https://www.youtube.com/watch?v=ZUX9Fx8Rwzg>
+
+# Python Top 45 Articles for the Past Year
+
+<https://medium.mybridge.co/python-top-45-tutorials-for-the-past-year-v-2018-1b4d46c9e857>
+
+**30 Amazing Python Projects for the Past Year**
+<https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3>
