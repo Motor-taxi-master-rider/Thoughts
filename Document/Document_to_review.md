@@ -633,8 +633,7 @@ _Best practice with retries with requests_ **request retry feature**
 
 <https://medium.freecodecamp.org/how-to-use-python-and-flask-to-build-a-web-app-an-in-depth-tutorial-437dbfe9f1c6>
 
-# 15 Tips to Enhance your Github Flow
-
+_15 Tips to Enhance your Github Flow_   **TravisCI config**
 <https://hackernoon.com/15-tips-to-enhance-your-github-flow-6af7ceb0d8a3>
 
 _Pipenv review, after using it in production_
