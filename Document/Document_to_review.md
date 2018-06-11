@@ -645,7 +645,8 @@ _difference between condition and event_
 **Let’s Synchronize Threads in Python**
 <https://hackernoon.com/synchronization-primitives-in-python-564f89fee732>
 
-Pysystemd Representation in Pycon2018
+# Pysystemd Representation in Pycon2018
+
 <https://www.youtube.com/watch?v=ZUX9Fx8Rwzg>
 
 # Python Top 45 Articles for the Past Year
@@ -654,3 +655,9 @@ Pysystemd Representation in Pycon2018
 
 **30 Amazing Python Projects for the Past Year**
 <https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3>
+
+Making your C library callable from Python by wrapping it with Cython
+<https://medium.com/@shamir.stav_83310/making-your-c-library-callable-from-python-by-wrapping-it-with-cython-b09db35012a3>
+
+Taming Irreversibility with Feature Flags (in Python)
+<https://www.vinta.com.br/blog/2018/taming-irreversibility-feature-flags-python/>
