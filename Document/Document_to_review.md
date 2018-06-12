@@ -645,7 +645,7 @@ _difference between condition and event_
 **Let’s Synchronize Threads in Python**
 <https://hackernoon.com/synchronization-primitives-in-python-564f89fee732>
 
-# Pysystemd Representation in Pycon2018
+_Pysystemd Representation in Pycon2018_  **many pysystemd use cases/configration**
 
 <https://www.youtube.com/watch?v=ZUX9Fx8Rwzg>
 
