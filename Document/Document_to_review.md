@@ -661,3 +661,9 @@ Making your C library callable from Python by wrapping it with Cython
 
 Taming Irreversibility with Feature Flags (in Python)
 <https://www.vinta.com.br/blog/2018/taming-irreversibility-feature-flags-python/>
+
+**100 Times Faster Natural Language Processing in Python**
+<https://medium.com/huggingface/100-times-faster-natural-language-processing-in-python-ee32033bdced>
+
+State-of-the-art neural coreference resolution for chatbots
+<https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30>
