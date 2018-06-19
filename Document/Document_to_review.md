@@ -667,3 +667,9 @@ Taming Irreversibility with Feature Flags (in Python)
 
 State-of-the-art neural coreference resolution for chatbots
 <https://medium.com/huggingface/state-of-the-art-neural-coreference-resolution-for-chatbots-3302365dcf30>
+
+Building and Documenting Python REST APIs With Flask and Connexion
+<https://realpython.com/flask-connexion-rest-api/>
+
+_Everyone complaining about Microsoft buying GitHub needs to offer a better solution_
+<https://arstechnica.com/gadgets/2018/06/everyone-complaining-about-microsoft-buying-github-needs-to-offer-a-better-solution/?comments=1&unread=1>
