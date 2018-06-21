@@ -105,7 +105,7 @@ _yield from_
 _hitchhiker-guide_
 <http://docs.python-guide.org/en/latest/>
 
-编程珠玑（二）：字符反转--杂耍算法
+**编程珠玑（二）：字符反转--杂耍算法** **同余**
 <http://www.cnblogs.com/solidblog/archive/2012/07/15/2592009.html>
 
 _链表问题集合_
@@ -629,8 +629,7 @@ _The other (great) benefit of Python type annotations_
 _Best practice with retries with requests_ **request retry feature**
 <https://www.peterbe.com/plog/best-practice-with-retries-with-requests>
 
-# How to use Python and Flask to build a web app — an in-depth tutorial
-
+**How to use Python and Flask to build a web app — an in-depth tutorial**
 <https://medium.freecodecamp.org/how-to-use-python-and-flask-to-build-a-web-app-an-in-depth-tutorial-437dbfe9f1c6>
 
 _15 Tips to Enhance your Github Flow_   **TravisCI config**
@@ -646,7 +645,6 @@ _difference between condition and event_
 <https://hackernoon.com/synchronization-primitives-in-python-564f89fee732>
 
 _Pysystemd Representation in Pycon2018_  **many pysystemd use cases/configration**
-
 <https://www.youtube.com/watch?v=ZUX9Fx8Rwzg>
 
 # Python Top 45 Articles for the Past Year
@@ -673,3 +671,9 @@ Building and Documenting Python REST APIs With Flask and Connexion
 
 _Everyone complaining about Microsoft buying GitHub needs to offer a better solution_
 <https://arstechnica.com/gadgets/2018/06/everyone-complaining-about-microsoft-buying-github-needs-to-offer-a-better-solution/?comments=1&unread=1>
+
+**Understanding internals of Python classes**
+<https://rushter.com/blog/python-class-internals/>
+
+Python's GIL implemented in pure Python
+<https://rushter.com/blog/python-gil-thread-scheduling/>
