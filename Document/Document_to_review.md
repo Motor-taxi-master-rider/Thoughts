@@ -677,3 +677,6 @@ _Everyone complaining about Microsoft buying GitHub needs to offer a better solu
 
 Python's GIL implemented in pure Python
 <https://rushter.com/blog/python-gil-thread-scheduling/>
+
+`Cython tutorial`
+http://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
