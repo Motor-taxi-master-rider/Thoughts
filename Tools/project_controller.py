@@ -1,16 +1,10 @@
 import concurrent.futures
 import functools
-import json
 import os
-import subprocess
 import time
 from configparser import ConfigParser
-from multiprocessing import cpu_count
-from pprint import pprint
 
 import click
-import pymongo
-from pymongo.errors import PyMongoError, ConnectionFailure
 
 from document_archive import document_archive
 from git_pull import git_pull
@@ -29,6 +23,8 @@ def sync():
     """
     Synchronize local git repository with remote ones
     """
+    import subprocess
+    from multiprocessing import cpu_count
 
     config = ConfigParser()
     if not os.path.exists(CONFIG_PATH):
@@ -68,6 +64,11 @@ def doc_archive(file, no_file, mongo, no_mongo):
     """
     Reconstruct document to review file into a json format file
     """
+    import json
+    import pymongo
+    from pprint import pprint
+    from pymongo.errors import PyMongoError, ConnectionFailure
+
     json_data = document_archive()
 
     if not no_file:
@@ -79,7 +80,8 @@ def doc_archive(file, no_file, mongo, no_mongo):
         except IOError:
             click.echo(f'Unable to write file {os.path.realpath(file)}.')
             return
-        click.echo(f'Json file is generated. Please check in {os.path.realpath(file)}.')
+        click.echo(
+            f'Json file is generated. Please check in {os.path.realpath(file)}.')
 
     if not no_mongo:
         click.echo(f'Trying to connect mongodb in {mongo}.')
@@ -93,14 +95,16 @@ def doc_archive(file, no_file, mongo, no_mongo):
             database = client.doc_search
             collection = database.document_meta
         except PyMongoError:
-            click.echo('Unable to find correct collection in database. Please confirm doc_search.document_meta exists.')
+            click.echo(
+                'Unable to find correct collection in database. Please confirm doc_search.document_meta exists.')
             return
         try:
             result = collection.insert_many(json_data)
-        except  PyMongoError:
+        except PyMongoError:
             click.echo('Unable insert data.')
             return
-        click.echo(f'{len(result.inserted_ids)} documents have been loaded into mongodb.')
+        click.echo(
+            f'{len(result.inserted_ids)} documents have been loaded into mongodb.')
 
 
 @main.command()
