@@ -679,4 +679,10 @@ Python's GIL implemented in pure Python
 <https://rushter.com/blog/python-gil-thread-scheduling/>
 
 `Cython tutorial`
-http://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html
+<http://cython.readthedocs.io/en/latest/src/tutorial/cython_tutorial.html>
+
+Threaded Asynchronous Magic and How to Wield It
+<https://tryexceptpass.org/article/threaded-asynchronous-magic-and-how-to-wield-it/>
+
+Itertools in Python 3, By Example
+<https://realpython.com/python-itertools/>
