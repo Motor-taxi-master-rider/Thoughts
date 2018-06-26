@@ -686,3 +686,9 @@ Threaded Asynchronous Magic and How to Wield It
 
 Itertools in Python 3, By Example
 <https://realpython.com/python-itertools/>
+
+`tryexceptpass`
+<https://tryexceptpass.org/>
+
+A Python Ate My GUI
+<https://tryexceptpass.org/article/a-python-ate-my-gui/>
