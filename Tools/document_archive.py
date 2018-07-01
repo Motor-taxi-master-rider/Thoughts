@@ -2,10 +2,6 @@ import os
 import re
 
 DOCUMENT_PATH = 'Document/Document_to_review.md'
-CATEGORY_GROUP = {
-    'TODO': ['STERM', 'LTERM'],
-    'DONE': ['INTEREST', 'INTEREST_HL', 'REVIEW', 'REVIEW_HL', 'FLIP']
-}
 STERM_REG = re.compile(r'^#+')
 LTERM_REG = re.compile(r'^`([^`]+)`')
 INTERST_REG = re.compile(r'\*\*([^\*]+)\*\*')
@@ -45,15 +41,13 @@ def _parse_title(title: str) -> dict:
         high_light = INTERST_REG.findall(title)
         data['theme'] = high_light.pop(0).strip()
         if high_light:
-            data['category'] = 'INTEREST_HL'
-            data['highlight'] = high_light
+            data['comment'] = high_light
     elif title.startswith('_'):
-        data['category'] = 'REVIEW'
+        data['category'] = 'REVIEWED'
         data['theme'] = REVIEW_REG.findall(title)[0].strip()
         high_light = INTERST_REG.findall(title)
         if high_light:
-            data['category'] = 'REVIEW_HL'
-            data['highlight'] = high_light
+            data['comment'] = high_light
     elif title.startswith('~~'):
         data['category'] = 'FLIP'
         data['theme'] = FLIP_REG.findall(title)[0].strip()

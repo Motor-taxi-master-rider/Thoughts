@@ -1,16 +1,16 @@
-_Python的练手项目有哪些：_
+_Python的练手项目有哪些_
 <https://www.zhihu.com/question/29372574>
 
-_图灵社区：_
+_图灵社区_
 <http://www.ituring.com.cn/article?sort=newest>
 
-_Python性能分析：_ **line_profiler** **memory_profiler** **objgraph**
+_Python性能分析_ **line_profiler** **memory_profiler** **objgraph**
 <http://python.jobbole.com/86903/>
 
-_What are metaclasses?:_
+_What are metaclasses?_
 <http://stackoverflow.com/questions/100003/what-is-a-metaclass-in-python>
 
-_提高你的Python: 解释‘yield’和‘Generators（生成器）’:_
+_提高你的Python: 解释‘yield’和‘Generators（生成器）’_
 <https://www.oschina.net/translate/improve-your-python-yield-and-generators-explained?lang=chs&page=1#>  
 
 _抛硬币直到连续若干次正面的概率_
@@ -598,9 +598,6 @@ _Announcing glom: Restructured Data for Python_ **glom**
 **Data Pre-Processing in Python: How I learned to love parallelized applies with Dask and Numba**
 <https://towardsdatascience.com/how-i-learned-to-love-parallelized-applies-with-python-pandas-dask-and-numba-f06b0b367138>
 
-_Memory efficiency of parallel IO operations in Python_
-<https://code.kiwi.com/memory-efficiency-of-parallel-io-operations-in-python-6e7d6c51905d>
-
 _Regex was taking 5 days to run. So I built a tool that did it in 15 minutes_ **flashtext** **Aho-Corasick algorithm**
 <https://medium.freecodecamp.org/regex-was-taking-5-days-flashtext-does-it-in-15-minutes-55f04411025f>
 
@@ -684,11 +681,11 @@ Python's GIL implemented in pure Python
 Threaded Asynchronous Magic and How to Wield It
 <https://tryexceptpass.org/article/threaded-asynchronous-magic-and-how-to-wield-it/>
 
-Itertools in Python 3, By Example
+**Itertools in Python 3, By Example**
 <https://realpython.com/python-itertools/>
 
 `tryexceptpass`
 <https://tryexceptpass.org/>
 
-A Python Ate My GUI
+~~A Python Ate My GUI~~
 <https://tryexceptpass.org/article/a-python-ate-my-gui/>
