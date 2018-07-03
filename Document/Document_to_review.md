@@ -163,10 +163,10 @@ _CFFI documentation_
 _unittest.mock examples_
 <https://docs.python.org/3.4/library/unittest.mock-examples.html>
 
-Deep learning:
+Deep learning
 <https://www.coursera.org/specializations/deep-learning>
 
-_Machine learning:_
+_Machine learning_
 <https://www.coursera.org/learn/machine-learning>
 
 Learning reinforcement learning:
@@ -280,7 +280,7 @@ _Python Hashes and Equality_
 _Google Tech Dev Guide_
 <https://techdevguide.withgoogle.com/>
 
- _A tale of event loops_
+_A tale of event loops_
 <https://github.com/AndreLouisCaron/a-tale-of-event-loops>
 
 **Some thoughts on asynchronous API design in a post-async/await world**

@@ -18,7 +18,7 @@ def document_archive():
         docs = fh.read()
     result = []
     for title, url in pattern.findall(docs):
-        data = _parse_title(title)
+        data = _parse_title(title.strip())
         data['url'] = url
         result.append(data)
     return result
