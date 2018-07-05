@@ -695,3 +695,6 @@ Threaded Asynchronous Magic and How to Wield It
 
 pre-commit
 <https://pre-commit.com/>
+
+Timeouts and cancellation for humans
+<https://vorpus.org/blog/timeouts-and-cancellation-for-humans/>
