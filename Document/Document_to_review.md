@@ -686,3 +686,12 @@ Threaded Asynchronous Magic and How to Wield It
 
 ~~A Python Ate My GUI~~
 <https://tryexceptpass.org/article/a-python-ate-my-gui/>
+
+`Flask Mega Tutorial`
+<https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world>
+
+10 common security gotchas in Python and how to avoid them
+<https://medium.com/m/global-identity?redirectUrl=https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03>
+
+pre-commit
+<https://pre-commit.com/>
