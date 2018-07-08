@@ -698,3 +698,6 @@ pre-commit
 
 Timeouts and cancellation for humans
 <https://vorpus.org/blog/timeouts-and-cancellation-for-humans/>
+
+Trio: Async concurrency for mere mortals
+<https://www.youtube.com/watch?v=oLkfnc_UMcE>
