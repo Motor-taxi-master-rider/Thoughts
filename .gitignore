@@ -1,4 +1,5 @@
 #custom
+.pytest_cache
 .idea/
 test.*
 ?mypy_cache
