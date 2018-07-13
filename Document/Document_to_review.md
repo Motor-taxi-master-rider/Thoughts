@@ -701,3 +701,12 @@ Timeouts and cancellation for humans
 
 Trio: Async concurrency for mere mortals
 <https://www.youtube.com/watch?v=oLkfnc_UMcE>
+
+the state of type hints in Python
+<https://www.bernat.tech/the-state-of-type-hints-in-python/>
+
+Flaskerizer
+<https://github.com/brettvanderwerff/Flaskerizer>
+
+The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   **<https://www.youtube.com/watch?v=Z-tPeEkVqjk>**
+<https://medium.com/ibm-watson-data-lab/the-visual-python-debugger-for-jupyter-notebooks-youve-always-wanted-761713babc62>
