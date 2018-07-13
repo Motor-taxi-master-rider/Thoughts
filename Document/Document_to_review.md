@@ -710,3 +710,6 @@ Flaskerizer
 
 The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   **<https://www.youtube.com/watch?v=Z-tPeEkVqjk>**
 <https://medium.com/ibm-watson-data-lab/the-visual-python-debugger-for-jupyter-notebooks-youve-always-wanted-761713babc62>
+
+_Python Idioms: Multiline Strings_  **textwrap.dedent**
+https://amir.rachum.com/blog/2018/06/23/python-multiline-idioms/
