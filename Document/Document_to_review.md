@@ -712,4 +712,7 @@ The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   **<htt
 <https://medium.com/ibm-watson-data-lab/the-visual-python-debugger-for-jupyter-notebooks-youve-always-wanted-761713babc62>
 
 _Python Idioms: Multiline Strings_  **textwrap.dedent**
-https://amir.rachum.com/blog/2018/06/23/python-multiline-idioms/
+<https://amir.rachum.com/blog/2018/06/23/python-multiline-idioms/>
+
+_浅谈消息队列及常见的消息中间件_
+<https://juejin.im/post/5b41fe36e51d45191252e79e>
