@@ -693,7 +693,8 @@ Threaded Asynchronous Magic and How to Wield It
 10 common security gotchas in Python and how to avoid them
 <https://medium.com/m/global-identity?redirectUrl=https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03>
 
-pre-commit
+# pre-commit
+
 <https://pre-commit.com/>
 
 Timeouts and cancellation for humans
@@ -705,10 +706,12 @@ Trio: Async concurrency for mere mortals
 the state of type hints in Python
 <https://www.bernat.tech/the-state-of-type-hints-in-python/>
 
-Flaskerizer
+# Flaskerizer
+
 <https://github.com/brettvanderwerff/Flaskerizer>
 
-The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   **<https://www.youtube.com/watch?v=Z-tPeEkVqjk>**
+# The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   **<https://www.youtube.com/watch?v=Z-tPeEkVqjk>**
+
 <https://medium.com/ibm-watson-data-lab/the-visual-python-debugger-for-jupyter-notebooks-youve-always-wanted-761713babc62>
 
 _Python Idioms: Multiline Strings_  **textwrap.dedent**
@@ -716,3 +719,9 @@ _Python Idioms: Multiline Strings_  **textwrap.dedent**
 
 _浅谈消息队列及常见的消息中间件_
 <https://juejin.im/post/5b41fe36e51d45191252e79e>
+
+Finding temp file creators
+<https://nedbatchelder.com/blog/201503/finding_temp_file_creators.html>
+
+## Ordering issues when monkey patching in Python
+<https://github.com/GrahamDumpleton/wrapt/blob/develop/blog/13-ordering-issues-when-monkey-patching-in-python.md>
