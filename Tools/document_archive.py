@@ -25,7 +25,7 @@ def document_archive():
 
 
 def _parse_title(title: str) -> dict:
-    data = {}
+    data = {'priority': 0}
     if title.startswith('#'):
         data['category'] = 'STERM'
         if title.startswith('##'):
