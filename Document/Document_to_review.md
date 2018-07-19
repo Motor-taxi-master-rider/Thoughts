@@ -693,8 +693,7 @@ Threaded Asynchronous Magic and How to Wield It
 10 common security gotchas in Python and how to avoid them
 <https://medium.com/m/global-identity?redirectUrl=https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03>
 
-# pre-commit
-
+**pre-commit**
 <https://pre-commit.com/>
 
 Timeouts and cancellation for humans
