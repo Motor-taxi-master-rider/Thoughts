@@ -723,4 +723,8 @@ Finding temp file creators
 <https://nedbatchelder.com/blog/201503/finding_temp_file_creators.html>
 
 ## Ordering issues when monkey patching in Python
+
 <https://github.com/GrahamDumpleton/wrapt/blob/develop/blog/13-ordering-issues-when-monkey-patching-in-python.md>
+
+**A multi-core Python HTTP server (much) faster than Go (spoiler: Cython)**
+<https://www.nexedi.com/NXD-Blog.Multicore.Python.HTTP.Server>
