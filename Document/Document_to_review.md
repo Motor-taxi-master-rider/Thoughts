@@ -377,7 +377,7 @@ Monitoring Your Asynchronous Python Web Applications Using Prometheus
 
 <https://realpython.com/blog/python/offline-python-deployments-with-docker/>
 
-# 9 new pandas updates that will save you time
+## 9 new pandas updates that will save you time
 
 <http://www.dataschool.io/python-pandas-updates/>
 
@@ -728,3 +728,6 @@ Finding temp file creators
 
 **A multi-core Python HTTP server (much) faster than Go (spoiler: Cython)**
 <https://www.nexedi.com/NXD-Blog.Multicore.Python.HTTP.Server>
+
+**Strings and Character Data in Python**  **much details about builtin string methods**
+<https://realpython.com/python-strings/#.W0P9uWMUJ7U.twitter>
