@@ -709,7 +709,7 @@ the state of type hints in Python
 
 <https://github.com/brettvanderwerff/Flaskerizer>
 
-# The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   <https://www.youtube.com/watch?v=Z-tPeEkVqjk>
+# The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   **<https://www.youtube.com/watch?v=Z-tPeEkVqjk>**
 
 <https://medium.com/ibm-watson-data-lab/the-visual-python-debugger-for-jupyter-notebooks-youve-always-wanted-761713babc62>
 

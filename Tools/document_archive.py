@@ -53,6 +53,6 @@ def _parse_title(title: str) -> dict:
         data['theme'] = FLIP_REG.findall(title)[0].strip()
     else:
         data['category'] = 'STERM'
-        data['priority'] = 1
+        data['priority'] = 0
         data['theme'] = title.strip()
     return data
