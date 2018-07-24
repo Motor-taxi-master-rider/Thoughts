@@ -316,7 +316,8 @@ Synonyms with elasticsearch-dsl
 _Advent of Code_
 <http://adventofcode.com/>
 
-Flask asynchronous background tasks with Celery and Redis
+# Flask asynchronous background tasks with Celery and Redis
+
 <http://allynh.com/blog/flask-asynchronous-background-tasks-with-celery-and-redis/>
 
 _Fastest way to uniquify a list in Python >=3.6_
@@ -731,3 +732,7 @@ Finding temp file creators
 
 **Strings and Character Data in Python**  **much details about builtin string methods**
 <https://realpython.com/python-strings/#.W0P9uWMUJ7U.twitter>
+
+# python asyncio web scraping
+
+<https://compiletoi.net/fast-scraping-in-python-with-asyncio/>
