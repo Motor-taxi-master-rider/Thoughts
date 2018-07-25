@@ -1,4 +1,4 @@
-_Python的练手项目有哪些_
+﻿_Python的练手项目有哪些_
 <https://www.zhihu.com/question/29372574>
 
 _图灵社区_
@@ -733,6 +733,11 @@ Finding temp file creators
 **Strings and Character Data in Python**  **much details about builtin string methods**
 <https://realpython.com/python-strings/#.W0P9uWMUJ7U.twitter>
 
-# python asyncio web scraping
-
+~~python asyncio web scraping~~
 <https://compiletoi.net/fast-scraping-in-python-with-asyncio/>
+
+# aiohttp document
+<http://aiohttp.readthedocs.io/en/stable/>
+
+# Python Asyncio Web Scraping 
+<https://www.codingforentrepreneurs.com/blog/python-asyncio-web-scraping/>
