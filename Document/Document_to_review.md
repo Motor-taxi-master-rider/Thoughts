@@ -1,4 +1,4 @@
-﻿_Python的练手项目有哪些_
+_Python的练手项目有哪些_
 <https://www.zhihu.com/question/29372574>
 
 _图灵社区_
@@ -737,7 +737,17 @@ Finding temp file creators
 <https://compiletoi.net/fast-scraping-in-python-with-asyncio/>
 
 # aiohttp document
+
 <http://aiohttp.readthedocs.io/en/stable/>
 
-# Python Asyncio Web Scraping 
+~~Python Asyncio Web Scraping~~
 <https://www.codingforentrepreneurs.com/blog/python-asyncio-web-scraping/>
+
+Secrets of a WSGI master
+<https://www.slideshare.net/GrahamDumpleton/secrets-of-a-wsgi-master>
+
+**Why is Python so slow?**
+<https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b>
+
+_Javascript engines use mark-and-sweep Garbage Collection_
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management>
