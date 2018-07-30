@@ -751,3 +751,6 @@ Secrets of a WSGI master
 
 _Javascript engines use mark-and-sweep Garbage Collection_
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management>
+
+An In-depth Review of Andrew Ng’s deeplearning.ai Specialization
+<https://hackernoon.com/an-in-depth-review-of-andrew-ngs-deeplearning-ai-speciliazation-99612991eb61>
