@@ -736,8 +736,7 @@ Finding temp file creators
 ~~python asyncio web scraping~~
 <https://compiletoi.net/fast-scraping-in-python-with-asyncio/>
 
-# aiohttp document
-
+_aiohttp document_
 <http://aiohttp.readthedocs.io/en/stable/>
 
 ~~Python Asyncio Web Scraping~~
@@ -754,3 +753,24 @@ _Javascript engines use mark-and-sweep Garbage Collection_
 
 An In-depth Review of Andrew Ng’s deeplearning.ai Specialization
 <https://hackernoon.com/an-in-depth-review-of-andrew-ngs-deeplearning-ai-speciliazation-99612991eb61>
+
+Documenting Python Code: A Complete Guide
+<https://realpython.com/documenting-python-code/>
+
+How virtual environment libraries work in Python
+<https://rushter.com/blog/python-virtualenv/>
+
+Learning (not) to Handle Exceptions
+<https://www.pythonforthelab.com/blog/learning-not-to-handle-exceptions/>
+
+Python has brought computer programming to a vast new audience
+<https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience>
+
+Time to Go! Learning Golang through Examples
+<https://hackernoon.com/time-to-go-learning-golang-through-examples-480a90c5e7f9>
+
+_Learn Functional Python in 10 Minutes_
+<https://hackernoon.com/learn-functional-python-in-10-minutes-to-2d1651dece6f>
+
+**Why CSS Selectors are the most useful Selenium WebDriver locators?**
+<https://hackernoon.com/why-css-selectors-are-the-most-useful-selenium-webdriver-locators-28082be1cd3b>
