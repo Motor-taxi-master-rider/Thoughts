@@ -760,10 +760,10 @@ Documenting Python Code: A Complete Guide
 How virtual environment libraries work in Python
 <https://rushter.com/blog/python-virtualenv/>
 
-Learning (not) to Handle Exceptions
+_Learning (not) to Handle Exceptions_
 <https://www.pythonforthelab.com/blog/learning-not-to-handle-exceptions/>
 
-Python has brought computer programming to a vast new audience
+_Python has brought computer programming to a vast new audience_
 <https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience>
 
 Time to Go! Learning Golang through Examples
