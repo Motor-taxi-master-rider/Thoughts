@@ -754,7 +754,7 @@ _Javascript engines use mark-and-sweep Garbage Collection_
 An In-depth Review of Andrew Ng’s deeplearning.ai Specialization
 <https://hackernoon.com/an-in-depth-review-of-andrew-ngs-deeplearning-ai-speciliazation-99612991eb61>
 
-Documenting Python Code: A Complete Guide
+**Documenting Python Code: A Complete Guide**
 <https://realpython.com/documenting-python-code/>
 
 How virtual environment libraries work in Python
