@@ -316,8 +316,7 @@ Synonyms with elasticsearch-dsl
 _Advent of Code_
 <http://adventofcode.com/>
 
-# Flask asynchronous background tasks with Celery and Redis
-
+Flask asynchronous background tasks with Celery and Redis
 <http://allynh.com/blog/flask-asynchronous-background-tasks-with-celery-and-redis/>
 
 _Fastest way to uniquify a list in Python >=3.6_
@@ -611,8 +610,7 @@ How to write Dockerfiles for Python Web Apps
 Get Started with PySpark and Jupyter Notebook in 3 Minutes
 <https://blog.sicara.com/get-started-pyspark-jupyter-guide-tutorial-ae2fe84f594f>
 
-# The Hitchhiker’s Guide to Machine Learning in Python
-
+The Hitchhiker’s Guide to Machine Learning in Python
 <https://medium.freecodecamp.org/the-hitchhikers-guide-to-machine-learning-algorithms-in-python-bfad66adb378>
 
 _Pure Python vs NumPy vs TensorFlow Performance Comparison_
@@ -703,15 +701,13 @@ Timeouts and cancellation for humans
 Trio: Async concurrency for mere mortals
 <https://www.youtube.com/watch?v=oLkfnc_UMcE>
 
-the state of type hints in Python
+# the state of type hints in Python
 <https://www.bernat.tech/the-state-of-type-hints-in-python/>
 
-# Flaskerizer
-
+_Flaskerizer_
 <https://github.com/brettvanderwerff/Flaskerizer>
 
-# The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   **<https://www.youtube.com/watch?v=Z-tPeEkVqjk>**
-
+The Visual Python Debugger for Jupyter Notebooks You’ve Always Wanted   **<https://www.youtube.com/watch?v=Z-tPeEkVqjk>**
 <https://medium.com/ibm-watson-data-lab/the-visual-python-debugger-for-jupyter-notebooks-youve-always-wanted-761713babc62>
 
 _Python Idioms: Multiline Strings_  **textwrap.dedent**
@@ -723,8 +719,7 @@ _浅谈消息队列及常见的消息中间件_
 Finding temp file creators
 <https://nedbatchelder.com/blog/201503/finding_temp_file_creators.html>
 
-## Ordering issues when monkey patching in Python
-
+Ordering issues when monkey patching in Python
 <https://github.com/GrahamDumpleton/wrapt/blob/develop/blog/13-ordering-issues-when-monkey-patching-in-python.md>
 
 **A multi-core Python HTTP server (much) faster than Go (spoiler: Cython)**
@@ -742,7 +737,7 @@ _aiohttp document_
 ~~Python Asyncio Web Scraping~~
 <https://www.codingforentrepreneurs.com/blog/python-asyncio-web-scraping/>
 
-Secrets of a WSGI master
+# Secrets of a WSGI master
 <https://www.slideshare.net/GrahamDumpleton/secrets-of-a-wsgi-master>
 
 **Why is Python so slow?**
@@ -757,7 +752,7 @@ An In-depth Review of Andrew Ng’s deeplearning.ai Specialization
 **Documenting Python Code: A Complete Guide**
 <https://realpython.com/documenting-python-code/>
 
-How virtual environment libraries work in Python
+# How virtual environment libraries work in Python
 <https://rushter.com/blog/python-virtualenv/>
 
 _Learning (not) to Handle Exceptions_
