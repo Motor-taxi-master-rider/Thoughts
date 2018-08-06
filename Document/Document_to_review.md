@@ -701,7 +701,7 @@ Timeouts and cancellation for humans
 Trio: Async concurrency for mere mortals
 <https://www.youtube.com/watch?v=oLkfnc_UMcE>
 
-# the state of type hints in Python
+**the state of type hints in Python**
 <https://www.bernat.tech/the-state-of-type-hints-in-python/>
 
 _Flaskerizer_
