@@ -39,10 +39,9 @@ class GitPuller:
         current_branch = subprocess.check_output(
             'git rev-parse --abbrev-ref HEAD').decode()[:-1]
         if not current_branch == branch:
-            with open(os.devnull, 'w') as rubbish:
-                checkout = subprocess.Popen(
-                    ['git', 'checkout', branch], stdout=rubbish, stderr=subprocess.PIPE)
-                self._log_result(checkout)
+            checkout = subprocess.Popen(
+                ['git', 'checkout', branch], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            self._log_result(checkout)
 
         pull = subprocess.Popen(
             ['git', 'pull', '--rebase'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
