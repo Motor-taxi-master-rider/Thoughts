@@ -1,4 +1,4 @@
-_Python的练手项目有哪些_
+﻿_Python的练手项目有哪些_
 <https://www.zhihu.com/question/29372574>
 
 _图灵社区_
@@ -769,3 +769,6 @@ _Learn Functional Python in 10 Minutes_
 
 **Why CSS Selectors are the most useful Selenium WebDriver locators?**
 <https://hackernoon.com/why-css-selectors-are-the-most-useful-selenium-webdriver-locators-28082be1cd3b>
+
+_Die Threads_ **thredo**		
+<https://www.youtube.com/watch?v=U66KuyD3T0M&feature=player_embedded>
