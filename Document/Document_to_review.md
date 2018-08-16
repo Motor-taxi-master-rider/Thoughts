@@ -1,4 +1,4 @@
-_Python的练手项目有哪些_
+﻿_Python的练手项目有哪些_
 <https://www.zhihu.com/question/29372574>
 
 _图灵社区_
@@ -776,3 +776,6 @@ _Die Threads_ **thredo**
 
 Notes on structured concurrency, or: Go statement considered harmful
 <https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/>
+
+JavaScript Promises and Error Handling
+<https://hackernoon.com/promises-and-error-handling-4a11af37cb0e>
