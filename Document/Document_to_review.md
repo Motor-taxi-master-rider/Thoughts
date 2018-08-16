@@ -1,4 +1,4 @@
-﻿_Python的练手项目有哪些_
+_Python的练手项目有哪些_
 <https://www.zhihu.com/question/29372574>
 
 _图灵社区_
@@ -737,7 +737,7 @@ _aiohttp document_
 ~~Python Asyncio Web Scraping~~
 <https://www.codingforentrepreneurs.com/blog/python-asyncio-web-scraping/>
 
-# Secrets of a WSGI master
+_Secrets of a WSGI master_  **mod_wsgi**
 <https://www.slideshare.net/GrahamDumpleton/secrets-of-a-wsgi-master>
 
 **Why is Python so slow?**
@@ -753,6 +753,7 @@ An In-depth Review of Andrew Ng’s deeplearning.ai Specialization
 <https://realpython.com/documenting-python-code/>
 
 # How virtual environment libraries work in Python
+
 <https://rushter.com/blog/python-virtualenv/>
 
 _Learning (not) to Handle Exceptions_
@@ -772,3 +773,6 @@ _Learn Functional Python in 10 Minutes_
 
 _Die Threads_ **thredo**		
 <https://www.youtube.com/watch?v=U66KuyD3T0M&feature=player_embedded>
+
+Notes on structured concurrency, or: Go statement considered harmful
+<https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/>
