@@ -1,4 +1,4 @@
-﻿_Python的练手项目有哪些_
+_Python的练手项目有哪些_
 <https://www.zhihu.com/question/29372574>
 
 _图灵社区_
@@ -774,8 +774,18 @@ _Learn Functional Python in 10 Minutes_
 _Die Threads_ **thredo**		
 <https://www.youtube.com/watch?v=U66KuyD3T0M&feature=player_embedded>
 
-Notes on structured concurrency, or: Go statement considered harmful
+**Notes on structured concurrency, or: Go statement considered harmful**
 <https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/>
 
-JavaScript Promises and Error Handling
+_JavaScript Promises and Error Handling_
 <https://hackernoon.com/promises-and-error-handling-4a11af37cb0e>
+
+_Python Concurrency for Mere Mortals_
+<https://www.youtube.com/watch?v=i-R704I8ySE>
+
+# Reproducible Data Analysis in Jupyter
+
+<https://www.youtube.com/playlist?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ>
+
+Useful tricks you might not know about Git stash
+<https://dev.to/srebalaji/useful-tricks-you-might-not-know-about-git-stash-117e>
