@@ -9,7 +9,7 @@ import click
 from document_archive import document_archive
 from git_pull import git_pull
 
-CONFIG_PATH = r'config/project_controler.cfg'  # Config file path
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config/project_controller.cfg')  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
 
 
@@ -28,7 +28,7 @@ def sync():
 
     config = ConfigParser()
     if not os.path.exists(CONFIG_PATH):
-        click.echo(f'Enable to read config file, please check in {os.path.realpath(CONFIG_PATH)}.\n'
+        click.echo(f'Enable to read config file, please check in {CONFIG_PATH}.\n'
                    f'You could create config file template with create_config option.')
         return
     config.read(CONFIG_PATH)
