@@ -604,7 +604,7 @@ _Million requests per second with python_
 _Predict Movie Rating_
 <https://nycdatascience.com/blog/student-works/machine-learning/movie-rating-prediction/>
 
-How to write Dockerfiles for Python Web Apps
+# How to write Dockerfiles for Python Web Apps
 <https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d>
 
 Get Started with PySpark and Jupyter Notebook in 3 Minutes
@@ -752,8 +752,7 @@ An In-depth Review of Andrew Ng’s deeplearning.ai Specialization
 **Documenting Python Code: A Complete Guide**
 <https://realpython.com/documenting-python-code/>
 
-# How virtual environment libraries work in Python
-
+_How virtual environment libraries work in Python_
 <https://rushter.com/blog/python-virtualenv/>
 
 _Learning (not) to Handle Exceptions_
