@@ -39,7 +39,7 @@ def sync():
         for project, path in config[GIT_PATH].items():
             branch = config[GIT_BRANCH].get(project, 'master')
             tasks[executor.submit(functools.partial(
-                git_pull, path, branch))] = (path, branch)
+                git_pull, os.path.expanduser(path), branch))] = (path, branch)
 
         if not len(tasks):
             click.echo('No repository to synchronize.')

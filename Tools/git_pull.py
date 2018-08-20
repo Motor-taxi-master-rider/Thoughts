@@ -37,7 +37,7 @@ class GitPuller:
         os.chdir(self._repo_path)
 
         current_branch = subprocess.check_output(
-            'git rev-parse --abbrev-ref HEAD').decode()[:-1]
+            ['git', 'rev-parse', '--abbrev-ref', 'HEAD']).decode()[:-1]
         if current_branch == branch:
             self.run_command('git', 'pull', '--rebase')
         else:
