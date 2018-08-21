@@ -786,5 +786,5 @@ _Python Concurrency for Mere Mortals_
 
 <https://www.youtube.com/playlist?list=PLYCpMb24GpOC704uO9svUrihl-HY1tTJJ>
 
-Useful tricks you might not know about Git stash
+**Useful tricks you might not know about Git stash**
 <https://dev.to/srebalaji/useful-tricks-you-might-not-know-about-git-stash-117e>
