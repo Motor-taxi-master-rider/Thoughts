@@ -3,13 +3,14 @@ import functools
 import os
 import time
 from configparser import ConfigParser
+from os.path import dirname, expanduser, exists, join, realpath
 
 import click
 
 from document_archive import document_archive
 from git_pull import git_pull
 
-CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config/project_controller.cfg')  # Config file path
+CONFIG_PATH = join(dirname(realpath(__file__)), 'config','project_controller.cfg')  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
 
 
@@ -27,8 +28,8 @@ def sync():
     from multiprocessing import cpu_count
 
     config = ConfigParser()
-    if not os.path.exists(CONFIG_PATH):
-        click.echo(f'Enable to read config file, please check in {CONFIG_PATH}.\n'
+    if not exists(CONFIG_PATH):
+        click.echo(f'Enable to find config file, please check whether {CONFIG_PATH} exitsts.\n'
                    f'You could create config file template with create_config option.')
         return
     config.read(CONFIG_PATH)
@@ -39,7 +40,7 @@ def sync():
         for project, path in config[GIT_PATH].items():
             branch = config[GIT_BRANCH].get(project, 'master')
             tasks[executor.submit(functools.partial(
-                git_pull, os.path.expanduser(path), branch))] = (path, branch)
+                git_pull, expanduser(path), branch))] = (path, branch)
 
         if not len(tasks):
             click.echo('No repository to synchronize.')
@@ -57,7 +58,7 @@ def sync():
 
 @main.command()
 @click.option('--file', default='archive_document.json')
-@click.option('--no-file', is_flag=True)
+@click.option('--no-file', is_flag=True, default=True)
 @click.option('--mongo', default='localhost:27017')
 @click.option('--no-mongo', is_flag=True)
 def doc_archive(file, no_file, mongo, no_mongo):
@@ -78,10 +79,10 @@ def doc_archive(file, no_file, mongo, no_mongo):
             with open(file, 'w', encoding='utf-8') as fh:
                 json.dump(json_data, fh)
         except IOError:
-            click.echo(f'Unable to write file {os.path.realpath(file)}.')
+            click.echo(f'Unable to write file {realpath(file)}.')
             return
         click.echo(
-            f'Json file is generated. Please check in {os.path.realpath(file)}.')
+            f'Json file is generated. Please check in {realpath(file)}.')
 
     if not no_mongo:
         click.echo(f'Trying to connect mongodb in {mongo}.')
@@ -112,7 +113,7 @@ def create_config():
     """
     Create config file template for project controller
     """
-    if os.path.exists(CONFIG_PATH):
+    if exists(CONFIG_PATH):
         click.echo(f'Config file {CONFIG_PATH} already existed.')
         return
     sections = {GIT_PATH: '# Config project name and local path of the project\n'
