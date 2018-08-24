@@ -698,7 +698,7 @@ Threaded Asynchronous Magic and How to Wield It
 Timeouts and cancellation for humans
 <https://vorpus.org/blog/timeouts-and-cancellation-for-humans/>
 
-Trio: Async concurrency for mere mortals
+_Trio: Async concurrency for mere mortals_
 <https://www.youtube.com/watch?v=oLkfnc_UMcE>
 
 **the state of type hints in Python**
