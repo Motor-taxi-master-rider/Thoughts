@@ -393,7 +393,7 @@ Image Colorization Using Optimization in Python
 _A brief tour of Python 3.7 data classes_
 <https://hackernoon.com/a-brief-tour-of-python-3-7-data-classes-22ee5e046517>
 
-Enhancing Python with Custom C Extensions
+~~Enhancing Python with Custom C Extensions~~
 <http://stackabuse.com/enhancing-python-with-custom-c-extensions/>
 
 **Advanced Python Debugging with pdb**  **..pdbrc**
@@ -438,8 +438,7 @@ _5 speed improvements in Python 3.7_
 _build blog with pelican_
 <http://pythonforundergradengineers.com/how-i-built-this-site-1.html>
 
-## TensorFlow全新的数据读取方式：Dataset API入门教程
-
+TensorFlow全新的数据读取方式：Dataset API入门教程
 <http://blog.csdn.net/qq_40027052/article/details/78528898>
 
 `Tensorflow中文社区`
@@ -605,6 +604,7 @@ _Predict Movie Rating_
 <https://nycdatascience.com/blog/student-works/machine-learning/movie-rating-prediction/>
 
 # How to write Dockerfiles for Python Web Apps
+
 <https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d>
 
 Get Started with PySpark and Jupyter Notebook in 3 Minutes
