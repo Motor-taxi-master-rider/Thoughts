@@ -792,8 +792,14 @@ _Python Concurrency for Mere Mortals_
 Executing Encrypted Python with No Performance Penalty
 <https://blog.soroco.com/articles/pyce/>
 
-The Birth & Death of JavaScript
-<https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript>
+_The Birth & Death of JavaScript_
+<https://www.youtube.com/watch?v=LF5MP5lB5-4>
 
 Blazor: a technical introduction
 <http://blog.stevensanderson.com/2018/02/06/blazor-intro/>
+
+WebAssembly
+<https://webassembly.org/>
+
+_Dan Callahan - Keynote - PyCon 2018_
+<https://www.youtube.com/watch?v=ITksU31c1WY>
