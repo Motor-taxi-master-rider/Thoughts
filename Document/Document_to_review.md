@@ -788,3 +788,12 @@ _Python Concurrency for Mere Mortals_
 
 **Useful tricks you might not know about Git stash**
 <https://dev.to/srebalaji/useful-tricks-you-might-not-know-about-git-stash-117e>
+
+Executing Encrypted Python with No Performance Penalty
+<https://blog.soroco.com/articles/pyce/>
+
+The Birth & Death of JavaScript
+<https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript>
+
+Blazor: a technical introduction
+<http://blog.stevensanderson.com/2018/02/06/blazor-intro/>
