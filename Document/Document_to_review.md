@@ -798,8 +798,11 @@ _The Birth & Death of JavaScript_
 Blazor: a technical introduction
 <http://blog.stevensanderson.com/2018/02/06/blazor-intro/>
 
-WebAssembly
+`WebAssembly`
 <https://webassembly.org/>
 
 _Dan Callahan - Keynote - PyCon 2018_
 <https://www.youtube.com/watch?v=ITksU31c1WY>
+
+_让C代码在浏览器中运行——WebAssembly入门介绍_
+<https://blog.csdn.net/sinat_32582203/article/details/73355211>
