@@ -809,3 +809,12 @@ _让C代码在浏览器中运行——WebAssembly入门介绍_
 
 _The Day of the EXE is Upon Us_
 <https://www.youtube.com/watch?v=wsczq6j3_bA>
+
+Beyond Interactive: Notebook Innovation at Netflix
+<https://medium.com/netflix-techblog/notebook-innovation-591ee3221233>
+
+How to create a Windows Service in Python
+<https://www.thepythoncorner.com/2018/08/how-to-create-windows-service-in-hi.html>
+
+An Overview of Packaging for Python
+<https://packaging.python.org/overview/>
