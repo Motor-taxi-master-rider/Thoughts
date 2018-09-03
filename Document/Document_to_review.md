@@ -603,8 +603,7 @@ _Million requests per second with python_
 _Predict Movie Rating_
 <https://nycdatascience.com/blog/student-works/machine-learning/movie-rating-prediction/>
 
-# How to write Dockerfiles for Python Web Apps
-
+_How to write Dockerfiles for Python Web Apps_
 <https://blog.hasura.io/how-to-write-dockerfiles-for-python-web-apps-6d173842ae1d>
 
 Get Started with PySpark and Jupyter Notebook in 3 Minutes
@@ -823,10 +822,13 @@ Replacing Bash Scripting with Python
 <https://github.com/ninjaaron/replacing-bash-scripting-with-python>
 
 PyIodide
-https://iodide.io/pyodide-demo/python.html
+<https://iodide.io/pyodide-demo/python.html>
 
 The subset of reStructuredText worth committing to memory
-https://simonwillison.net/2018/Aug/25/restructuredtext/
+<https://simonwillison.net/2018/Aug/25/restructuredtext/>
 
 `ActiveState`
-https://code.activestate.com/
+<https://code.activestate.com/>
+
+Docker Tutorial — Getting Started with Python, Redis, and Nginx.
+<https://hackernoon.com/docker-tutorial-getting-started-with-python-redis-and-nginx-81a9d740d091>
