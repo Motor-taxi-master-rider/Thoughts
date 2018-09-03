@@ -818,3 +818,15 @@ How to create a Windows Service in Python
 
 An Overview of Packaging for Python
 <https://packaging.python.org/overview/>
+
+Replacing Bash Scripting with Python
+<https://github.com/ninjaaron/replacing-bash-scripting-with-python>
+
+PyIodide
+https://iodide.io/pyodide-demo/python.html
+
+The subset of reStructuredText worth committing to memory
+https://simonwillison.net/2018/Aug/25/restructuredtext/
+
+`ActiveState`
+https://code.activestate.com/
