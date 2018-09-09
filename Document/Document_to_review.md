@@ -830,7 +830,7 @@ The subset of reStructuredText worth committing to memory
 `ActiveState`
 <https://code.activestate.com/>
 
-Docker Tutorial — Getting Started with Python, Redis, and Nginx.
+**Docker Tutorial — Getting Started with Python, Redis, and Nginx**
 <https://hackernoon.com/docker-tutorial-getting-started-with-python-redis-and-nginx-81a9d740d091>
 
 _Fix Docker's networking DNS config_ **fix temporary error when apk install in virtual machine**
