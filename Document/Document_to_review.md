@@ -646,7 +646,8 @@ _Pysystemd Representation in Pycon2018_  **many pysystemd use cases/configration
 **30 Amazing Python Projects for the Past Year**
 <https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3>
 
-Making your C library callable from Python by wrapping it with Cython
+# Making your C library callable from Python by wrapping it with Cython
+
 <https://medium.com/@shamir.stav_83310/making-your-c-library-callable-from-python-by-wrapping-it-with-cython-b09db35012a3>
 
 Taming Irreversibility with Feature Flags (in Python)
@@ -815,7 +816,7 @@ Beyond Interactive: Notebook Innovation at Netflix
 How to create a Windows Service in Python
 <https://www.thepythoncorner.com/2018/08/how-to-create-windows-service-in-hi.html>
 
-An Overview of Packaging for Python
+**An Overview of Packaging for Python**
 <https://packaging.python.org/overview/>
 
 Replacing Bash Scripting with Python
@@ -835,3 +836,9 @@ The subset of reStructuredText worth committing to memory
 
 _Fix Docker's networking DNS config_ **fix temporary error when apk install in virtual machine**
 <https://development.robinwinslow.uk/2016/06/23/fix-docker-networking-dns/>
+
+The Packaging Gradient
+<https://www.youtube.com/watch?v=iLVNWfPWAC8>
+
+`MicroPython`
+https://micropython.org/
