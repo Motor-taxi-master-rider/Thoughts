@@ -7,10 +7,7 @@ from os.path import dirname, expanduser, exists, join, realpath
 
 import click
 
-from document_archive import document_archive
-from git_pull import git_pull
-
-CONFIG_PATH = join(dirname(realpath(__file__)), 'config','project_controller.cfg')  # Config file path
+CONFIG_PATH = join(dirname(realpath(__file__)), 'config', 'project_controller.cfg')  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
 
 
@@ -22,10 +19,13 @@ def main():
 @main.command()
 def sync():
     """
-    Synchronize local git repository with remote ones
+    Synchronize local git repository with remote ones.
     """
+
     import subprocess
     from multiprocessing import cpu_count
+
+    from git_pull import git_pull
 
     config = ConfigParser()
     if not exists(CONFIG_PATH):
@@ -57,34 +57,38 @@ def sync():
 
 
 @main.command()
+@click.argument('output', type=click.Choice(['mongo', 'file']), default='mongo')
 @click.option('--file', default='archive_document.json')
-@click.option('--no-file', is_flag=True, default=True)
 @click.option('--mongo', default='localhost:27017')
-@click.option('--no-mongo', is_flag=True)
-def doc_archive(file, no_file, mongo, no_mongo):
+def doc_archive(output, file, mongo):
     """
-    Reconstruct document to review file into a json format file
+    Reconstruct document to review file into a json format file or mongodb.
     """
-    import json
-    import pymongo
-    from pprint import pprint
-    from pymongo.errors import PyMongoError, ConnectionFailure
+
+    from document_archive import document_archive
 
     json_data = document_archive()
 
-    if not no_file:
-        click.echo(f'Succesfully retrived {len(json_doc)} data:\n......')
+    if output=='file':
+        import json
+        from bson import json_util
+        from pprint import pprint
+
+        click.echo(f'Succesfully retrived {len(json_data)} data:\n......')
         pprint(json_data[-5:])
         try:
             with open(file, 'w', encoding='utf-8') as fh:
-                json.dump(json_data, fh)
+                json.dump(json_data, fh, default=json_util.default)
         except IOError:
             click.echo(f'Unable to write file {realpath(file)}.')
             return
         click.echo(
             f'Json file is generated. Please check in {realpath(file)}.')
 
-    if not no_mongo:
+    if output=='mongo':
+        import pymongo
+        from pymongo.errors import PyMongoError, ConnectionFailure
+
         click.echo(f'Trying to connect mongodb in {mongo}.')
         try:
             client = pymongo.MongoClient(f'mongodb://{mongo}/')
@@ -111,8 +115,9 @@ def doc_archive(file, no_file, mongo, no_mongo):
 @main.command()
 def create_config():
     """
-    Create config file template for project controller
+    Create config file template for project controller.
     """
+
     if exists(CONFIG_PATH):
         click.echo(f'Config file {CONFIG_PATH} already existed.')
         return

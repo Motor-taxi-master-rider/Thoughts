@@ -2,7 +2,9 @@ import datetime
 import os
 import re
 
-DOCUMENT_PATH = 'Document/Document_to_review.md'
+from os.path import dirname, join, realpath
+
+DOCUMENT_PATH = join(dirname(realpath(__file__)), '../', 'Document', 'Document_to_review.md')
 STERM_REG = re.compile(r'^#+')
 LTERM_REG = re.compile(r'^`([^`]+)`')
 INTERST_REG = re.compile(r'\*\*([^\*]+)\*\*')
@@ -13,9 +15,8 @@ FLIP_REG = re.compile(r'^~~([^~]+)~~')
 def document_archive():
     reg = r'(?P<title>[^\n]+)\n+<(?P<url>https?://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])>'
     pattern = re.compile(reg)
-    doc_path = os.path.realpath(os.path.join('../', DOCUMENT_PATH))
 
-    with open(doc_path, encoding='utf=8') as fh:
+    with open(DOCUMENT_PATH, encoding='utf=8') as fh:
         docs = fh.read()
     result = []
     for title, url in pattern.findall(docs):
