@@ -7,6 +7,8 @@ from os.path import dirname, expanduser, exists, join, realpath
 
 import click
 
+from util.logger import MyLogger
+
 CONFIG_PATH = join(dirname(realpath(__file__)), 'config', 'project_controller.cfg')  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
 
@@ -29,8 +31,8 @@ def sync():
 
     config = ConfigParser()
     if not exists(CONFIG_PATH):
-        click.echo(f'Enable to find config file, please check whether {CONFIG_PATH} exitsts.\n'
-                   f'You could create config file template with create_config option.')
+        logger.error(f'Enable to find config file, please check whether {CONFIG_PATH} exitsts.\n'
+                     f'You could create config file template with create_config option.')
         return
     config.read(CONFIG_PATH)
 
@@ -43,17 +45,17 @@ def sync():
                 git_pull, expanduser(path), branch))] = (path, branch)
 
         if not len(tasks):
-            click.echo('No repository to synchronize.')
+            logger.error('No repository to synchronize.')
             return
         for task in concurrent.futures.as_completed(tasks):
             path, branch = tasks[task]
             try:
                 task.result()
             except subprocess.CalledProcessError:
-                click.echo(f'Synchronize failed in {path}:{branch}.')
+                logger.exception(f'Synchronize failed in {path}:{branch}.')
         else:
             time.sleep(0.1)  # wait for logging message printing
-            click.echo('All repository is synchronized.')
+            logger.info('All repository is synchronized.')
 
 
 @main.command()
@@ -67,49 +69,49 @@ def doc_archive(output, file, mongo):
 
     from document_archive import document_archive
 
+    logger = MyLogger('Archive')
     json_data = document_archive()
 
-    if output=='file':
-        import json
-        from bson import json_util
-        from pprint import pprint
-
-        click.echo(f'Succesfully retrived {len(json_data)} data:\n......')
-        pprint(json_data[-5:])
-        try:
-            with open(file, 'w', encoding='utf-8') as fh:
-                json.dump(json_data, fh, default=json_util.default)
-        except IOError:
-            click.echo(f'Unable to write file {realpath(file)}.')
-            return
-        click.echo(
-            f'Json file is generated. Please check in {realpath(file)}.')
-
-    if output=='mongo':
+    if output == 'mongo':
         import pymongo
         from pymongo.errors import PyMongoError, ConnectionFailure
 
-        click.echo(f'Trying to connect mongodb in {mongo}.')
+        logger.info(f'Trying to connect mongodb in {mongo}.')
         try:
             client = pymongo.MongoClient(f'mongodb://{mongo}/')
         except ConnectionFailure:
-            click.echo(f'Unable to connect {mongo}.')
+            logger.exception(f'Unable to connect {mongo}.')
             return
 
         try:
             database = client.doc_search
             collection = database.document_meta
         except PyMongoError:
-            click.echo(
+            logger.exception(
                 'Unable to find correct collection in database. Please confirm doc_search.document_meta exists.')
             return
         try:
             result = collection.insert_many(json_data)
         except PyMongoError:
-            click.echo('Unable insert data.')
+            logger.exception('Unable insert data.')
             return
-        click.echo(
+        logger.info(
             f'{len(result.inserted_ids)} documents have been loaded into mongodb.')
+    elif output == 'file':
+        import json
+        from bson import json_util
+        from pprint import pprint
+
+        logger.info(f'Successfully retrieve {len(json_data)} data:\n......')
+        pprint(json_data[-5:])
+        try:
+            with open(file, 'w', encoding='utf-8') as fh:
+                json.dump(json_data, fh, default=json_util.default)
+        except IOError:
+            logger.exception(f'Unable to write file {realpath(file)}.')
+            return
+        logger.info(
+            f'Json file is generated. Please check in {realpath(file)}.')
 
 
 @main.command()
@@ -118,8 +120,10 @@ def create_config():
     Create config file template for project controller.
     """
 
+    logger = MyLogger('Config')
+
     if exists(CONFIG_PATH):
-        click.echo(f'Config file {CONFIG_PATH} already existed.')
+        logger.error(f'Config file {CONFIG_PATH} already existed.')
         return
     sections = {GIT_PATH: '# Config project name and local path of the project\n'
                           '# Syntax:{project name} = {Path/to/repo}\n',
@@ -130,7 +134,7 @@ def create_config():
             file.write(f'[{section_name}]\n')
             file.write(comment)
             file.write('\n')
-    click.echo(f'Config file template is created.')
+    logger.info(f'Config file template is created.')
 
 
 if __name__ == '__main__':
