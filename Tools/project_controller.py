@@ -29,7 +29,9 @@ def sync():
 
     from git_pull import git_pull
 
+    logger = MyLogger('Sync')
     config = ConfigParser()
+
     if not exists(CONFIG_PATH):
         logger.error(f'Enable to find config file, please check whether {CONFIG_PATH} exitsts.\n'
                      f'You could create config file template with create_config option.')
