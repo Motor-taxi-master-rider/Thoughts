@@ -837,7 +837,7 @@ The subset of reStructuredText worth committing to memory
 _Fix Docker's networking DNS config_ **fix temporary error when apk install in virtual machine**
 <https://development.robinwinslow.uk/2016/06/23/fix-docker-networking-dns/>
 
-The Packaging Gradient
+_The Packaging Gradient_  **Video version of overview of packing for python**
 <https://www.youtube.com/watch?v=iLVNWfPWAC8>
 
 `MicroPython`
