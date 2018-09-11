@@ -29,7 +29,7 @@ def document_archive():
 def _parse_title(title: str) -> dict:
     data = {'priority': 0}
     if title.startswith('#'):
-        data['category'] = 'short term'
+        data['category'] = 'short_term'
         data['tags'] = ['to do']
         if title.startswith('##'):
             data['priority'] = 2
@@ -37,17 +37,17 @@ def _parse_title(title: str) -> dict:
             data['priority'] = 3
         data['theme'] = STERM_REG.sub('', title).strip()
     elif title.startswith('`'):
-        data['category'] = 'long term'
+        data['category'] = 'long_term'
         data['theme'] = LTERM_REG.findall(title)[0].strip()
     elif title.startswith('**'):
-        data['category'] = 'short term'
+        data['category'] = 'short_term'
         high_light = INTERST_REG.findall(title)
         data['theme'] = high_light.pop(0).strip()
         data['tags'] = ['reviewed', 'impressive', 'cache']
         if high_light:
             data['comment'] = high_light
     elif title.startswith('_'):
-        data['category'] = 'short term'
+        data['category'] = 'short_term'
         data['theme'] = REVIEW_REG.findall(title)[0].strip()
         high_light = INTERST_REG.findall(title)
         data['tags'] = ['reviewed', 'cache']
@@ -57,7 +57,7 @@ def _parse_title(title: str) -> dict:
         data['category'] = 'flip'
         data['theme'] = FLIP_REG.findall(title)[0].strip()
     else:
-        data['category'] = 'short term'
+        data['category'] = 'short_term'
         data['priority'] = 0
         data['theme'] = title.strip()
     data['update_at'] = datetime.datetime.utcnow()
