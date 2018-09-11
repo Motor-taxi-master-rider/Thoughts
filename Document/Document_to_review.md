@@ -841,4 +841,13 @@ The Packaging Gradient
 <https://www.youtube.com/watch?v=iLVNWfPWAC8>
 
 `MicroPython`
-https://micropython.org/
+<https://micropython.org/>
+
+`Python Patterns`
+<http://python-patterns.guide/>
+
+PyCon Australia videos
+<https://www.youtube.com/playlist?list=PLs4CJRBY5F1KrUr7z_2mur2QdAKXyh-k3>
+
+I don’t like notebooks
+<https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g3b55ec3453_0_4>
