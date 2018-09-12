@@ -851,3 +851,6 @@ PyCon Australia videos
 
 I don’t like notebooks
 <https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g3b55ec3453_0_4>
+
+# Running Your Flask Application Over HTTPS
+<https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https>
