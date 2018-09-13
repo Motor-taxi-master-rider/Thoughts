@@ -61,7 +61,7 @@ def sync():
 
 
 @main.command()
-@click.argument('output', type=click.Choice(['mongo', 'file']), default='mongo')
+@click.argument('output', type=click.Choice(['mongo', 'file']), default='mongo', nargs='?')
 @click.option('--file', default='archive_document.json')
 @click.option('--mongo', default='localhost:27017')
 def doc_archive(output, file, mongo):
