@@ -34,15 +34,12 @@ class GitPuller:
         :param branch: branch to checkout
         """
 
-        os.chdir(self._repo_path)
-
-        current_branch = subprocess.check_output(
-            ['git', 'rev-parse', '--abbrev-ref', 'HEAD']).decode()[:-1]
+        current_branch = subprocess.check_output(['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
+                                                 cwd=self._repo_path).decode()[:-1]
         if current_branch == branch:
             self.run_command('git', 'pull', '--rebase')
         else:
-            self._logger.info(
-                f'Current branch is {current_branch}, target branch is {branch}.')
+            self._logger.info(f'Current branch is {current_branch}, target branch is {branch}.')
             self.run_command('git', 'stash')
             self.run_command('git', 'checkout', branch, show_out=False)
             self.run_command('git', 'pull', '--rebase')
@@ -50,15 +47,14 @@ class GitPuller:
             self.run_command('git', 'stash', 'pop', show_out=False)
 
     def run_command(self, *command, show_out=True, show_err=True):
-        process = subprocess.Popen(
-            command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=self._repo_path)
         with process.stdout as stdout, process.stderr as stderr:
             if show_out:
                 stdout = stdout.read().decode('utf-8')
                 if stdout:
-                    self._logger.info(stdout[:-1])
+                    self._logger.info(stdout)
             if show_err:
                 stderr = stderr.read().decode('utf-8')
                 if stderr:
-                    self._logger.error(stderr[:-1])
+                    self._logger.error(stderr)
         process.wait()

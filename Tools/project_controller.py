@@ -1,6 +1,4 @@
-import concurrent.futures
 import functools
-import os
 import time
 from configparser import ConfigParser
 from os.path import dirname, expanduser, exists, join, realpath
@@ -24,8 +22,8 @@ def sync():
     Synchronize local git repository with remote ones.
     """
 
+    import concurrent.futures
     import subprocess
-    from multiprocessing import cpu_count
 
     from git_pull import git_pull
 
@@ -39,7 +37,7 @@ def sync():
     config.read(CONFIG_PATH)
 
     # use git pull to synchronous all the repository simultaneously
-    with concurrent.futures.ProcessPoolExecutor(max_workers=cpu_count()) as executor:
+    with concurrent.futures.ThreadPoolExecutor() as executor:
         tasks = {}
         for project, path in config[GIT_PATH].items():
             branch = config[GIT_BRANCH].get(project, 'master')
