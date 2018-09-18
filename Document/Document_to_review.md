@@ -810,7 +810,7 @@ _让C代码在浏览器中运行——WebAssembly入门介绍_
 _The Day of the EXE is Upon Us_
 <https://www.youtube.com/watch?v=wsczq6j3_bA>
 
-Beyond Interactive: Notebook Innovation at Netflix
+~Beyond Interactive: Notebook Innovation at Netflix~
 <https://medium.com/netflix-techblog/notebook-innovation-591ee3221233>
 
 How to create a Windows Service in Python
@@ -849,7 +849,7 @@ _The Packaging Gradient_  **Video version of overview of packing for python**
 PyCon Australia videos
 <https://www.youtube.com/playlist?list=PLs4CJRBY5F1KrUr7z_2mur2QdAKXyh-k3>
 
-I don’t like notebooks
+_I don’t like notebooks_
 <https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/edit#slide=id.g3b55ec3453_0_4>
 
 **Running Your Flask Application Over HTTPS**
