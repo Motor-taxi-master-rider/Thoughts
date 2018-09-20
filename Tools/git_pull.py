@@ -34,8 +34,10 @@ class GitPuller:
         :param branch: branch to checkout
         """
 
-        current_branch = subprocess.check_output(['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
-                                                 cwd=self._repo_path).decode()[:-1]
+        current_branch = subprocess.run(['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
+                                        cwd=self._repo_path,
+                                        stdout=subprocess.PIPE,
+                                        universal_newlines=True).stdout.strip()
         if current_branch == branch:
             self.run_command('git', 'pull', '--rebase')
         else:
