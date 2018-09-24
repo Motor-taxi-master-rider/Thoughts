@@ -846,8 +846,7 @@ _The Packaging Gradient_  **Video version of overview of packing for python**
 `Python Patterns`
 <http://python-patterns.guide/>
 
-# PyCon Australia videos
-
+_PyCon Australia videos_
 <https://www.youtube.com/playlist?list=PLs4CJRBY5F1KrUr7z_2mur2QdAKXyh-k3>
 
 _I don’t like notebooks_
@@ -861,3 +860,6 @@ _I don’t like notebooks_
 
 _带你彻底弄懂Event Loop_
 <https://segmentfault.com/a/1190000016278115>
+
+_Task Queues: A Celery Story_ **celery for large amount of short tasks** **prefetching**
+https://www.youtube.com/watch?v=ceJ-vy7fvus&list=WL&index=4&t=1s
