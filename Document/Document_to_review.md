@@ -862,4 +862,7 @@ _带你彻底弄懂Event Loop_
 <https://segmentfault.com/a/1190000016278115>
 
 _Task Queues: A Celery Story_ **celery for large amount of short tasks** **prefetching**
-https://www.youtube.com/watch?v=ceJ-vy7fvus&list=WL&index=4&t=1s
+<https://www.youtube.com/watch?v=ceJ-vy7fvus&list=WL&index=4&t=1s>
+
+There and Back Again: Disable and re-enable garbage collector at Instagram
+<https://www.youtube.com/watch?v=WVnACT48CkE>
