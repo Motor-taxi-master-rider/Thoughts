@@ -864,5 +864,13 @@ _带你彻底弄懂Event Loop_
 _Task Queues: A Celery Story_ **celery for large amount of short tasks** **prefetching**
 <https://www.youtube.com/watch?v=ceJ-vy7fvus&list=WL&index=4&t=1s>
 
-There and Back Again: Disable and re-enable garbage collector at Instagram
+_There and Back Again: Disable and re-enable garbage collector at Instagram_  **python head in multiprocess copy**
 <https://www.youtube.com/watch?v=WVnACT48CkE>
+
+# CuPy: A NumPy-compatible Library for GPU
+
+<https://www.youtube.com/watch?v=MAz1xolSB68>
+
+# You Don't Need That!(Pattern)
+
+<https://2018.pycon-au.org/talks/45184-you-dont-need-that/>
