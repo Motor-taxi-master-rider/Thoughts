@@ -843,7 +843,7 @@ _The Packaging Gradient_  **Video version of overview of packing for python**
 `MicroPython`
 <https://micropython.org/>
 
-`Python Patterns`
+# Python Patterns
 <http://python-patterns.guide/>
 
 _PyCon Australia videos_
@@ -864,13 +864,11 @@ _带你彻底弄懂Event Loop_
 _Task Queues: A Celery Story_ **celery for large amount of short tasks** **prefetching**
 <https://www.youtube.com/watch?v=ceJ-vy7fvus&list=WL&index=4&t=1s>
 
-_There and Back Again: Disable and re-enable garbage collector at Instagram_  **python head in multiprocess copy**
+_There and Back Again: Disable and re-enable garbage collector at Instagram_  **python header in multiprocess copy**
 <https://www.youtube.com/watch?v=WVnACT48CkE>
 
-# CuPy: A NumPy-compatible Library for GPU
-
+_CuPy: A NumPy-compatible Library for GPU_
 <https://www.youtube.com/watch?v=MAz1xolSB68>
 
-# You Don't Need That!(Pattern)
-
+_You Don't Need That!(Design Pattern)_
 <https://2018.pycon-au.org/talks/45184-you-dont-need-that/>
