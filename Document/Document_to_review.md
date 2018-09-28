@@ -844,6 +844,7 @@ _The Packaging Gradient_  **Video version of overview of packing for python**
 <https://micropython.org/>
 
 # Python Patterns
+
 <http://python-patterns.guide/>
 
 _PyCon Australia videos_
@@ -872,3 +873,6 @@ _CuPy: A NumPy-compatible Library for GPU_
 
 _You Don't Need That!(Design Pattern)_
 <https://2018.pycon-au.org/talks/45184-you-dont-need-that/>
+
+Magic Wormhole- Simple Secure File Transfer
+<https://www.youtube.com/watch?v=oFrTqQw0_3c&feature=youtu.be>
