@@ -874,5 +874,8 @@ _CuPy: A NumPy-compatible Library for GPU_
 _You Don't Need That!(Design Pattern)_
 <https://2018.pycon-au.org/talks/45184-you-dont-need-that/>
 
-Magic Wormhole- Simple Secure File Transfer
+_Magic Wormhole- Simple Secure File Transfer_
 <https://www.youtube.com/watch?v=oFrTqQw0_3c&feature=youtu.be>
+
+Generating Random Data in Python 
+<https://realpython.com/python-random/>
