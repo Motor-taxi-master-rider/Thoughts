@@ -689,7 +689,7 @@ Threaded Asynchronous Magic and How to Wield It
 `Flask Mega Tutorial`
 <https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world>
 
-10 common security gotchas in Python and how to avoid them
+**10 common security gotchas in Python and how to avoid them**  **timing attack <http://jyx.github.io/blog/2014/02/02/timing-attack-proof-of-concept/>**
 <https://medium.com/m/global-identity?redirectUrl=https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03>
 
 **pre-commit**
