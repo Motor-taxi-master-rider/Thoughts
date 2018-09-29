@@ -789,7 +789,8 @@ _Python Concurrency for Mere Mortals_
 **Useful tricks you might not know about Git stash**
 <https://dev.to/srebalaji/useful-tricks-you-might-not-know-about-git-stash-117e>
 
-Executing Encrypted Python with No Performance Penalty
+# Executing Encrypted Python with No Performance Penalty
+
 <https://blog.soroco.com/articles/pyce/>
 
 _The Birth & Death of JavaScript_
@@ -877,5 +878,5 @@ _You Don't Need That!(Design Pattern)_
 _Magic Wormhole- Simple Secure File Transfer_
 <https://www.youtube.com/watch?v=oFrTqQw0_3c&feature=youtu.be>
 
-Generating Random Data in Python 
+**Generating Random Data in Python**
 <https://realpython.com/python-random/>
