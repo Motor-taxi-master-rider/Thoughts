@@ -7,7 +7,7 @@ import click
 
 from util.logger import MyLogger
 
-CONFIG_PATH = join(dirname(realpath(__file__)), 'config', 'project_controller.cfg')  # Config file path
+CONFIG_PATH = join(dirname(__file__), 'config', 'project_controller.cfg')  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
 
 
