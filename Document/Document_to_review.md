@@ -639,8 +639,7 @@ _difference between condition and event_
 _Pysystemd Representation in Pycon2018_  **many pysystemd use cases/configration**
 <https://www.youtube.com/watch?v=ZUX9Fx8Rwzg>
 
-# Python Top 45 Articles for the Past Year
-
+**Python Top 45 Articles for the Past Year**  **machine learning part remain to review**
 <https://medium.mybridge.co/python-top-45-tutorials-for-the-past-year-v-2018-1b4d46c9e857>
 
 **30 Amazing Python Projects for the Past Year**
@@ -880,3 +879,6 @@ _Magic Wormhole- Simple Secure File Transfer_
 
 **Generating Random Data in Python**
 <https://realpython.com/python-random/>
+
+_Intro to Threads and Processes in Python_  **multithreading visualization** **reference multiprocess documents**
+<https://medium.com/@bfortuner/python-multithreading-vs-multiprocessing-73072ce5600b>
