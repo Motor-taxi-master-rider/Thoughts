@@ -645,8 +645,7 @@ _Pysystemd Representation in Pycon2018_  **many pysystemd use cases/configration
 **30 Amazing Python Projects for the Past Year**
 <https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3>
 
-# Making your C library callable from Python by wrapping it with Cython
-
+_Making your C library callable from Python by wrapping it with Cython_  **makefile**
 <https://medium.com/@shamir.stav_83310/making-your-c-library-callable-from-python-by-wrapping-it-with-cython-b09db35012a3>
 
 Taming Irreversibility with Feature Flags (in Python)
@@ -882,3 +881,9 @@ _Magic Wormhole- Simple Secure File Transfer_
 
 _Intro to Threads and Processes in Python_  **multithreading visualization** **reference multiprocess documents**
 <https://medium.com/@bfortuner/python-multithreading-vs-multiprocessing-73072ce5600b>
+
+Type hints cheat sheet
+<https://mypy.readthedocs.io/en/latest/cheat_sheet_py3.html>
+
+The 2018 Python Language Summit
+<https://lwn.net/Articles/754152/>
