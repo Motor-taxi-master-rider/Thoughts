@@ -787,8 +787,7 @@ _Python Concurrency for Mere Mortals_
 **Useful tricks you might not know about Git stash**
 <https://dev.to/srebalaji/useful-tricks-you-might-not-know-about-git-stash-117e>
 
-# Executing Encrypted Python with No Performance Penalty
-
+~Executing Encrypted Python with No Performance Penalty~
 <https://blog.soroco.com/articles/pyce/>
 
 _The Birth & Death of JavaScript_
