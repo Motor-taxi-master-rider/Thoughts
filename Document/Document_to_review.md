@@ -759,7 +759,7 @@ _Learning (not) to Handle Exceptions_
 _Python has brought computer programming to a vast new audience_
 <https://www.economist.com/science-and-technology/2018/07/19/python-has-brought-computer-programming-to-a-vast-new-audience>
 
-Time to Go! Learning Golang through Examples
+_Time to Go! Learning Golang through Examples_
 <https://hackernoon.com/time-to-go-learning-golang-through-examples-480a90c5e7f9>
 
 _Learn Functional Python in 10 Minutes_
