@@ -86,7 +86,7 @@ _谈谈 Python 程序的运行原理_
 _Introduction to Nginx – Complete Tutorial_
 <https://www.systemcodegeeks.com/web-servers/nginx/introduction-to-nginx-complete-tutorial/>
 
-## 红黑树
+# 红黑树
 
 <https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md>
 
@@ -373,7 +373,7 @@ _Jupyter notebooks and version control_
 Monitoring Your Asynchronous Python Web Applications Using Prometheus
 <https://blog.codeship.com/monitoring-your-asynchronous-python-web-applications-using-prometheus/>
 
-## Simplifying Offline Python Deployments With Docker
+# Simplifying Offline Python Deployments With Docker  **build python package video: https://youtu.be/d-buWgENj3Y**
 
 <https://realpython.com/blog/python/offline-python-deployments-with-docker/>
 
@@ -459,8 +459,7 @@ _Bite-sized command line tools: pylintdb_
 `From Python to Numpy`
 <http://www.labri.fr/perso/nrougier/from-python-to-numpy/>
 
-## Running Your End To End Tests On Kubernetes
-
+Running Your End To End Tests On Kubernetes
 <https://www.gocd.org/2018/02/27/running-end-to-end-tests-kubernetes/?utm_campaign=e2e_k8s&utm_medium=newsletter_ad&utm_source=import_python&utm_content=e2e_k8s&utm_term=>
 
 _Memory efficiency of parallel IO operations in Python_
@@ -475,8 +474,7 @@ _Dynamic programming and memoization: bottom-up vs top-down approaches_
 _Pythonic Data Cleaning With NumPy and Pandas_
 <https://realpython.com/python-data-cleaning-numpy-pandas/>
 
-## Test automation framework thoughts and examples with Python, pytest and Jenkins
-
+_Test automation framework thoughts and examples with Python, pytest and Jenkins_  **sample project for pytest, jenkins and cookiecutter: https://github.com/davidemoro/cookiecutter-qa**
 <http://davidemoro.blogspot.se/2018/03/test-automation-python-pytest-jenkins.html>
 
 **How To Quickly Compute The Mandelbrot Set In Python**
