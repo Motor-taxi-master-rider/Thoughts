@@ -373,7 +373,7 @@ _Jupyter notebooks and version control_
 Monitoring Your Asynchronous Python Web Applications Using Prometheus
 <https://blog.codeship.com/monitoring-your-asynchronous-python-web-applications-using-prometheus/>
 
-# Simplifying Offline Python Deployments With Docker  **build python package video: https://youtu.be/d-buWgENj3Y**
+# Simplifying Offline Python Deployments With Docker  **build python package video: <https://youtu.be/d-buWgENj3Y>**
 
 <https://realpython.com/blog/python/offline-python-deployments-with-docker/>
 
@@ -474,7 +474,7 @@ _Dynamic programming and memoization: bottom-up vs top-down approaches_
 _Pythonic Data Cleaning With NumPy and Pandas_
 <https://realpython.com/python-data-cleaning-numpy-pandas/>
 
-_Test automation framework thoughts and examples with Python, pytest and Jenkins_  **sample project for pytest, jenkins and cookiecutter: https://github.com/davidemoro/cookiecutter-qa**
+_Test automation framework thoughts and examples with Python, pytest and Jenkins_  **sample project for pytest, jenkins and cookiecutter: <https://github.com/davidemoro/cookiecutter-qa>**
 <http://davidemoro.blogspot.se/2018/03/test-automation-python-pytest-jenkins.html>
 
 **How To Quickly Compute The Mandelbrot Set In Python**
@@ -884,3 +884,16 @@ Type hints cheat sheet
 
 The 2018 Python Language Summit
 <https://lwn.net/Articles/754152/>
+
+# Absolute vs Relative Imports in Python
+
+<https://realpython.com/absolute-vs-relative-python-imports/>
+
+How we spent 30k USD in Firebase in less than 72 hours
+<https://hackernoon.com/how-we-spent-30k-usd-in-firebase-in-less-than-72-hours-307490bd24d>
+
+_短 URL 系统是怎么设计的？_
+<https://www.zhihu.com/question/29270034/answer/46446911>
+
+前缀、中缀、后缀表达式
+<https://blog.csdn.net/antineutrino/article/details/6763722>
