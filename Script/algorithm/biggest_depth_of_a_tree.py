@@ -1,10 +1,10 @@
-from data_structure.Tree import build_tree_from_list
+from data_structure.Tree import build_tree_from_list, TreeNode
 
 
-def biggest_depth_of_a_tree(root):
+def biggest_depth_of_a_tree(root: TreeNode):
     max_distance = 0
 
-    def helper(root):
+    def helper(root: TreeNode):
         nonlocal max_distance
         if not root:
             return 0
