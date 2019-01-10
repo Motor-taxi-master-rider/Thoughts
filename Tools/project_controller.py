@@ -1,13 +1,13 @@
 import functools
 import time
 from configparser import ConfigParser
-from os.path import dirname, expanduser, exists, join, realpath
+from pathlib import Path
 
 import click
 
 from util.logger import MyLogger
 
-CONFIG_PATH = join(dirname(__file__), 'config', 'project_controller.cfg')  # Config file path
+CONFIG_PATH: Path = Path(__file__).parent / 'config' / 'project_controller.cfg'  # Config file path
 GIT_PATH, GIT_BRANCH = 'Git Path', 'Git Branch'  # Config sections
 
 
@@ -30,7 +30,7 @@ def sync():
     logger = MyLogger('Sync')
     config = ConfigParser()
 
-    if not exists(CONFIG_PATH):
+    if not CONFIG_PATH.exists():
         logger.error(f'Enable to find config file, please check whether {CONFIG_PATH} exitsts.\n'
                      f'You could create config file template with create_config option.')
         return
@@ -39,10 +39,10 @@ def sync():
     # use git pull to synchronous all the repository simultaneously
     with concurrent.futures.ThreadPoolExecutor() as executor:
         tasks = {}
-        for project, path in config[GIT_PATH].items():
+        for project, path_str in config[GIT_PATH].items():
+            path = Path(path_str)
             branch = config[GIT_BRANCH].get(project, 'master')
-            tasks[executor.submit(functools.partial(
-                git_pull, expanduser(path), branch))] = (path, branch)
+            tasks[executor.submit(functools.partial(git_pull, path.expanduser(), branch))] = (path, branch)
 
         if not len(tasks):
             logger.error('No repository to synchronize.')
@@ -122,18 +122,17 @@ def create_config():
 
     logger = MyLogger('Config')
 
-    if exists(CONFIG_PATH):
+    if CONFIG_PATH.exists():
         logger.error(f'Config file {CONFIG_PATH} already existed.')
         return
     sections = {GIT_PATH: '# Config project name and local path of the project\n'
                           '# Syntax:{project name} = {Path/to/repo}\n',
                 GIT_BRANCH: '# Config project name and branch to synchronize, default master if not config\n'
                             '# Syntax:{project name} = {repository branch}\n'}
-    with open(CONFIG_PATH, 'w') as file:
-        for section_name, comment in sections.items():
-            file.write(f'[{section_name}]\n')
-            file.write(comment)
-            file.write('\n')
+    for section_name, comment in sections.items():
+        CONFIG_PATH.write_text(f'[{section_name}]\n')
+        CONFIG_PATH.write_text(comment)
+        CONFIG_PATH.write_text('\n')
     logger.info(f'Config file template is created.')
 
 

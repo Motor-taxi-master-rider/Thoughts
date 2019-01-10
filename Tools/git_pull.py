@@ -1,4 +1,4 @@
-import os
+from pathlib import Path
 import subprocess
 
 from util.logger import MyLogger
@@ -6,7 +6,7 @@ from util.logger import MyLogger
 PULL_CACHE = {}
 
 
-def git_pull(path: str, branch: str):
+def git_pull(path: Path, branch: str):
     """
     git pull from remote repository
     :param path: path of local root repository
@@ -21,12 +21,12 @@ def git_pull(path: str, branch: str):
 
 
 class GitPuller:
-    def __init__(self, repo_path: str):
+    def __init__(self, repo_path: Path):
         """
         :param repo_path: path of local root repository
         """
         self._repo_path = repo_path
-        self._logger = MyLogger(os.path.basename(repo_path).upper())
+        self._logger = MyLogger(repo_path.name.upper())
 
     def pull(self, branch: str):
         """
