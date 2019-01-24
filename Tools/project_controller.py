@@ -31,7 +31,7 @@ def sync():
     config = ConfigParser()
 
     if not CONFIG_PATH.exists():
-        logger.error(f'Enable to find config file, please check whether {CONFIG_PATH} exitsts.\n'
+        logger.error(f'Enable to find config file, please check whether {CONFIG_PATH} exists.\n'
                      f'You could create config file template with create_config option.')
         return
     config.read(CONFIG_PATH)
@@ -108,10 +108,10 @@ def doc_archive(output, file, mongo):
             with open(file, 'w', encoding='utf-8') as fh:
                 json.dump(json_data, fh, default=json_util.default)
         except IOError:
-            logger.exception(f'Unable to write file {realpath(file)}.')
+            logger.exception(f'Unable to write file {str(file)}.')
             return
         logger.info(
-            f'Json file is generated. Please check in {realpath(file)}.')
+            f'Json file is generated. Please check in {str(file)}.')
 
 
 @main.command()
