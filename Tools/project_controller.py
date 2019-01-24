@@ -129,10 +129,13 @@ def create_config():
                           '# Syntax:{project name} = {Path/to/repo}\n',
                 GIT_BRANCH: '# Config project name and branch to synchronize, default master if not config\n'
                             '# Syntax:{project name} = {repository branch}\n'}
+
+    config_template = ''
     for section_name, comment in sections.items():
-        CONFIG_PATH.write_text(f'[{section_name}]\n')
-        CONFIG_PATH.write_text(comment)
-        CONFIG_PATH.write_text('\n')
+        config_template += f'[{section_name}]\n'
+        config_template += comment
+        config_template += '\n'
+    CONFIG_PATH.write_text(config_template)
     logger.info(f'Config file template is created.')
 
 
