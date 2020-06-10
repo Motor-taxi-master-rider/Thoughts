@@ -53,7 +53,7 @@ def retry(catch_exceptions=(_ExceptionNotExist,), match_result=None, delays=(1, 
                 else:
                     _LOGGER.info(
                         '{} {} returns {}. Will try in {} second(s), attempt: {}'.format(type(wrapped),
-                                                                                         wrapped.__name__,
+                                                                                         str(wrapped),
                                                                                          result,
                                                                                          delay,
                                                                                          retry_attempt))

@@ -1,4 +1,3 @@
-
 import unittest
 from itertools import repeat
 
@@ -54,6 +53,11 @@ class TestRetryUtil(unittest.TestCase):
         mock_class = MockRetryClass()
         self.assertTrue(mock_class.instance_equal(1))
         self.assertEqual(_STACK[-1], 0)
+
+    def test_retry_on_anonymous_method(self):
+        anonymous = retry(match_result=_match_true, delays=repeat(0.1, 5))(lambda num: num == _STACK.pop())
+        self.assertTrue(anonymous(3))
+        self.assertEqual(_STACK[-1], 2)
 
 
 class _MockException1(Exception):
