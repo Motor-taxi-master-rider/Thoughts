@@ -13,23 +13,23 @@ testApple为示例。
 
 def solve(string: str, words: List[str]):
     result = None
-    Alphabets = defaultdict(list)
+    alphabets = defaultdict(list)
     for word in words:
         if word == '':
             result = ''
             continue
-        Alphabets[word[0]].append([word, 0])
+        alphabets[word[0]].append([word, 0])
 
     for character in string:
-        alphabet_list = Alphabets[character]
+        alphabet_list = alphabets[character]
         for i in reversed(range(len(alphabet_list))):
-            temp = alphabet_list.pop(i)
-            temp[1] += 1
-            if len(temp[0]) == temp[1]:
-                if result is None or temp[1] > len(result):
-                    result = temp[0]
+            word,index = alphabet_list.pop(i)
+            index += 1
+            if len(word) == index:
+                if result is None or index > len(result):
+                    result = word
             else:
-                Alphabets[temp[0][temp[1]]].append(temp)
+                alphabets[word[index]].append((word,index))
     return result
 
 
