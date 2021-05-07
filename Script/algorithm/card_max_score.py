@@ -1,44 +1,42 @@
 """
 Problem:
-
 先手最高得分
-
 有N张卡牌堆成一摞，每张卡牌上都会有一个整数标记其分数。
 现有两个人要交替从牌堆顶拿牌，每次至少拿一张，至多拿M张，直到牌堆被拿完。
 每个人拿至手中的牌的分数和即为其最终得分。假设两个人都会采取最佳策略拿牌来使自己的得分最大化，请问先手拿牌的人的得分为多少？
 
 输入描述
-
-输入第一行是样例个数；
-对于每个样例，第一行是N，M，第二行有N个整数，代表牌堆顶到牌堆底N张牌的分数。
-0 < N, M < 1,000,000,  每张牌的分数在-100和100之间
+对于每个样例，第一行是N，M，第二行有O个整数，代表牌堆顶到牌堆底O张牌的分数。
+0 < N, M，O < 1,000,000,  每张牌的分数在-100和100之间
 
 输出描述
-
 每个样例，输出一个整数代表先手得分。
 
-示例1
+示例1:
 
 输入
-2
-
 4 2
 1 1 1 1
 
+输出
+2
+
+示例2:
+
+输入
 5 2
 3 -4 1 1 7
 
 输出
-2
 6
-
-说明: 第一个样例，先手拿2张1，最高得分为2。 第二个样例，先手拿3，-4，逼迫对方接下来只能拿1，1，最后自己再拿到7，所以先手最高得分为6。
+说明: 第一个样例，先手拿2张1，最高得分为2。 第二个样例，先手拿3，-4，
+逼迫对方接下来只能拿1，1，最后自己再拿到7，所以先手最高得分为6。
 """
 
 from itertools import repeat
 
 
-def solve(remain, max_choice, deck):
+def card_max_score(remain, max_choice, deck):
     scores = list(repeat(None, remain))
     scores[-1] = deck[-1]
     i = remain - 1
@@ -78,13 +76,11 @@ def solve(remain, max_choice, deck):
         scores[i] = (best_choice, max_score)
         i -= 1
 
-    return scores[0]
+    return scores[0][1]
 
 
-print(solve(5, 2, [3, -4, 1, 1, 7]))
-
-
-
+assert card_max_score(5, 2, [3, -4, 1, 1, 7]) == 6
+assert card_max_score(4, 2, [1, 1, 1, 1]) == 2
 
 # Recursion solution
 # def solve(remain, max_choice, deck):
