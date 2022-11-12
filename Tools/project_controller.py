@@ -1,10 +1,12 @@
 import functools
+import pathlib
 import time
 from configparser import ConfigParser
 from pathlib import Path
 
 import click
 
+from calculate_size import calculate_size
 from util.logger import MyLogger
 
 CONFIG_PATH: Path = Path(__file__).parent / 'config' / 'project_controller.cfg'  # Config file path
@@ -62,7 +64,7 @@ def sync():
 @click.argument('output', type=click.Choice(['mongo', 'file']), default='mongo')
 @click.option('--file', default='archive_document.json')
 @click.option('--mongo', default='localhost:27017')
-def doc_archive(output, file, mongo):
+def doc_archive(output, file, mongo, bson=None):
     """
     Reconstruct document to review file into a json format file or mongodb.
     """
@@ -137,6 +139,19 @@ def create_config():
         config_template += '\n'
     CONFIG_PATH.write_text(config_template)
     logger.info(f'Config file template is created.')
+
+
+@main.command()
+@click.argument('path', type=click.STRING, default='.')
+@click.option('--by_size', is_flag=True, show_default=True, default=False)
+def list_size(path: str, by_size: bool):
+    """
+    List file and folder size under given path.
+    """
+    logger = MyLogger('List size')
+    path = pathlib.Path(path)
+    logger.info(f'Listing size of {path}')
+    calculate_size(path, by_size)
 
 
 if __name__ == '__main__':
